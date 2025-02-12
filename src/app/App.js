@@ -27,6 +27,7 @@ import LoadTop from '../components/ScrollTop/LoadTop'
 import Curriculam from "../pages/Curricular Activites";
 import SchoolActivities from "../pages/School Activites/Index";
 import Olympiad from "../pages/Olympiad";
+import CommunityServices from "../pages/Community Services";
 
 
 const App = () => {
@@ -68,6 +69,7 @@ const App = () => {
                     <Route path="/more/curriculam" element={<Curriculam/>}/>
                     <Route path="/more/school-activities" element={<SchoolActivities/>}/>
                     <Route path="/more/olympiad" element={<Olympiad/>}/>
+                    <Route path="/more/community" element={<CommunityServices/>}/>
                 </Routes>
             </>
         </div>

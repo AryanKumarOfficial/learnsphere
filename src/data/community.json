@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Beach Cleanup Drive",
+    "description": "Join us in cleaning up the local beach to preserve its natural beauty and protect marine life.",
+    "date": "2025-02-15",
+    "image": "https://picsum.photos/seed/beachcleanup/300/200",
+    "category": "Environmental Conservation"
+  },
+  {
+    "id": 2,
+    "title": "Food Distribution for the Homeless",
+    "description": "Volunteer to distribute food to those in need in our local community.",
+    "date": "2025-02-20",
+    "image": "https://picsum.photos/seed/fooddistribution/300/200",
+    "category": "Social Welfare"
+  },
+  {
+    "id": 3,
+    "title": "Tree Plantation Drive",
+    "description": "Help us plant trees in the city park to promote a greener environment.",
+    "date": "2025-02-25",
+    "image": "https://picsum.photos/seed/treeplantation/300/200",
+    "category": "Environmental Conservation"
+  },
+  {
+    "id": 4,
+    "title": "Blood Donation Camp",
+    "description": "Donate blood to save lives and support local hospitals in need.",
+    "date": "2025-03-01",
+    "image": "https://picsum.photos/seed/blooddonation/300/200",
+    "category": "Health and Safety"
+  },
+  {
+    "id": 5,
+    "title": "Community Library Setup",
+    "description": "Contribute books and help organize a library for underprivileged children.",
+    "date": "2025-03-10",
+    "image": "https://picsum.photos/seed/communitylibrary/300/200",
+    "category": "Education"
+  },
+  {
+    "id": 6,
+    "title": "Elderly Care Assistance",
+    "description": "Spend time with senior citizens, helping with their daily activities and providing companionship.",
+    "date": "2025-03-15",
+    "image": "https://picsum.photos/seed/elderlycare/300/200",
+    "category": "Social Welfare"
+  },
+  {
+    "id": 7,
+    "title": "Clean Water Awareness Campaign",
+    "description": "Educate communities about the importance of clean water and distribute water purification kits.",
+    "date": "2025-03-20",
+    "image": "https://picsum.photos/seed/waterawareness/300/200",
+    "category": "Health and Safety"
+  },
+  {
+    "id": 8,
+    "title": "Clothes Donation Drive",
+    "description": "Collect and distribute clothes for underprivileged families in need.",
+    "date": "2025-03-25",
+    "image": "https://picsum.photos/seed/clothesdonation/300/200",
+    "category": "Social Welfare"
+  },
+  {
+    "id": 9,
+    "title": "Disaster Relief Support",
+    "description": "Provide essential supplies and aid to those affected by recent natural disasters.",
+    "date": "2025-04-01",
+    "image": "https://picsum.photos/seed/disasterrelief/300/200",
+    "category": "Emergency Support"
+  },
+  {
+    "id": 10,
+    "title": "Digital Literacy Workshops",
+    "description": "Teach basic computer and internet skills to underprivileged communities.",
+    "date": "2025-04-05",
+    "image": "https://picsum.photos/seed/digitalliteracy/300/200",
+    "category": "Education"
+  },
+  {
+    "id": 11,
+    "title": "Street Animal Rescue",
+    "description": "Help rescue and rehabilitate street animals by providing food and medical aid.",
+    "date": "2025-04-10",
+    "image": "https://picsum.photos/seed/streetanimalrescue/300/200",
+    "category": "Animal Welfare"
+  },
+  {
+    "id": 12,
+    "title": "Community Garden Project",
+    "description": "Assist in creating a community garden to promote sustainable living and food security.",
+    "date": "2025-04-15",
+    "image": "https://picsum.photos/seed/communitygarden/300/200",
+    "category": "Environmental Conservation"
+  },
+  {
+    "id": 13,
+    "title": "Road Safety Awareness Campaign",
+    "description": "Participate in spreading awareness about road safety to reduce accidents.",
+    "date": "2025-04-20",
+    "image": "https://picsum.photos/seed/roadsafety/300/200",
+    "category": "Health and Safety"
+  },
+  {
+    "id": 14,
+    "title": "Recycling Awareness Drive",
+    "description": "Encourage recycling by organizing workshops and waste segregation activities.",
+    "date": "2025-04-25",
+    "image": "https://picsum.photos/seed/recyclingawareness/300/200",
+    "category": "Environmental Conservation"
+  },
+  {
+    "id": 15,
+    "title": "Special Needs Support Program",
+    "description": "Help children with special needs by participating in learning and recreational activities.",
+    "date": "2025-05-01",
+    "image": "https://picsum.photos/seed/specialneeds/300/200",
+    "category": "Social Welfare"
+  },
+  {
+    "id": 16,
+    "title": "First Aid Training Workshop",
+    "description": "Learn and teach basic first aid techniques to community members.",
+    "date": "2025-05-05",
+    "image": "https://picsum.photos/seed/firstaidtraining/300/200",
+    "category": "Health and Safety"
+  },
+  {
+    "id": 17,
+    "title": "Orphanage Visit and Activity",
+    "description": "Spend time with orphans and organize fun learning activities for them.",
+    "date": "2025-05-10",
+    "image": "https://picsum.photos/seed/orphanagevisit/300/200",
+    "category": "Social Welfare"
+  },
+  {
+    "id": 18,
+    "title": "Wildlife Conservation Workshop",
+    "description": "Learn about protecting endangered species and spread awareness in your community.",
+    "date": "2025-05-15",
+    "image": "https://picsum.photos/seed/wildlifeconservation/300/200",
+    "category": "Environmental Conservation"
+  },
+  {
+    "id": 19,
+    "title": "Community Sports Event",
+    "description": "Organize a sports day to bring the community together for recreation and health.",
+    "date": "2025-05-20",
+    "image": "https://picsum.photos/seed/sportsevent/300/200",
+    "category": "Recreation"
+  },
+  {
+    "id": 20,
+    "title": "Mental Health Awareness Campaign",
+    "description": "Spread awareness about mental health and available resources for support.",
+    "date": "2025-05-25",
+    "image": "https://picsum.photos/seed/mentalhealth/300/200",
+    "category": "Health and Safety"
+  }
+]

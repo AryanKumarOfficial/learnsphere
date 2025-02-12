@@ -11,7 +11,7 @@ const Olympiad = () => {
     return (
         <body className="courses-grid-page">
         <Header
-            parentMenu='Co Curriculum Activities'
+            parentMenu='Olympiad'
             menuCategoryEnable='enable'
             headerNormalLogo={Logo}
             headerStickyLogo={Logo}
@@ -20,7 +20,7 @@ const Olympiad = () => {
         <div className="react-wrapper">
             <div className="react-wrapper-inner">
                 <Breadcrumb
-                    pageTitle="Co Curriculum Activities"
+                    pageTitle="Olympiad"
                 />
 
                 <OlympiadActivitesGridMain/>

@@ -3,16 +3,15 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Breadcrumb from '../../components/Breadcrumb';
 import ScrollToTop from '../../components/ScrollTop';
-import schoolactivities from '../../data/schoolactivities.json';
 
 import Logo from '../../assets/images/logos/logo2.png';
-import SchoolActivitesGridMain from "./SchoolActivitesGridMain";
+import CommunityActivitesGridMain from "./CommunityActivitesGridMain";
 
-const Curriculum = () => {
+const Olympiad = () => {
     return (
         <body className="courses-grid-page">
         <Header
-            parentMenu='School Activities'
+            parentMenu='Community Services'
             menuCategoryEnable='enable'
             headerNormalLogo={Logo}
             headerStickyLogo={Logo}
@@ -21,10 +20,10 @@ const Curriculum = () => {
         <div className="react-wrapper">
             <div className="react-wrapper-inner">
                 <Breadcrumb
-                    pageTitle="School Activities"
+                    pageTitle="Community Services"
                 />
 
-                <SchoolActivitesGridMain/>
+                <CommunityActivitesGridMain/>
 
                 {/* scrolltop-start */}
                 <ScrollToTop/>
@@ -39,5 +38,5 @@ const Curriculum = () => {
 }
 
 
-export default Curriculum;
+export default Olympiad;
 
