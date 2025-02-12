@@ -17,7 +17,7 @@ const PrincipalMessage = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about__content">
-                            <p className="about__paragraph text-black wow animate__fadeInUp fw-bold"
+                            <p className="about__paragraph text-black wow animate__fadeInUp"
                                data-wow-duration="0.5s">Dear
                                 Parents, Students, and Esteemed Visitors,
                             </p>
@@ -35,7 +35,7 @@ const PrincipalMessage = () => {
                                 for placing your trust in us, and I invite you to join us on this inspiring journey of
                                 learning and growth.
                             </p>
-                            <p className="about__paragraph fw-lighter text-black wow animate__fadeInUp"
+                            <p className="about__paragraph text-black wow animate__fadeInUp"
                                data-wow-duration="0.5s">
                                 Warm regards,<br/>
                                 Dr. Principal Singh,<br/>

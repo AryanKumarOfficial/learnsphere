@@ -12,6 +12,7 @@ import ScrollToTop from '../../components/ScrollTop';
 import SectionTitle from "../../components/SectionTitle";
 import PrincipalMessage from "../../components/principal";
 import LatestServices from "../../components/Service/LatestServices";
+import News from "../../components/News";
 
 const HomeMain = () => {
     return (
@@ -32,7 +33,7 @@ const HomeMain = () => {
                     <section className={"container about__area_one"}>
                         <SectionTitle sectionClass={"react__title__section mt-5"}
                                       titleClass={"react__tittle fs-2"} Title={"Vision"} isDecoration={false}/>
-                        <p className={"about__paragraph wow animate__fadeInUp centered center text-black fw-bold"}>
+                        <p className={"about__paragraph wow animate__fadeInUp centered center text-black"}>
                             At Bright Future Academy, we envision a learning community where every child is empowered to
                             become a lifelong learner, an innovative thinker, and a compassionate global citizen. We
                             strive to spark curiosity, nurture creativity, and instill a strong sense of integrity and
@@ -40,7 +41,7 @@ const HomeMain = () => {
                         </p>
                         <SectionTitle sectionClass={"react__title__section mt-5"}
                                       titleClass={"react__tittle fs-2"} Title={"Mission"} isDecoration={false}/>
-                        <p className={"about__paragraph wow animate__fadeInUp centered text-black fw-bold"}>
+                        <p className={"about__paragraph wow animate__fadeInUp centered text-black"}>
                             At Bright Future Academy, our mission is to cultivate an environment that nurtures both
                             academic excellence and holistic development. We empower each student to explore their
                             unique talents and embrace the journey of lifelong learning. Our dynamic curriculum combines
@@ -57,12 +58,14 @@ const HomeMain = () => {
                     <Counter/>
                     {/*Counters */}
 
+
                     {/*News & Achievements*/}
-                    <LatestServices/>
+                    <News/>
                     {/*<Blog/>*/}
                     {/*News & Achievements*/}
 
                     {/*<Service/>*/}
+                    <LatestServices/>
                     {/* Service-area-end */}
 
                     {/* About-area-start */}

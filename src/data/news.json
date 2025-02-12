@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Annual Science Exhibition 2025",
+    "summary": "Our students displayed their innovative projects, showcasing creativity and technical expertise.",
+    "date": "2025-02-10T00:00:00Z",
+    "type": "achievement"
+  },
+  {
+    "id": 2,
+    "title": "Inter-School Debate Competition Victory",
+    "summary": "The debate team secured first place, impressing judges with their eloquence and arguments.",
+    "date": "2025-01-20T00:00:00Z",
+    "type": "achievement"
+  },
+  {
+    "id": 3,
+    "title": "Sports Day Celebrations",
+    "summary": "A grand event where students demonstrated exceptional athletic skills and team spirit.",
+    "date": "2025-01-15T00:00:00Z",
+    "type": "news"
+  },
+  {
+    "id": 4,
+    "title": "Community Service Drive",
+    "summary": "Students participated in an environmental conservation drive, spreading awareness in the community.",
+    "date": "2024-12-22T00:00:00Z",
+    "type": "news"
+  },
+  {
+    "id": 5,
+    "title": "Olympiad Success",
+    "summary": "Several students achieved top ranks in the National Science and Math Olympiad competitions.",
+    "date": "2024-12-05T00:00:00Z",
+    "type": "achievement"
+  },
+  {
+    "id": 6,
+    "title": "Cultural Fest 2024",
+    "summary": "A celebration of creativity where students showcased talents in music, dance, and theater.",
+    "date": "2024-11-18T00:00:00Z",
+    "type": "news"
+  }
+]
