@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Route, Routes } from 'react-router-dom';
+import React, {useState, useEffect} from "react";
+import {Route, Routes} from 'react-router-dom';
 import Preloader from "../components/Preloader";
 
 //Custom Components
@@ -24,6 +24,7 @@ import Signup from '../pages/authentication/signup';
 import Contact from '../pages/contact';
 import Error from '../pages/404';
 import LoadTop from '../components/ScrollTop/LoadTop'
+import Curriculam from "../pages/Curricular Activites";
 
 
 const App = () => {
@@ -31,37 +32,38 @@ const App = () => {
     useEffect(() => {
         // Simulate data loading delay
         setTimeout(() => {
-        setIsLoading(false);
+            setIsLoading(false);
         }, 500);
     }, []);
 
     return (
         <div className='App'>
             {isLoading ?
-                <Preloader /> : ''
+                <Preloader/> : ''
             }
             <>
-                <LoadTop />
+                <LoadTop/>
                 <Routes>
-                    <Route path="/" exact element={<Home />} />
-                    <Route path="/home-2" element={<HomeTwo />} />
-                    <Route path="/home-3" element={<HomeThree />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/course" exact element={<Course />} />
-                    <Route path="/course-list" exact element={<CourseList />} />
-                    <Route path="/course/:id" element={<CourseDetails />} />
-                    <Route path="/course-sidebar" element={<CourseSidebar />} />
-                    <Route path="/event" exact element={<Event />} />
-                    <Route path="/event/:id" element={<EventDetails />} />
-                    <Route path="/event-sidebar" element={<EventSidebar />} />
-                    <Route path="/blog" exact element={<Blog />} />
-                    <Route path="/blog/:id" element={<BlogDetails />} />
-                    <Route path="/instructor" exact element={<Instructor />} />
-                    <Route path="/instructor/:id" exact element={<InstructorDetails />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/signup" element={<Signup />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path='*' element={<Error />} />
+                    <Route path="/" exact element={<Home/>}/>
+                    <Route path="/home-2" element={<HomeTwo/>}/>
+                    <Route path="/home-3" element={<HomeThree/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/course" exact element={<Course/>}/>
+                    <Route path="/course-list" exact element={<CourseList/>}/>
+                    <Route path="/course/:id" element={<CourseDetails/>}/>
+                    <Route path="/course-sidebar" element={<CourseSidebar/>}/>
+                    <Route path="/event" exact element={<Event/>}/>
+                    <Route path="/event/:id" element={<EventDetails/>}/>
+                    <Route path="/event-sidebar" element={<EventSidebar/>}/>
+                    <Route path="/blog" exact element={<Blog/>}/>
+                    <Route path="/blog/:id" element={<BlogDetails/>}/>
+                    <Route path="/instructor" exact element={<Instructor/>}/>
+                    <Route path="/instructor/:id" exact element={<InstructorDetails/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/signup" element={<Signup/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path='*' element={<Error/>}/>
+                    <Route path="/more/curriculam" element={<Curriculam/>}/>
                 </Routes>
             </>
         </div>

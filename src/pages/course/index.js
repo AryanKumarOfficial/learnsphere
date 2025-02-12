@@ -9,7 +9,7 @@ import Logo from '../../assets/images/logos/logo2.png';
 
 const Course = () => {
     return (
-        <body class="courses-grid-page">
+        <body className="courses-grid-page">
             <Header
                 parentMenu='course'
                 menuCategoryEnable='enable'
@@ -17,8 +17,8 @@ const Course = () => {
                 headerStickyLogo={Logo}
             />
 
-            <div class="react-wrapper">
-                <div class="react-wrapper-inner">
+            <div className="react-wrapper">
+                <div className="react-wrapper-inner">
                     <Breadcrumb
                         pageTitle="Course"
                     />

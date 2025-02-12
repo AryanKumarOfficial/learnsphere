@@ -177,23 +177,23 @@ const MenuItems = (props) => {
                     <span className="arrow "></span>
                 </Link>
                 <ul className={blog ? "sub-menu sub-menu-open" : "sub-menu"}>
-                    <li className={location.pathname === "/curriculum" ? "menu-active" : ""}>
-                        <Link to="#">Co Curricular Activities</Link>
+                    <li className={location.pathname === "/more/curriculum" ? "menu-active" : ""}>
+                        <Link to="/more/curriculam">Co Curricular Activities</Link>
                     </li>
-                    <li className={location.pathname === "/books" ? "menu-active" : ""}>
-                        <Link to="#">School Activities</Link>
+                    <li className={location.pathname === "/more/school-activities" ? "menu-active" : ""}>
+                        <Link to="/more/school-activities">School Activities</Link>
                     </li>
-                    <li className={location.pathname === "/glance" ? "menu-active" : ""}>
-                        <Link to="#">Olympiad</Link>
+                    <li className={location.pathname === "/more/olympiad" ? "menu-active" : ""}>
+                        <Link to="/more/olympiad">Olympiad</Link>
                     </li>
-                    <li className={location.pathname === "/holidays" ? "menu-active" : ""}>
-                        <Link to="#">Community Services</Link>
+                    <li className={location.pathname === "/more/community" ? "menu-active" : ""}>
+                        <Link to="/more/community">Community Services</Link>
                     </li>
-                    <li className={location.pathname === "/result" ? "menu-active" : ""}>
-                        <Link to="#">Sports</Link>
+                    <li className={location.pathname === "/more/sports" ? "menu-active" : ""}>
+                        <Link to="more//sports">Sports</Link>
                     </li>
-                    <li className={location.pathname === "/result" ? "menu-active" : ""}>
-                        <Link to="#">CBSE Activities</Link>
+                    <li className={location.pathname === "/more/cbse-activities" ? "menu-active" : ""}>
+                        <Link to="/more/cbse-activities">CBSE Activities</Link>
                     </li>
                 </ul>
             </li>
