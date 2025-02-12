@@ -25,6 +25,8 @@ import Contact from '../pages/contact';
 import Error from '../pages/404';
 import LoadTop from '../components/ScrollTop/LoadTop'
 import Curriculam from "../pages/Curricular Activites";
+import SchoolActivities from "../pages/School Activites/Index";
+import Olympiad from "../pages/Olympiad";
 
 
 const App = () => {
@@ -64,6 +66,8 @@ const App = () => {
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path='*' element={<Error/>}/>
                     <Route path="/more/curriculam" element={<Curriculam/>}/>
+                    <Route path="/more/school-activities" element={<SchoolActivities/>}/>
+                    <Route path="/more/olympiad" element={<Olympiad/>}/>
                 </Routes>
             </>
         </div>
