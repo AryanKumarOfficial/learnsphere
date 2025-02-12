@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "1.jpg",
+    "bannerImg": "post-banner1.jpg",
+    "category": "News",
+    "title": "School Annual Day Celebrations",
+    "author": "Principal",
+    "authorImg": "author.png",
+    "publishedDate": "Feb 2025",
+    "totalView": "77",
+    "description": "Why I say old chap that is spiffing in my flat such a fibber mufty mush, porkies barney<br/>pukka only a quid a what a load of rubbish good time."
+  },
+  {
+    "id": 2,
+    "image": "2.jpg",
+    "bannerImg": "post-banner2.jpg",
+    "category": "Achievements",
+    "title": "Students Win State-Level Science Fair",
+    "author": "Admin",
+    "authorImg": "author2.png",
+    "publishedDate": "Mar 2025",
+    "totalView": "123",
+    "description": "Our brilliant students showcased their talent at the state-level science fair, bringing home top honors and making us proud.<br/>An event that celebrated innovation and scientific inquiry."
+  },
+  {
+    "id": 3,
+    "image": "3.jpg",
+    "bannerImg": "post-banner3.jpg",
+    "category": "News",
+    "title": "New Sports Complex Inaugurated",
+    "author": "Sports Director",
+    "authorImg": "sports.png",
+    "publishedDate": "Jan 2025",
+    "totalView": "95",
+    "description": "A state-of-the-art sports complex has been inaugurated to enhance our athletic programs.<br/>This facility will nurture sportsmanship and healthy competition among students."
+  },
+  {
+    "id": 4,
+    "image": "1.jpg",
+    "bannerImg": "post-banner4.jpg",
+    "category": "Achievements",
+    "title": "Faculty Recognized for Excellence",
+    "author": "Principal",
+    "authorImg": "principal.png",
+    "publishedDate": "Feb 2025",
+    "totalView": "80",
+    "description": "Our dedicated faculty members have been recognized for their outstanding commitment to teaching and mentorship.<br/>Their efforts continue to inspire both students and colleagues."
+  },
+  {
+    "id": 5,
+    "image": "4.jpg",
+    "bannerImg": "post-banner4.jpg",
+    "category": "Community",
+    "title": "School Partners with Local Community",
+    "author": "Admin",
+    "authorImg": "admin.png",
+    "publishedDate": "Dec 2024",
+    "totalView": "67",
+    "description": "The school has joined hands with local community organizations to promote collaborative learning and social responsibility.<br/>This partnership aims to foster a positive impact on both students and the community."
+  }
+]

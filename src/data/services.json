@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "image": "/service/1.png",
+        "icon": "icon-tutoring.png",
+        "title": "After-School Tutoring",
+        "description": "Personalized tutoring sessions to enhance student understanding and performance."
+    },
+    {
+        "id": 2,
+        "image": "/service/2.png",
+        "icon": "icon-sports.png",
+        "title": "Sports Coaching",
+        "description": "Professional coaching for a range of sports to promote physical fitness and teamwork."
+    },
+    {
+        "id": 3,
+        "image": "/service/3.png",
+        "icon": "icon-music.png",
+        "title": "Music & Arts",
+        "description": "Creative classes in music and arts to foster talent and encourage creativity."
+    },
+    {
+        "id": 4,
+        "image": "/service/4.png",
+        "icon": "icon-digital.png",
+        "title": "Digital Learning",
+        "description": "State-of-the-art digital classrooms that offer an immersive and interactive learning experience."
+    }
+]
