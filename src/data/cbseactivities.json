@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "CBSE Science Exhibition",
+    "description": "Encouraging students to showcase their innovative science projects and models.",
+    "image": "https://picsum.photos/300?random=1",
+    "category": "Science"
+  },
+  {
+    "id": 2,
+    "title": "Inter-School Debate Competition",
+    "description": "Fostering critical thinking and public speaking skills in students.",
+    "image": "https://picsum.photos/300?random=2",
+    "category": "Debate"
+  },
+  {
+    "id": 3,
+    "title": "CBSE Heritage Quiz",
+    "description": "Promoting awareness about India’s rich heritage and culture.",
+    "image": "https://picsum.photos/300?random=3",
+    "category": "Quiz"
+  },
+  {
+    "id": 4,
+    "title": "CBSE Yoga Championship",
+    "description": "Promoting health and wellness through yoga practices.",
+    "image": "https://picsum.photos/300?random=4",
+    "category": "Yoga"
+  },
+  {
+    "id": 5,
+    "title": "Mathematics Olympiad",
+    "description": "Challenging young minds with mathematical problems and puzzles.",
+    "image": "https://picsum.photos/300?random=5",
+    "category": "Olympiad"
+  },
+  {
+    "id": 6,
+    "title": "CBSE Environment Awareness Drive",
+    "description": "Encouraging students to take part in environmental conservation activities.",
+    "image": "https://picsum.photos/300?random=6",
+    "category": "Environment"
+  },
+  {
+    "id": 7,
+    "title": "CBSE Art Festival",
+    "description": "Showcasing student creativity in painting, sketching, and crafts.",
+    "image": "https://picsum.photos/300?random=7",
+    "category": "Art"
+  },
+  {
+    "id": 8,
+    "title": "Inter-School Sports Meet",
+    "description": "Providing a platform for athletic talents in various sports events.",
+    "image": "https://picsum.photos/300?random=8",
+    "category": "Sports"
+  },
+  {
+    "id": 9,
+    "title": "CBSE Robotics Competition",
+    "description": "Introducing students to the fascinating world of robotics.",
+    "image": "https://picsum.photos/300?random=9",
+    "category": "Robotics"
+  },
+  {
+    "id": 10,
+    "title": "CBSE Dance Competition",
+    "description": "Celebrating culture and rhythm through traditional and modern dance forms.",
+    "image": "https://picsum.photos/300?random=10",
+    "category": "Dance"
+  },
+  {
+    "id": 11,
+    "title": "CBSE Literary Fest",
+    "description": "Enhancing literary skills through storytelling, poetry, and creative writing.",
+    "image": "https://picsum.photos/300?random=11",
+    "category": "Literature"
+  },
+  {
+    "id": 12,
+    "title": "Model United Nations (MUN)",
+    "description": "Providing a platform for students to understand global diplomacy and problem-solving.",
+    "image": "https://picsum.photos/300?random=12",
+    "category": "Debate"
+  },
+  {
+    "id": 13,
+    "title": "CBSE Science Hackathon",
+    "description": "Fostering problem-solving and innovation in science and technology.",
+    "image": "https://picsum.photos/300?random=13",
+    "category": "Science"
+  },
+  {
+    "id": 14,
+    "title": "Inter-School Music Fest",
+    "description": "Nurturing musical talents in vocal and instrumental categories.",
+    "image": "https://picsum.photos/300?random=14",
+    "category": "Music"
+  },
+  {
+    "id": 15,
+    "title": "CBSE Coding Competition",
+    "description": "Promoting computational thinking and programming skills.",
+    "image": "https://picsum.photos/300?random=15",
+    "category": "Technology"
+  },
+  {
+    "id": 16,
+    "title": "CBSE Career Counselling Sessions",
+    "description": "Helping students explore career options and make informed decisions.",
+    "image": "https://picsum.photos/300?random=16",
+    "category": "Guidance"
+  },
+  {
+    "id": 17,
+    "title": "CBSE Model Parliament",
+    "description": "Creating awareness about legislative processes and governance.",
+    "image": "https://picsum.photos/300?random=17",
+    "category": "Leadership"
+  },
+  {
+    "id": 18,
+    "title": "CBSE Spell Bee Competition",
+    "description": "Enhancing vocabulary and spelling skills among students.",
+    "image": "https://picsum.photos/300?random=18",
+    "category": "Literature"
+  },
+  {
+    "id": 19,
+    "title": "CBSE Photography Workshop",
+    "description": "Teaching the art and techniques of photography.",
+    "image": "https://picsum.photos/300?random=19",
+    "category": "Photography"
+  },
+  {
+    "id": 20,
+    "title": "CBSE Leadership Camp",
+    "description": "Developing leadership skills through team-building activities.",
+    "image": "https://picsum.photos/300?random=20",
+    "category": "Leadership"
+  },
+  {
+    "id": 21,
+    "title": "CBSE Theater Festival",
+    "description": "Encouraging students to express themselves through drama and plays.",
+    "image": "https://picsum.photos/300?random=21",
+    "category": "Drama"
+  },
+  {
+    "id": 22,
+    "title": "CBSE Astronomy Workshop",
+    "description": "Inspiring curiosity about the universe and celestial bodies.",
+    "image": "https://picsum.photos/300?random=22",
+    "category": "Astronomy"
+  },
+  {
+    "id": 23,
+    "title": "CBSE Eco Club Activities",
+    "description": "Engaging students in sustainable practices and eco-friendly initiatives.",
+    "image": "https://picsum.photos/300?random=23",
+    "category": "Environment"
+  },
+  {
+    "id": 24,
+    "title": "CBSE Chess Championship",
+    "description": "Enhancing strategic thinking through chess competitions.",
+    "image": "https://picsum.photos/300?random=24",
+    "category": "Sports"
+  },
+  {
+    "id": 25,
+    "title": "CBSE Entrepreneurship Workshop",
+    "description": "Encouraging students to develop entrepreneurial skills and ideas.",
+    "image": "https://picsum.photos/300?random=25",
+    "category": "Leadership"
+  }
+]
