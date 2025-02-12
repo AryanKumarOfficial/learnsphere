@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Annual Football Championship",
+    "description": "The annual inter-school football tournament fostering teamwork and sportsmanship.",
+    "date": "2025-03-10",
+    "category": "Football",
+    "image": "https://picsum.photos/300/200?random=1"
+  },
+  {
+    "id": 2,
+    "title": "National Basketball League",
+    "description": "A thrilling basketball league for talented young athletes to showcase their skills.",
+    "date": "2025-04-15",
+    "category": "Basketball",
+    "image": "https://picsum.photos/300/200?random=2"
+  },
+  {
+    "id": 3,
+    "title": "Track & Field Day",
+    "description": "A day full of athletic events including sprints, hurdles, and relay races.",
+    "date": "2025-02-28",
+    "category": "Athletics",
+    "image": "https://picsum.photos/300/200?random=3"
+  },
+  {
+    "id": 4,
+    "title": "Inter-School Cricket Tournament",
+    "description": "Compete with the best cricket teams across the region in this exciting tournament.",
+    "date": "2025-05-20",
+    "category": "Cricket",
+    "image": "https://picsum.photos/300/200?random=4"
+  },
+  {
+    "id": 5,
+    "title": "Table Tennis Championship",
+    "description": "A competitive table tennis event for students to demonstrate precision and speed.",
+    "date": "2025-03-18",
+    "category": "Table Tennis",
+    "image": "https://picsum.photos/300/200?random=5"
+  },
+  {
+    "id": 6,
+    "title": "National Swimming Gala",
+    "description": "Swimmers from various schools compete in freestyle, backstroke, and relay events.",
+    "date": "2025-06-05",
+    "category": "Swimming",
+    "image": "https://picsum.photos/300/200?random=6"
+  },
+  {
+    "id": 7,
+    "title": "Badminton Open",
+    "description": "A platform for students to showcase their badminton skills at the district level.",
+    "date": "2025-04-12",
+    "category": "Badminton",
+    "image": "https://picsum.photos/300/200?random=7"
+  },
+  {
+    "id": 8,
+    "title": "Karate Championship",
+    "description": "Compete in the ultimate martial arts event and demonstrate your combat techniques.",
+    "date": "2025-03-29",
+    "category": "Martial Arts",
+    "image": "https://picsum.photos/300/200?random=8"
+  },
+  {
+    "id": 9,
+    "title": "Volleyball Extravaganza",
+    "description": "An exhilarating volleyball tournament featuring top-performing school teams.",
+    "date": "2025-02-14",
+    "category": "Volleyball",
+    "image": "https://picsum.photos/300/200?random=9"
+  },
+  {
+    "id": 10,
+    "title": "Chess Masters League",
+    "description": "Test your strategic skills in the inter-school chess competition.",
+    "date": "2025-03-05",
+    "category": "Chess",
+    "image": "https://picsum.photos/300/200?random=10"
+  },
+  {
+    "id": 11,
+    "title": "Inter-School Hockey Challenge",
+    "description": "Participate in a challenging hockey match against top school teams.",
+    "date": "2025-05-10",
+    "category": "Hockey",
+    "image": "https://picsum.photos/300/200?random=11"
+  },
+  {
+    "id": 12,
+    "title": "Yoga for Youth Program",
+    "description": "A day dedicated to mindfulness and flexibility through yoga.",
+    "date": "2025-03-21",
+    "category": "Yoga",
+    "image": "https://picsum.photos/300/200?random=12"
+  },
+  {
+    "id": 13,
+    "title": "School Marathon Day",
+    "description": "A marathon event to promote endurance and physical fitness.",
+    "date": "2025-04-09",
+    "category": "Marathon",
+    "image": "https://picsum.photos/300/200?random=13"
+  },
+  {
+    "id": 14,
+    "title": "Fencing Championship",
+    "description": "An inter-school fencing event testing agility and skill.",
+    "date": "2025-03-25",
+    "category": "Fencing",
+    "image": "https://picsum.photos/300/200?random=14"
+  },
+  {
+    "id": 15,
+    "title": "National Cycling Rally",
+    "description": "Cycle through scenic routes in this endurance-based competition.",
+    "date": "2025-05-03",
+    "category": "Cycling",
+    "image": "https://picsum.photos/300/200?random=15"
+  },
+  {
+    "id": 16,
+    "title": "Archery Tournament",
+    "description": "Showcase your focus and accuracy in the school archery championship.",
+    "date": "2025-04-22",
+    "category": "Archery",
+    "image": "https://picsum.photos/300/200?random=16"
+  },
+  {
+    "id": 17,
+    "title": "Rock Climbing Challenge",
+    "description": "Test your physical and mental endurance in this climbing event.",
+    "date": "2025-06-15",
+    "category": "Adventure Sports",
+    "image": "https://picsum.photos/300/200?random=17"
+  },
+  {
+    "id": 18,
+    "title": "National Tennis Cup",
+    "description": "Compete with the best tennis players in this exciting event.",
+    "date": "2025-03-19",
+    "category": "Tennis",
+    "image": "https://picsum.photos/300/200?random=18"
+  },
+  {
+    "id": 19,
+    "title": "Kabaddi Championship",
+    "description": "A traditional Kabaddi match for students to showcase teamwork and strategy.",
+    "date": "2025-04-30",
+    "category": "Kabaddi",
+    "image": "https://picsum.photos/300/200?random=19"
+  },
+  {
+    "id": 20,
+    "title": "Skating Championship",
+    "description": "A competitive skating event for students to showcase their speed and skill.",
+    "date": "2025-03-28",
+    "category": "Skating",
+    "image": "https://picsum.photos/300/200?random=20"
+  }
+]

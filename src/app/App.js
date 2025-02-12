@@ -28,6 +28,7 @@ import Curriculam from "../pages/Curricular Activites";
 import SchoolActivities from "../pages/School Activites/Index";
 import Olympiad from "../pages/Olympiad";
 import CommunityServices from "../pages/Community Services";
+import Sports from "../pages/Sports";
 
 
 const App = () => {
@@ -70,6 +71,7 @@ const App = () => {
                     <Route path="/more/school-activities" element={<SchoolActivities/>}/>
                     <Route path="/more/olympiad" element={<Olympiad/>}/>
                     <Route path="/more/community" element={<CommunityServices/>}/>
+                    <Route path="/more/sports" element={<Sports/>}/>
                 </Routes>
             </>
         </div>
