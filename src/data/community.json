@@ -1,162 +1,802 @@
 [
   {
     "id": 1,
-    "title": "Beach Cleanup Drive",
-    "description": "Join us in cleaning up the local beach to preserve its natural beauty and protect marine life.",
-    "date": "2025-02-15",
-    "image": "https://picsum.photos/seed/beachcleanup/300/200",
-    "category": "Environmental Conservation"
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Mindfulness+Session&bold&font=arial",
+    "title": "Weekly Mindfulness and Meditation Session",
+    "description": "Join our weekly mindfulness and meditation sessions to reduce stress and enhance mental well-being.",
+    "date": "2024-03-10",
+    "category": "Well-being & Health"
   },
   {
     "id": 2,
-    "title": "Food Distribution for the Homeless",
-    "description": "Volunteer to distribute food to those in need in our local community.",
-    "date": "2025-02-20",
-    "image": "https://picsum.photos/seed/fooddistribution/300/200",
-    "category": "Social Welfare"
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Model+UN+Conference&bold&font=arial",
+    "title": "Model United Nations Conference Participation",
+    "description": "Represent our school at the regional Model United Nations conference. Debate global issues and develop diplomatic skills.",
+    "date": "2024-03-15",
+    "category": "Global Awareness & Citizenship"
   },
   {
     "id": 3,
-    "title": "Tree Plantation Drive",
-    "description": "Help us plant trees in the city park to promote a greener environment.",
-    "date": "2025-02-25",
-    "image": "https://picsum.photos/seed/treeplantation/300/200",
-    "category": "Environmental Conservation"
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Leadership+Training&bold&font=arial",
+    "title": "Student Leadership Training Workshop",
+    "description": "Enhance your leadership skills through our interactive leadership training workshop. Open to all students.",
+    "date": "2024-03-20",
+    "category": "Leadership & Personal Development"
   },
   {
     "id": 4,
-    "title": "Blood Donation Camp",
-    "description": "Donate blood to save lives and support local hospitals in need.",
-    "date": "2025-03-01",
-    "image": "https://picsum.photos/seed/blooddonation/300/200",
-    "category": "Health and Safety"
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Robotics+Challenge&bold&font=arial",
+    "title": "Inter-School Robotics Challenge",
+    "description": "Compete in the annual inter-school robotics challenge. Design, build, and program your robot.",
+    "date": "2024-03-23",
+    "category": "STEAM Enrichment"
   },
   {
     "id": 5,
-    "title": "Community Library Setup",
-    "description": "Contribute books and help organize a library for underprivileged children.",
-    "date": "2025-03-10",
-    "image": "https://picsum.photos/seed/communitylibrary/300/200",
-    "category": "Education"
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=College+Fair&bold&font=arial",
+    "title": "Annual College Fair and Information Session",
+    "description": "Meet representatives from various colleges and universities. Explore higher education options.",
+    "date": "2024-03-27",
+    "category": "Career Exploration & College Prep"
   },
   {
     "id": 6,
-    "title": "Elderly Care Assistance",
-    "description": "Spend time with senior citizens, helping with their daily activities and providing companionship.",
-    "date": "2025-03-15",
-    "image": "https://picsum.photos/seed/elderlycare/300/200",
-    "category": "Social Welfare"
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Hiking+Club+Outing&bold&font=arial",
+    "title": "Hiking Club Weekend Outing to National Park",
+    "description": "Join the Hiking Club for a weekend hiking trip to explore scenic trails and enjoy nature.",
+    "date": "2024-03-30",
+    "category": "Outdoor & Adventure"
   },
   {
     "id": 7,
-    "title": "Clean Water Awareness Campaign",
-    "description": "Educate communities about the importance of clean water and distribute water purification kits.",
-    "date": "2025-03-20",
-    "image": "https://picsum.photos/seed/waterawareness/300/200",
-    "category": "Health and Safety"
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Game+Night&bold&font=arial",
+    "title": "Friday Night Board Game Night",
+    "description": "Relax and have fun with friends at our Friday night board game night. All games provided.",
+    "date": "2024-04-02",
+    "category": "Social & Recreational"
   },
   {
     "id": 8,
-    "title": "Clothes Donation Drive",
-    "description": "Collect and distribute clothes for underprivileged families in need.",
-    "date": "2025-03-25",
-    "image": "https://picsum.photos/seed/clothesdonation/300/200",
-    "category": "Social Welfare"
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Photography+Workshop&bold&font=arial",
+    "title": "Beginner Photography Workshop",
+    "description": "Learn the basics of photography and develop your skills in capturing moments. Cameras provided for practice.",
+    "date": "2024-04-06",
+    "category": "Creative Hobbies & Expression"
   },
   {
     "id": 9,
-    "title": "Disaster Relief Support",
-    "description": "Provide essential supplies and aid to those affected by recent natural disasters.",
-    "date": "2025-04-01",
-    "image": "https://picsum.photos/seed/disasterrelief/300/200",
-    "category": "Emergency Support"
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Yoga+Class&bold&font=arial",
+    "title": "Morning Yoga and Wellness Class",
+    "description": "Start your day with a refreshing yoga and wellness class. Suitable for all fitness levels.",
+    "date": "2024-04-10",
+    "category": "Well-being & Health"
   },
   {
     "id": 10,
-    "title": "Digital Literacy Workshops",
-    "description": "Teach basic computer and internet skills to underprivileged communities.",
-    "date": "2025-04-05",
-    "image": "https://picsum.photos/seed/digitalliteracy/300/200",
-    "category": "Education"
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Amnesty+International+Meeting&bold&font=arial",
+    "title": "Amnesty International Club Meeting",
+    "description": "Discuss human rights issues and plan advocacy actions in our weekly Amnesty International Club meeting.",
+    "date": "2024-04-12",
+    "category": "Global Awareness & Citizenship"
   },
   {
     "id": 11,
-    "title": "Street Animal Rescue",
-    "description": "Help rescue and rehabilitate street animals by providing food and medical aid.",
-    "date": "2025-04-10",
-    "image": "https://picsum.photos/seed/streetanimalrescue/300/200",
-    "category": "Animal Welfare"
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Public+Speaking+Club&bold&font=arial",
+    "title": "Public Speaking and Debate Club Session",
+    "description": "Improve your public speaking and debate skills at our weekly club session. All skill levels welcome.",
+    "date": "2024-04-15",
+    "category": "Leadership & Personal Development"
   },
   {
     "id": 12,
-    "title": "Community Garden Project",
-    "description": "Assist in creating a community garden to promote sustainable living and food security.",
-    "date": "2025-04-15",
-    "image": "https://picsum.photos/seed/communitygarden/300/200",
-    "category": "Environmental Conservation"
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Science+Olympiad+Prep&bold&font=arial",
+    "title": "Science Olympiad Team Preparation Meeting",
+    "description": "Prepare for the upcoming Science Olympiad competition with team practice and strategy sessions.",
+    "date": "2024-04-18",
+    "category": "STEAM Enrichment"
   },
   {
     "id": 13,
-    "title": "Road Safety Awareness Campaign",
-    "description": "Participate in spreading awareness about road safety to reduce accidents.",
-    "date": "2025-04-20",
-    "image": "https://picsum.photos/seed/roadsafety/300/200",
-    "category": "Health and Safety"
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Career+Fair+Workshop&bold&font=arial",
+    "title": "Career Fair Preparation Workshop",
+    "description": "Get ready for the career fair with our workshop on resume writing, networking, and interview skills.",
+    "date": "2024-04-22",
+    "category": "Career Exploration & College Prep"
   },
   {
     "id": 14,
-    "title": "Recycling Awareness Drive",
-    "description": "Encourage recycling by organizing workshops and waste segregation activities.",
-    "date": "2025-04-25",
-    "image": "https://picsum.photos/seed/recyclingawareness/300/200",
-    "category": "Environmental Conservation"
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Camping+Trip&bold&font=arial",
+    "title": "Outdoor Camping and Survival Skills Trip",
+    "description": "Learn basic camping and survival skills during our weekend camping trip. Gear and guidance provided.",
+    "date": "2024-04-25",
+    "category": "Outdoor & Adventure"
   },
   {
     "id": 15,
-    "title": "Special Needs Support Program",
-    "description": "Help children with special needs by participating in learning and recreational activities.",
-    "date": "2025-05-01",
-    "image": "https://picsum.photos/seed/specialneeds/300/200",
-    "category": "Social Welfare"
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=School+Dance&bold&font=arial",
+    "title": "Spring School Dance - Theme Night",
+    "description": "Join us for the Spring School Dance! Theme night, music, and refreshments. Dress code: Theme-related.",
+    "date": "2024-04-29",
+    "category": "Social & Recreational"
   },
   {
     "id": 16,
-    "title": "First Aid Training Workshop",
-    "description": "Learn and teach basic first aid techniques to community members.",
-    "date": "2025-05-05",
-    "image": "https://picsum.photos/seed/firstaidtraining/300/200",
-    "category": "Health and Safety"
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Creative+Writing+Club&bold&font=arial",
+    "title": "Creative Writing Club Workshop",
+    "description": "Develop your creative writing skills in our weekly workshop. Share your work and get feedback.",
+    "date": "2024-05-03",
+    "category": "Creative Hobbies & Expression"
   },
   {
     "id": 17,
-    "title": "Orphanage Visit and Activity",
-    "description": "Spend time with orphans and organize fun learning activities for them.",
-    "date": "2025-05-10",
-    "image": "https://picsum.photos/seed/orphanagevisit/300/200",
-    "category": "Social Welfare"
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Stress+Relief+Workshop&bold&font=arial",
+    "title": "Exam Stress Relief Workshop",
+    "description": "Learn effective stress management techniques and relaxation methods to prepare for exams.",
+    "date": "2024-05-07",
+    "category": "Well-being & Health"
   },
   {
     "id": 18,
-    "title": "Wildlife Conservation Workshop",
-    "description": "Learn about protecting endangered species and spread awareness in your community.",
-    "date": "2025-05-15",
-    "image": "https://picsum.photos/seed/wildlifeconservation/300/200",
-    "category": "Environmental Conservation"
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Global+Issues+Debate&bold&font=arial",
+    "title": "Global Issues Debate Society Meeting",
+    "description": "Discuss and debate current global issues in our weekly meeting. Develop critical thinking and argumentation skills.",
+    "date": "2024-05-10",
+    "category": "Global Awareness & Citizenship"
   },
   {
     "id": 19,
-    "title": "Community Sports Event",
-    "description": "Organize a sports day to bring the community together for recreation and health.",
-    "date": "2025-05-20",
-    "image": "https://picsum.photos/seed/sportsevent/300/200",
-    "category": "Recreation"
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Mentorship+Program+Info&bold&font=arial",
+    "title": "Student Mentorship Program Information Session",
+    "description": "Learn about becoming a mentor or mentee in our student mentorship program. Sign-up details provided.",
+    "date": "2024-05-14",
+    "category": "Leadership & Personal Development"
   },
   {
     "id": 20,
-    "title": "Mental Health Awareness Campaign",
-    "description": "Spread awareness about mental health and available resources for support.",
-    "date": "2025-05-25",
-    "image": "https://picsum.photos/seed/mentalhealth/300/200",
-    "category": "Health and Safety"
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Engineering+Challenge&bold&font=arial",
+    "title": "School-Wide Engineering Design Challenge",
+    "description": "Participate in our school-wide engineering design challenge. Teams will design and build solutions to a real-world problem.",
+    "date": "2024-05-17",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 21,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=College+Application+Essay+Help&bold&font=arial",
+    "title": "College Application Essay Writing Help Session",
+    "description": "Get personalized help with your college application essays from experienced writing tutors and counselors.",
+    "date": "2024-05-21",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 22,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Kayaking+Trip&bold&font=arial",
+    "title": "Weekend Kayaking and River Adventure Trip",
+    "description": "Join us for a weekend kayaking trip down the river. All equipment and safety instructions provided.",
+    "date": "2024-05-24",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 23,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Movie+Night&bold&font=arial",
+    "title": "Outdoor Movie Night on the School Field",
+    "description": "Enjoy a movie under the stars at our outdoor movie night. Bring blankets and snacks!",
+    "date": "2024-05-28",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 24,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=DIY+Crafts+Workshop&bold&font=arial",
+    "title": "DIY Crafts and Handmade Gifts Workshop",
+    "description": "Learn to make your own crafts and handmade gifts. Materials provided. Great for beginners.",
+    "date": "2024-06-01",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 25,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Nutrition+Seminar&bold&font=arial",
+    "title": "Healthy Eating and Nutrition Seminar",
+    "description": "Learn about healthy eating habits and nutrition from our guest speaker. Q&A session included.",
+    "date": "2024-06-05",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 26,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Global+Citizenship+Forum&bold&font=arial",
+    "title": "Global Citizenship and Social Responsibility Forum",
+    "description": "Participate in a forum on global citizenship and social responsibility. Hear from inspiring speakers.",
+    "date": "2024-06-08",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 27,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Conflict+Resolution+Workshop&bold&font=arial",
+    "title": "Conflict Resolution and Mediation Workshop",
+    "description": "Learn conflict resolution and mediation skills to improve personal and interpersonal relationships.",
+    "date": "2024-06-12",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 28,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Science+Fair+Mentoring&bold&font=arial",
+    "title": "Science Fair Project Mentoring Session",
+    "description": "Get guidance and mentorship for your science fair project from experienced science teachers and mentors.",
+    "date": "2024-06-15",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 29,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Internship+Info+Session&bold&font=arial",
+    "title": "Summer Internship Program Information Session",
+    "description": "Learn about summer internship opportunities and application process. Internships available in various fields.",
+    "date": "2024-06-19",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 30,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Rock+Climbing+Intro&bold&font=arial",
+    "title": "Introduction to Indoor Rock Climbing Session",
+    "description": "Try indoor rock climbing with our introductory session. All equipment and instructions provided.",
+    "date": "2024-06-22",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 31,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Talent+Show&bold&font=arial",
+    "title": "School Talent Show Auditions",
+    "description": "Auditions for the annual school talent show. Show off your talents - singing, dancing, music, comedy, etc.",
+    "date": "2024-06-26",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 32,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Knitting+Club+Meet&bold&font=arial",
+    "title": "Knitting and Crochet Club Meeting",
+    "description": "Join our knitting and crochet club. Learn new patterns, share projects, and socialize with fellow crafters.",
+    "date": "2024-06-29",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 33,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Mental+Wellness+Campaign&bold&font=arial",
+    "title": "Mental Wellness Awareness Campaign Launch",
+    "description": "Join the launch of our school's mental wellness awareness campaign. Events and activities planned throughout the month.",
+    "date": "2024-07-03",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 34,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=International+Film+Festival&bold&font=arial",
+    "title": "International Film Festival Screening and Discussion",
+    "description": "Watch and discuss international films exploring different cultures and perspectives.",
+    "date": "2024-07-06",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 35,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Character+Building+Workshop&bold&font=arial",
+    "title": "Character Building and Ethics Workshop",
+    "description": "Workshop focused on character building, ethical decision-making, and personal integrity.",
+    "date": "2024-07-10",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 36,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=STEM+Summer+Camp+Info&bold&font=arial",
+    "title": "STEAM Summer Camp Information Session",
+    "description": "Learn about our exciting STEAM summer camp program. Activities include robotics, coding, science experiments, and arts.",
+    "date": "2024-07-13",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 37,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=SAT+Prep+Course&bold&font=arial",
+    "title": "SAT Exam Preparation Summer Course",
+    "description": "Intensive summer course to prepare students for the SAT exam. Strategy, practice tests, and expert instruction.",
+    "date": "2024-07-17",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 38,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Canoeing+Adventure&bold&font=arial",
+    "title": "Summer Canoeing and Nature Exploration Adventure",
+    "description": "Explore local waterways with our summer canoeing adventure. Learn basic canoeing skills and enjoy nature.",
+    "date": "2024-07-20",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 39,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Carnival+Games+Day&bold&font=arial",
+    "title": "School Summer Carnival Games Day",
+    "description": "Enjoy classic carnival games, food, and fun at our summer carnival games day. Prizes to be won!",
+    "date": "2024-07-24",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 40,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Jewelry+Making+Workshop&bold&font=arial",
+    "title": "Jewelry Making and Beading Workshop",
+    "description": "Learn to design and create your own jewelry in our jewelry making and beading workshop. Materials provided.",
+    "date": "2024-07-27",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 41,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Sleep+Wellness+Seminar&bold&font=arial",
+    "title": "Sleep Wellness and Healthy Sleep Habits Seminar",
+    "description": "Learn about the importance of sleep and develop healthy sleep habits for better well-being.",
+    "date": "2024-07-31",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 42,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Global+Culture+Festival&bold&font=arial",
+    "title": "School Global Culture Festival",
+    "description": "Celebrate cultural diversity at our Global Culture Festival. Food, music, dance, and exhibits from around the world.",
+    "date": "2024-08-03",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 43,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Team+Building+Retreat&bold&font=arial",
+    "title": "Student Team Building and Leadership Retreat",
+    "description": "Participate in a team building and leadership retreat. Outdoor activities, workshops, and group challenges.",
+    "date": "2024-08-07",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 44,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Coding+Competition&bold&font=arial",
+    "title": "Summer Coding Competition - Hackathon",
+    "description": "Participate in our summer coding competition - hackathon. Solve coding challenges and win prizes.",
+    "date": "2024-08-10",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 45,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Resume+Building+Workshop&bold&font=arial",
+    "title": "Resume and Cover Letter Building Workshop",
+    "description": "Build a professional resume and cover letter with our step-by-step workshop. Essential for job and college applications.",
+    "date": "2024-08-14",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 46,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Outdoor+Photography+Hike&bold&font=arial",
+    "title": "Outdoor Photography and Nature Hike",
+    "description": "Combine photography and outdoor adventure with our nature hike and photography session. Learn to capture nature's beauty.",
+    "date": "2024-08-17",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 47,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Back-to-School+Picnic&bold&font=arial",
+    "title": "Back-to-School Welcome Picnic",
+    "description": "Kick off the new school year with our back-to-school welcome picnic. Food, games, and music for everyone!",
+    "date": "2024-08-21",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 48,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Drawing+and+Sketching+Class&bold&font=arial",
+    "title": "Beginner Drawing and Sketching Class",
+    "description": "Learn basic drawing and sketching techniques in our beginner-friendly class. All supplies provided.",
+    "date": "2024-08-24",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 49,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Fitness+Bootcamp&bold&font=arial",
+    "title": "Morning Fitness Bootcamp for Energy Boost",
+    "description": "Start your day with an energizing fitness bootcamp session. All fitness levels welcome. Get active and healthy!",
+    "date": "2024-08-28",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 50,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Cultural+Exchange+Program&bold&font=arial",
+    "title": "Information Session: Student Cultural Exchange Program",
+    "description": "Learn about our student cultural exchange program and opportunities to study abroad. Destinations and application info.",
+    "date": "2024-08-31",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 51,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Effective+Communication+Workshop&bold&font=arial",
+    "title": "Effective Communication and Interpersonal Skills Workshop",
+    "description": "Improve your communication and interpersonal skills in this interactive workshop. Learn to communicate effectively.",
+    "date": "2024-09-04",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 52,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Math+Fun+Club&bold&font=arial",
+    "title": "Math Fun and Games Club Meeting",
+    "description": "Explore math through fun games and puzzles in our weekly Math Fun Club meeting. All math levels welcome!",
+    "date": "2024-09-07",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 53,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=College+Visit+Day&bold&font=arial",
+    "title": "College Visit Day - University Campus Tour",
+    "description": "Join us for a college visit day. Campus tour, information session, and Q&A with current students.",
+    "date": "2024-09-11",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 54,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Orienteering+Challenge&bold&font=arial",
+    "title": "Orienteering and Map Reading Challenge",
+    "description": "Learn orienteering skills and participate in a map reading challenge in the local park. Teamwork and navigation skills.",
+    "date": "2024-09-14",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 55,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Karaoke+Night&bold&font=arial",
+    "title": "School Karaoke Night - Sing Your Heart Out!",
+    "description": "Showcase your singing talents or just have fun at our school karaoke night. Song lists available, all genres welcome.",
+    "date": "2024-09-18",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 56,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Calligraphy+Workshop&bold&font=arial",
+    "title": "Introduction to Calligraphy Workshop",
+    "description": "Learn the art of calligraphy. Beginner-friendly workshop with all materials provided.",
+    "date": "2024-09-21",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 57,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Healthy+Cooking+Class&bold&font=arial",
+    "title": "Healthy and Easy Cooking Class",
+    "description": "Learn to cook healthy and delicious meals. Hands-on cooking class with recipes and tasting.",
+    "date": "2024-09-25",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 58,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=International+Food+Fair&bold&font=arial",
+    "title": "International Food Fair and Cultural Showcase",
+    "description": "Taste foods from around the world at our International Food Fair. Enjoy cultural performances and exhibits.",
+    "date": "2024-09-28",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 59,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Time+Management+Skills+Workshop&bold&font=arial",
+    "title": "Time Management and Organization Skills Workshop",
+    "description": "Improve your time management and organizational skills. Essential for academic success and personal productivity.",
+    "date": "2024-10-02",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 60,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Science+Debate+Club&bold&font=arial",
+    "title": "Science and Technology Debate Club Meeting",
+    "description": "Debate current topics in science and technology in our weekly Science Debate Club meeting.",
+    "date": "2024-10-05",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 61,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Financial+Aid+Workshop&bold&font=arial",
+    "title": "College Financial Aid and Scholarship Workshop",
+    "description": "Learn about college financial aid and scholarship opportunities. Expert advice and application tips provided.",
+    "date": "2024-10-09",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 62,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Caving+Exploration+Trip&bold&font=arial",
+    "title": "Caving and Cave Exploration Adventure Trip",
+    "description": "Explore underground caves with our caving adventure trip. Safety gear and guided tour provided.",
+    "date": "2024-10-12",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 63,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Halloween+Party&bold&font=arial",
+    "title": "Halloween Costume Party and Dance",
+    "description": "Celebrate Halloween with our costume party and dance. Prizes for best costumes, music, and spooky fun!",
+    "date": "2024-10-16",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 64,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Creative+Journaling+Workshop&bold&font=arial",
+    "title": "Creative Journaling and Self-Expression Workshop",
+    "description": "Explore creative journaling techniques for self-expression, reflection, and personal growth.",
+    "date": "2024-10-19",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 65,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Yoga+for+Stress+Relief&bold&font=arial",
+    "title": "Yoga for Stress Relief and Relaxation Session",
+    "description": "Practice yoga poses and breathing techniques for stress relief and relaxation. Suitable for all levels.",
+    "date": "2024-10-23",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 66,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Global+Debate+Competition&bold&font=arial",
+    "title": "Inter-School Global Issues Debate Competition",
+    "description": "Compete in the inter-school global issues debate competition. Develop your debating and research skills.",
+    "date": "2024-10-26",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 67,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Leadership+Book+Club&bold&font=arial",
+    "title": "Leadership and Personal Growth Book Club",
+    "description": "Join our book club focused on leadership and personal growth literature. Discussions and insights.",
+    "date": "2024-10-30",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 68,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Science+Club+DIY+Projects&bold&font=arial",
+    "title": "Science Club DIY Science Projects Session",
+    "description": "Hands-on DIY science projects and experiments in our weekly Science Club meeting. Fun and educational.",
+    "date": "2024-11-02",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 69,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Career+Mentoring+Session&bold&font=arial",
+    "title": "Career Mentoring and Guidance Session",
+    "description": "Get career mentoring and guidance from professionals in various fields. Explore career paths and get advice.",
+    "date": "2024-11-06",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 70,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Winter+Survival+Skills&bold&font=arial",
+    "title": "Winter Outdoor Survival Skills Workshop",
+    "description": "Learn essential winter outdoor survival skills. Fire starting, shelter building, and cold weather safety.",
+    "date": "2024-11-09",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 71,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Holiday+Social+Event&bold&font=arial",
+    "title": "Pre-Holiday Social Gathering for Students",
+    "description": "Join our pre-holiday social event. Music, games, snacks, and festive cheer to celebrate the upcoming holidays.",
+    "date": "2024-11-13",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 72,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Pottery+Workshop+Beginner&bold&font=arial",
+    "title": "Beginner Pottery and Ceramics Workshop",
+    "description": "Learn the basics of pottery and ceramics in our beginner-friendly workshop. Create your own pottery piece.",
+    "date": "2024-11-16",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 73,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Emotional+Well-being+Seminar&bold&font=arial",
+    "title": "Emotional Well-being and Resilience Seminar",
+    "description": "Seminar on emotional well-being, resilience, and coping strategies for challenging times.",
+    "date": "2024-11-20",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 74,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Cultural+Awareness+Workshop&bold&font=arial",
+    "title": "Cultural Awareness and Sensitivity Workshop",
+    "description": "Workshop on cultural awareness, sensitivity, and understanding different cultural perspectives.",
+    "date": "2024-11-23",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 75,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Leadership+Summit&bold&font=arial",
+    "title": "Annual Student Leadership Summit",
+    "description": "Attend our annual student leadership summit. Keynote speakers, workshops, and networking opportunities.",
+    "date": "2024-11-27",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 76,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=STEAM+Fair&bold&font=arial",
+    "title": "School STEAM Fair and Exhibition",
+    "description": "Showcase student STEAM projects and innovations at our annual STEAM fair. Exhibits and demonstrations.",
+    "date": "2024-11-30",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 77,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Career+Panel+Discussion&bold&font=arial",
+    "title": "Career Panel Discussion - STEM Careers",
+    "description": "Panel discussion with professionals in STEM fields. Learn about career paths, job trends, and industry insights.",
+    "date": "2024-12-04",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 78,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Snowshoeing+Trip&bold&font=arial",
+    "title": "Winter Snowshoeing Adventure Trip",
+    "description": "Enjoy winter scenery with our snowshoeing adventure trip. Equipment and guided trails provided.",
+    "date": "2024-12-07",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 79,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Holiday+Movie+Marathon&bold&font=arial",
+    "title": "Holiday Movie Marathon and Pajama Day",
+    "description": "Join us for a holiday movie marathon. Wear your pajamas, bring blankets, and enjoy classic holiday films.",
+    "date": "2024-12-11",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 80,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Origami+Workshop+Beginner&bold&font=arial",
+    "title": "Beginner Origami Paper Art Workshop",
+    "description": "Learn the art of origami paper folding in our beginner workshop. Create beautiful paper art.",
+    "date": "2024-12-14",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 81,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Anxiety+Management+Session&bold&font=arial",
+    "title": "Anxiety Management Techniques Session",
+    "description": "Learn and practice anxiety management techniques and coping strategies in this interactive session.",
+    "date": "2024-12-18",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 82,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=International+PenPal+Program+Info&bold&font=arial",
+    "title": "International Pen Pal Program Information Session",
+    "description": "Learn about joining our international pen pal program. Connect with students from around the world.",
+    "date": "2025-01-08",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 83,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Goal+Setting+Workshop&bold&font=arial",
+    "title": "Goal Setting and Personal Achievement Workshop",
+    "description": "Workshop on effective goal setting, action planning, and achieving personal and academic goals.",
+    "date": "2025-01-11",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 84,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Science+Trivia+Night&bold&font=arial",
+    "title": "Science Trivia Night and Fun Facts Challenge",
+    "description": "Test your science knowledge at our fun science trivia night. Teams compete for prizes and bragging rights.",
+    "date": "2025-01-15",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 85,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Mock+Job+Interviews&bold&font=arial",
+    "title": "Mock Job Interview Practice Sessions",
+    "description": "Practice your job interview skills with mock interviews conducted by professionals. Get feedback and improve your technique.",
+    "date": "2025-01-18",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 86,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Snowboarding+Lesson&bold&font=arial",
+    "title": "Introduction to Snowboarding Lesson",
+    "description": "Try snowboarding with our introductory lesson at a local ski resort. Equipment and instruction provided.",
+    "date": "2025-01-22",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 87,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Winter+Formal+Dance&bold&font=arial",
+    "title": "Winter Formal Dance - Elegant Evening",
+    "description": "Attend our Winter Formal Dance - an elegant evening of music, dancing, and formal attire. Dress to impress!",
+    "date": "2025-01-25",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 88,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Digital+Art+Workshop&bold&font=arial",
+    "title": "Digital Art and Graphic Design Workshop",
+    "description": "Learn digital art and graphic design basics using professional software. Create digital artwork and designs.",
+    "date": "2025-01-29",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 89,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Healthy+Snacks+Demo&bold&font=arial",
+    "title": "Healthy Snack and Smoothie Making Demonstration",
+    "description": "Learn to make quick and healthy snacks and smoothies. Recipes, demonstrations, and tasting included.",
+    "date": "2025-02-01",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 90,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Global+Geography+Club&bold&font=arial",
+    "title": "Global Geography and Cultures Club Meeting",
+    "description": "Explore global geography, cultures, and current events in our weekly Geography Club meeting.",
+    "date": "2025-02-05",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 91,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Stress+Busters+Session&bold&font=arial",
+    "title": "Exam Stress Busters and Relaxation Session",
+    "description": "Join our exam stress busters session. Relaxation techniques, tips for calm, and stress-free exam preparation.",
+    "date": "2025-02-08",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 92,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=International+Music+Night&bold&font=arial",
+    "title": "International Music and Dance Night",
+    "description": "Celebrate global music and dance. Performances, workshops, and cultural exchange through music.",
+    "date": "2025-02-12",
+    "category": "Global Awareness & Citizenship"
+  },
+  {
+    "id": 93,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Self-Confidence+Workshop&bold&font=arial",
+    "title": "Self-Confidence and Assertiveness Workshop",
+    "description": "Build self-confidence and assertiveness skills in this empowering and interactive workshop.",
+    "date": "2025-02-15",
+    "category": "Leadership & Personal Development"
+  },
+  {
+    "id": 94,
+    "image": "https://placehold.co/600x400/FFA07A/000000?text=Science+Presentation+Skills&bold&font=arial",
+    "title": "Science Project Presentation Skills Workshop",
+    "description": "Improve your science project presentation skills. Tips and techniques for effective science communication.",
+    "date": "2025-02-19",
+    "category": "STEAM Enrichment"
+  },
+  {
+    "id": 95,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Personal+Finance+Seminar&bold&font=arial",
+    "title": "Personal Finance and Budgeting Seminar",
+    "description": "Learn essential personal finance and budgeting skills. Money management, saving, and financial planning for students.",
+    "date": "2025-02-22",
+    "category": "Career Exploration & College Prep"
+  },
+  {
+    "id": 96,
+    "image": "https://placehold.co/600x400/D8BFD8/000000?text=Cross-Country+Skiing+Trip&bold&font=arial",
+    "title": "Cross-Country Skiing and Winter Sports Trip",
+    "description": "Enjoy cross-country skiing and other winter sports on our weekend trip to a snowy mountain resort.",
+    "date": "2025-02-26",
+    "category": "Outdoor & Adventure"
+  },
+  {
+    "id": 97,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Casual+Games+Afternoon&bold&font=arial",
+    "title": "Casual Games Afternoon - Board Games and Video Games",
+    "description": "Relax and unwind with casual board games and video games afternoon. Fun for everyone, all game styles welcome.",
+    "date": "2025-03-01",
+    "category": "Social & Recreational"
+  },
+  {
+    "id": 98,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Creative+Collage+Workshop&bold&font=arial",
+    "title": "Creative Collage Art Workshop",
+    "description": "Express your creativity through collage art. Learn techniques and create unique collage pieces. Materials provided.",
+    "date": "2025-03-05",
+    "category": "Creative Hobbies & Expression"
+  },
+  {
+    "id": 99,
+    "image": "https://placehold.co/600x400/E6E6FA/000000?text=Positive+Thinking+Session&bold&font=arial",
+    "title": "Positive Thinking and Optimism Session",
+    "description": "Learn techniques for positive thinking, building optimism, and maintaining a positive mindset.",
+    "date": "2025-03-08",
+    "category": "Well-being & Health"
+  },
+  {
+    "id": 100,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Global+Languages+Exchange&bold&font=arial",
+    "title": "Global Languages and Culture Exchange Meetup",
+    "description": "Meetup for students interested in global languages and cultures. Language exchange, cultural sharing, and practice.",
+    "date": "2025-03-12",
+    "category": "Global Awareness & Citizenship"
   }
 ]

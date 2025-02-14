@@ -53,14 +53,19 @@ const OlympiadActivitesGridMain = () => {
                     </div>
                     <div className="col-md-10 text-right">
                         <select className="from-control category" onChange={handleChangeCategory}>
-                            <option value="All">All Categories</option>
-                            <option value="Environmental Conservation">Environmental Conservation</option>
-                            <option value="Social Welfare">Social Welfare</option>
-                            <option value="Health and Safety">Health and Safety</option>
-                            <option value="Education">Education</option>
-                            <option value="Emergency Support">Emergency Support</option>
-                            <option value="Animal Welfare">Animal Welfare</option>
-                            <option value="Recreation">Recreation</option>
+                            <option value="Well-being &amp; Health">Well-being &amp; Health</option>
+                            <option value="Global Awareness &amp; Citizenship">Global Awareness &amp; Citizenship
+                            </option>
+                            <option value="Leadership &amp; Personal Development">Leadership &amp; Personal
+                                Development
+                            </option>
+                            <option value="STEAM Enrichment">STEAM Enrichment</option>
+                            <option value="Career Exploration &amp; College Prep">Career Exploration &amp; College
+                                Prep
+                            </option>
+                            <option value="Outdoor &amp; Adventure">Outdoor &amp; Adventure</option>
+                            <option value="Social &amp; Recreational">Social &amp; Recreational</option>
+                            <option value="Creative Hobbies &amp; Expression">Creative Hobbies &amp; Expression</option>
 
                         </select>
                     </div>
