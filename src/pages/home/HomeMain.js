@@ -13,6 +13,7 @@ import SectionTitle from "../../components/SectionTitle";
 import PrincipalMessage from "../../components/principal";
 import LatestServices from "../../components/Service/LatestServices";
 import News from "../../components/News";
+import NewsSection from "./NewsSection";
 
 const HomeMain = () => {
     return (
@@ -60,8 +61,9 @@ const HomeMain = () => {
 
 
                     {/*News & Achievements*/}
-                    <News/>
+                    {/*<News/>*/}
                     {/*<Blog/>*/}
+                    <NewsSection/>
                     {/*News & Achievements*/}
 
                     {/*<Service/>*/}
