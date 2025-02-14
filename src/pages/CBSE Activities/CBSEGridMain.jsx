@@ -54,26 +54,20 @@ const CBSEGridMain = () => {
                     <div className="col-md-10 text-right">
                         <select className="from-control category" onChange={handleChangeCategory}>
                             <option value="All">All</option>
-                            <option value="Science">Science</option>
-                            <option value="Debate">Debate</option>
-                            <option value="Quiz">Quiz</option>
-                            <option value="Yoga">Yoga</option>
-                            <option value="Olympiad">Olympiad</option>
-                            <option value="Environment">Environment</option>
-                            <option value="Art">Art</option>
-                            <option value="Sports">Sports</option>
-                            <option value="Robotics">Robotics</option>
-                            <option value="Dance">Dance</option>
-                            <option value="Literature">Literature</option>
-                            <option value="Music">Music</option>
-                            <option value="Technology">Technology</option>
-                            <option value="Guidance">Guidance</option>
-                            <option value="Leadership">Leadership</option>
-                            <option value="Photography">Photography</option>
-                            <option value="Drama">Drama</option>
-                            <option value="Astronomy">Astronomy</option>
-
-
+                            <option value="Academics &amp; Subject Enrichment">Academics &amp; Subject Enrichment
+                            </option>
+                            <option value="Performing Arts (Indian &amp; Western)">Performing Arts
+                                (Indian &amp; Western)
+                            </option>
+                            <option value="Visual Arts &amp; Crafts (Indian &amp; Contemporary)">Visual
+                                Arts &amp; Crafts (Indian &amp; Contemporary)
+                            </option>
+                            <option value="Literary &amp; Debating Skills">Literary &amp; Debating Skills</option>
+                            <option value="STEM &amp; Innovation">STEM &amp; Innovation</option>
+                            <option value="Sports &amp; Physical Fitness">Sports &amp; Physical Fitness</option>
+                            <option value="Community Service &amp; Leadership">Community Service &amp; Leadership
+                            </option>
+                            <option value="Clubs &amp; Hobbies (General)">Clubs &amp; Hobbies (General)</option>
                         </select>
                     </div>
                 </div>

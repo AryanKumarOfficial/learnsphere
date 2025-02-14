@@ -1,177 +1,802 @@
 [
   {
     "id": 1,
-    "title": "CBSE Science Exhibition",
-    "description": "Encouraging students to showcase their innovative science projects and models.",
-    "image": "https://picsum.photos/300?random=1",
-    "category": "Science"
+    "image": "https://placehold.co/600x400/FFDAB9/000000?text=Math+Olympiad+Practice&bold&font=arial",
+    "title": "Math Olympiad Preparation Session - Senior Level",
+    "description": "Intensive practice session for the Senior Level Math Olympiad. Focus on problem-solving strategies.",
+    "date": "2024-03-10",
+    "category": "Academics & Subject Enrichment"
   },
   {
     "id": 2,
-    "title": "Inter-School Debate Competition",
-    "description": "Fostering critical thinking and public speaking skills in students.",
-    "image": "https://picsum.photos/300?random=2",
-    "category": "Debate"
+    "image": "https://placehold.co/600x400/CD853F/000000?text=Hindustani+Vocal+Class&bold&font=arial",
+    "title": "Hindustani Classical Vocal Music Class",
+    "description": "Learn the basics of Hindustani Classical Vocal Music. Open to all students interested in Indian music.",
+    "date": "2024-03-12",
+    "category": "Performing Arts (Indian & Western)"
   },
   {
     "id": 3,
-    "title": "CBSE Heritage Quiz",
-    "description": "Promoting awareness about India’s rich heritage and culture.",
-    "image": "https://picsum.photos/300?random=3",
-    "category": "Quiz"
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Madhubani+Painting+Workshop&bold&font=arial",
+    "title": "Madhubani Painting Workshop - Beginner Level",
+    "description": "Beginner-level workshop on Madhubani painting, a traditional Indian folk art form.",
+    "date": "2024-03-15",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
   },
   {
     "id": 4,
-    "title": "CBSE Yoga Championship",
-    "description": "Promoting health and wellness through yoga practices.",
-    "image": "https://picsum.photos/300?random=4",
-    "category": "Yoga"
+    "image": "https://placehold.co/600x400/6495ED/000000?text=Inter-House+Debate+Comp&bold&font=arial",
+    "title": "Inter-House English Debate Competition - Semi-Finals",
+    "description": "Semi-final rounds of the Inter-House English Debate Competition. Engaging debates on current topics.",
+    "date": "2024-03-18",
+    "category": "Literary & Debating Skills"
   },
   {
     "id": 5,
-    "title": "Mathematics Olympiad",
-    "description": "Challenging young minds with mathematical problems and puzzles.",
-    "image": "https://picsum.photos/300?random=5",
-    "category": "Olympiad"
+    "image": "https://placehold.co/600x400/FF7F50/000000?text=Robotics+Club+Meeting&bold&font=arial",
+    "title": "Robotics Club Weekly Meeting - Project Discussion",
+    "description": "Weekly meeting of the Robotics Club. Project updates, brainstorming, and coding sessions.",
+    "date": "2024-03-20",
+    "category": "STEM & Innovation"
   },
   {
     "id": 6,
-    "title": "CBSE Environment Awareness Drive",
-    "description": "Encouraging students to take part in environmental conservation activities.",
-    "image": "https://picsum.photos/300?random=6",
-    "category": "Environment"
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Inter-School+Cricket+Match&bold&font=arial",
+    "title": "Inter-School Cricket Tournament Match",
+    "description": "School cricket team playing an inter-school tournament match. Come and support our team!",
+    "date": "2024-03-22",
+    "category": "Sports & Physical Fitness"
   },
   {
     "id": 7,
-    "title": "CBSE Art Festival",
-    "description": "Showcasing student creativity in painting, sketching, and crafts.",
-    "image": "https://picsum.photos/300?random=7",
-    "category": "Art"
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=NCC+Camp+Selection&bold&font=arial",
+    "title": "NCC Camp Selection and Orientation",
+    "description": "Selection process and orientation for the upcoming NCC camp. Information session and registration.",
+    "date": "2024-03-25",
+    "category": "Community Service & Leadership"
   },
   {
     "id": 8,
-    "title": "Inter-School Sports Meet",
-    "description": "Providing a platform for athletic talents in various sports events.",
-    "image": "https://picsum.photos/300?random=8",
-    "category": "Sports"
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Photography+Club+Walk&bold&font=arial",
+    "title": "Photography Club - Heritage Walk and Photo Shoot",
+    "description": "Photography club heritage walk and photo shoot. Capture historical sites and improve photography skills.",
+    "date": "2024-03-27",
+    "category": "Clubs & Hobbies (General)"
   },
   {
     "id": 9,
-    "title": "CBSE Robotics Competition",
-    "description": "Introducing students to the fascinating world of robotics.",
-    "image": "https://picsum.photos/300?random=9",
-    "category": "Robotics"
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Science+Fair+Project+Help&bold&font=arial",
+    "title": "Science Fair Project Guidance Session",
+    "description": "Guidance and mentorship session for students working on Science Fair projects. Get expert advice.",
+    "date": "2024-03-29",
+    "category": "Academics & Subject Enrichment"
   },
   {
     "id": 10,
-    "title": "CBSE Dance Competition",
-    "description": "Celebrating culture and rhythm through traditional and modern dance forms.",
-    "image": "https://picsum.photos/300?random=10",
-    "category": "Dance"
+    "image": "https://placehold.co/600x400/A0522D/000000?text=Kathak+Dance+Class&bold&font=arial",
+    "title": "Kathak Classical Dance Class - Intermediate",
+    "description": "Intermediate level class in Kathak, a North Indian classical dance form. Rhythm and footwork focus.",
+    "date": "2024-04-01",
+    "category": "Performing Arts (Indian & Western)"
   },
   {
     "id": 11,
-    "title": "CBSE Literary Fest",
-    "description": "Enhancing literary skills through storytelling, poetry, and creative writing.",
-    "image": "https://picsum.photos/300?random=11",
-    "category": "Literature"
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Warli+Art+Workshop&bold&font=arial",
+    "title": "Warli Tribal Art Workshop - Basics and Techniques",
+    "description": "Workshop on Warli painting, a tribal art form from Maharashtra. Learn the basic motifs and techniques.",
+    "date": "2024-04-03",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
   },
   {
     "id": 12,
-    "title": "Model United Nations (MUN)",
-    "description": "Providing a platform for students to understand global diplomacy and problem-solving.",
-    "image": "https://picsum.photos/300?random=12",
-    "category": "Debate"
+    "image": "https://placehold.co/600x400/008080/000000?text=Hindi+Elocution+Contest&bold&font=arial",
+    "title": "Inter-Class Hindi Elocution Competition",
+    "description": "Inter-class Hindi elocution competition. Students reciting poems and speeches in Hindi.",
+    "date": "2024-04-05",
+    "category": "Literary & Debating Skills"
   },
   {
     "id": 13,
-    "title": "CBSE Science Hackathon",
-    "description": "Fostering problem-solving and innovation in science and technology.",
-    "image": "https://picsum.photos/300?random=13",
-    "category": "Science"
+    "image": "https://placehold.co/600x400/2E8B57/000000?text=Coding+Club+Python&bold&font=arial",
+    "title": "Coding Club - Python Programming Session",
+    "description": "Coding club session focusing on Python programming. Learn coding basics and create simple programs.",
+    "date": "2024-04-08",
+    "category": "STEM & Innovation"
   },
   {
     "id": 14,
-    "title": "Inter-School Music Fest",
-    "description": "Nurturing musical talents in vocal and instrumental categories.",
-    "image": "https://picsum.photos/300?random=14",
-    "category": "Music"
+    "image": "https://placehold.co/600x400/4682B4/000000?text=Inter-House+Football&bold&font=arial",
+    "title": "Inter-House Football Tournament - League Matches",
+    "description": "Inter-house football tournament league matches. Cheer for your house team!",
+    "date": "2024-04-10",
+    "category": "Sports & Physical Fitness"
   },
   {
     "id": 15,
-    "title": "CBSE Coding Competition",
-    "description": "Promoting computational thinking and programming skills.",
-    "image": "https://picsum.photos/300?random=15",
-    "category": "Technology"
+    "image": "https://placehold.co/600x400/F5F5DC/000000?text=Scouts+and+Guides+Camp&bold&font=arial",
+    "title": "Scouts and Guides - Weekend Camp",
+    "description": "Weekend camping trip for Scouts and Guides. Outdoor activities, skill building, and teamwork.",
+    "date": "2024-04-12",
+    "category": "Community Service & Leadership"
   },
   {
     "id": 16,
-    "title": "CBSE Career Counselling Sessions",
-    "description": "Helping students explore career options and make informed decisions.",
-    "image": "https://picsum.photos/300?random=16",
-    "category": "Guidance"
+    "image": "https://placehold.co/600x400/D2691E/000000?text=Gardening+Club+Meet&bold&font=arial",
+    "title": "Gardening Club - Planting Session",
+    "description": "Gardening club meeting and planting session. Learn about organic gardening and plant saplings.",
+    "date": "2024-04-15",
+    "category": "Clubs & Hobbies (General)"
   },
   {
     "id": 17,
-    "title": "CBSE Model Parliament",
-    "description": "Creating awareness about legislative processes and governance.",
-    "image": "https://picsum.photos/300?random=17",
-    "category": "Leadership"
+    "image": "https://placehold.co/600x400/9AC0CD/000000?text=Social+Science+Quiz&bold&font=arial",
+    "title": "Inter-Class Social Science Quiz Competition",
+    "description": "Inter-class quiz competition on Social Science topics. Test your knowledge of history, civics, and geography.",
+    "date": "2024-04-17",
+    "category": "Academics & Subject Enrichment"
   },
   {
     "id": 18,
-    "title": "CBSE Spell Bee Competition",
-    "description": "Enhancing vocabulary and spelling skills among students.",
-    "image": "https://picsum.photos/300?random=18",
-    "category": "Literature"
+    "image": "https://placehold.co/600x400/B22222/000000?text=Western+Dance+Workshop&bold&font=arial",
+    "title": "Western Contemporary Dance Workshop",
+    "description": "Workshop on Western contemporary dance styles. Learn choreography and improve dance skills.",
+    "date": "2024-04-19",
+    "category": "Performing Arts (Indian & Western)"
   },
   {
     "id": 19,
-    "title": "CBSE Photography Workshop",
-    "description": "Teaching the art and techniques of photography.",
-    "image": "https://picsum.photos/300?random=19",
-    "category": "Photography"
+    "image": "https://placehold.co/600x400/DA70D6/000000?text=Pottery+Making+Class&bold&font=arial",
+    "title": "Pottery Making Class - Wheel Throwing Basics",
+    "description": "Basics of pottery making using the potter's wheel. Learn centering and shaping clay.",
+    "date": "2024-04-22",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
   },
   {
     "id": 20,
-    "title": "CBSE Leadership Camp",
-    "description": "Developing leadership skills through team-building activities.",
-    "image": "https://picsum.photos/300?random=20",
-    "category": "Leadership"
+    "image": "https://placehold.co/600x400/00BFFF/000000?text=English+Creative+Writing&bold&font=arial",
+    "title": "English Creative Writing Workshop - Storytelling",
+    "description": "Creative writing workshop focusing on storytelling techniques. Develop your narrative writing skills.",
+    "date": "2024-04-24",
+    "category": "Literary & Debating Skills"
   },
   {
     "id": 21,
-    "title": "CBSE Theater Festival",
-    "description": "Encouraging students to express themselves through drama and plays.",
-    "image": "https://picsum.photos/300?random=21",
-    "category": "Drama"
+    "image": "https://placehold.co/600x400/FF6347/000000?text=Science+Club+Experiment&bold&font=arial",
+    "title": "Science Club - Chemistry Experiment Session",
+    "description": "Science club session with hands-on chemistry experiments. Fun and interactive learning.",
+    "date": "2024-04-26",
+    "category": "STEM & Innovation"
   },
   {
     "id": 22,
-    "title": "CBSE Astronomy Workshop",
-    "description": "Inspiring curiosity about the universe and celestial bodies.",
-    "image": "https://picsum.photos/300?random=22",
-    "category": "Astronomy"
+    "image": "https://placehold.co/600x400/6A5ACD/000000?text=Inter-House+Basketball&bold&font=arial",
+    "title": "Inter-House Basketball Tournament - Knockout Rounds",
+    "description": "Knockout rounds of the inter-house basketball tournament. High-energy basketball action!",
+    "date": "2024-04-29",
+    "category": "Sports & Physical Fitness"
   },
   {
     "id": 23,
-    "title": "CBSE Eco Club Activities",
-    "description": "Engaging students in sustainable practices and eco-friendly initiatives.",
-    "image": "https://picsum.photos/300?random=23",
-    "category": "Environment"
+    "image": "https://placehold.co/600x400/FFE4E1/000000?text=Leadership+Skills+Workshop&bold&font=arial",
+    "title": "Leadership Skills Workshop for Student Leaders",
+    "description": "Workshop to enhance leadership skills for student council members and club leaders.",
+    "date": "2024-05-01",
+    "category": "Community Service & Leadership"
   },
   {
     "id": 24,
-    "title": "CBSE Chess Championship",
-    "description": "Enhancing strategic thinking through chess competitions.",
-    "image": "https://picsum.photos/300?random=24",
-    "category": "Sports"
+    "image": "https://placehold.co/600x400/00FA9A/000000?text=Chess+Club+Tournament&bold&font=arial",
+    "title": "Chess Club - Rapid Chess Tournament",
+    "description": "Rapid chess tournament organized by the Chess Club. Test your chess skills in fast-paced games.",
+    "date": "2024-05-03",
+    "category": "Clubs & Hobbies (General)"
   },
   {
     "id": 25,
-    "title": "CBSE Entrepreneurship Workshop",
-    "description": "Encouraging students to develop entrepreneurial skills and ideas.",
-    "image": "https://picsum.photos/300?random=25",
-    "category": "Leadership"
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=English+Debate+Workshop&bold&font=arial",
+    "title": "English Debate Workshop - Argumentation Skills",
+    "description": "Debate workshop focusing on argumentation and persuasive speaking techniques in English.",
+    "date": "2024-05-06",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 26,
+    "image": "https://placehold.co/600x400/E9967A/000000?text=Tabla+Instrument+Class&bold&font=arial",
+    "title": "Tabla Instrument Class - Beginner Level",
+    "description": "Beginner class for learning Tabla, a popular Indian percussion instrument.",
+    "date": "2024-05-08",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 27,
+    "image": "https://placehold.co/600x400/8B4513/000000?text=Fabric+Painting+Class&bold&font=arial",
+    "title": "Fabric Painting Class - Design and Techniques",
+    "description": "Class on fabric painting techniques. Learn to design and paint on different fabrics.",
+    "date": "2024-05-10",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 28,
+    "image": "https://placehold.co/600x400/708090/000000?text=Science+Exhibition+Prep&bold&font=arial",
+    "title": "Science Exhibition Project Preparation Session",
+    "description": "Session to help students prepare their projects for the upcoming school Science Exhibition.",
+    "date": "2024-05-13",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 29,
+    "image": "https://placehold.co/600x400/00CED1/000000?text=Yoga+and+Fitness+Session&bold&font=arial",
+    "title": "Yoga and Physical Fitness Session",
+    "description": "Yoga and fitness session for students to improve flexibility, strength, and well-being.",
+    "date": "2024-05-15",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 30,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Cleanliness+Drive&bold&font=arial",
+    "title": "School Cleanliness Drive - Swachh Bharat Abhiyan",
+    "description": "School-wide cleanliness drive as part of the Swachh Bharat Abhiyan initiative. Community service activity.",
+    "date": "2024-05-17",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 31,
+    "image": "https://placehold.co/600x400/F0FFF0/000000?text=Book+Club+Meeting&bold&font=arial",
+    "title": "Book Club Monthly Meeting - Book Discussion",
+    "description": "Monthly meeting of the Book Club. Discussion on the selected book of the month.",
+    "date": "2024-05-20",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 32,
+    "image": "https://placehold.co/600x400/20B2AA/000000?text=Sanskrit+Shloka+Recitation&bold&font=arial",
+    "title": "Sanskrit Shloka Recitation Competition",
+    "description": "Sanskrit Shloka recitation competition for students. Promoting the learning of Sanskrit language.",
+    "date": "2024-05-22",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 33,
+    "image": "https://placehold.co/600x400/9AC0CD/000000?text=Biology+Practical+Lab&bold&font=arial",
+    "title": "Biology Practical Lab Session - Microscopy",
+    "description": "Biology practical lab session focused on using microscopes and observing biological samples.",
+    "date": "2024-05-24",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 34,
+    "image": "https://placehold.co/600x400/B22222/000000?text=Carnatic+Vocal+Class&bold&font=arial",
+    "title": "Carnatic Classical Vocal Music Class",
+    "description": "Learn Carnatic Classical Vocal Music. South Indian classical music tradition.",
+    "date": "2024-05-27",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 35,
+    "image": "https://placehold.co/600x400/E9967A/000000?text=Glass+Painting+Workshop&bold&font=arial",
+    "title": "Glass Painting Workshop - Basic Techniques",
+    "description": "Workshop on glass painting. Learn basic techniques and create decorative glass art.",
+    "date": "2024-05-29",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 36,
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Inter-House+Quiz+Finals&bold&font=arial",
+    "title": "Inter-House General Knowledge Quiz Finals",
+    "description": "Final round of the inter-house general knowledge quiz. Teams competing for the championship.",
+    "date": "2024-06-01",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 37,
+    "image": "https://placehold.co/600x400/008080/000000?text=Web+Design+Club+Session&bold&font=arial",
+    "title": "Web Design Club - Website Development Project",
+    "description": "Web design club session focused on working on a website development project. Coding and design.",
+    "date": "2024-06-03",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 38,
+    "image": "https://placehold.co/600x400/708090/000000?text=Inter-House+Badminton&bold&font=arial",
+    "title": "Inter-House Badminton Tournament - Singles Matches",
+    "description": "Inter-house badminton tournament singles matches. Competitive badminton games.",
+    "date": "2024-06-05",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 39,
+    "image": "https://placehold.co/600x400/00BFFF/000000?text=NCC+Drill+Practice&bold&font=arial",
+    "title": "NCC Drill Practice and Parade Training",
+    "description": "NCC cadets drill practice and parade training session. Discipline and coordination skills.",
+    "date": "2024-06-07",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 40,
+    "image": "https://placehold.co/600x400/FF6347/000000?text=Nature+Club+Walk&bold&font=arial",
+    "title": "Nature Club - Nature Walk and Bird Watching",
+    "description": "Nature club organized nature walk and bird watching session in a nearby park/sanctuary.",
+    "date": "2024-06-10",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 41,
+    "image": "https://placehold.co/600x400/2E8B57/000000?text=Physics+Problem+Solving&bold&font=arial",
+    "title": "Physics Problem Solving Workshop - Class 12",
+    "description": "Workshop on advanced physics problem solving techniques for Class 12 students. Exam preparation.",
+    "date": "2024-06-12",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 42,
+    "image": "https://placehold.co/600x400/4682B4/000000?text=Keyboard+Instrument+Class&bold&font=arial",
+    "title": "Keyboard Instrument Class - Western Music",
+    "description": "Class for learning keyboard instruments in the context of Western music. Beginner level.",
+    "date": "2024-06-14",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 43,
+    "image": "https://placehold.co/600x400/F5F5DC/000000?text=Rangoli+Making+Workshop&bold&font=arial",
+    "title": "Rangoli Making Workshop - Traditional Designs",
+    "description": "Workshop on Rangoli making, a colorful Indian folk art form. Learn traditional designs and techniques.",
+    "date": "2024-06-17",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 44,
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=English+Group+Discussion&bold&font=arial",
+    "title": "English Group Discussion Practice Session",
+    "description": "Practice session for English group discussions. Improve communication and analytical skills.",
+    "date": "2024-06-19",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 45,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Coding+Competition+Practice&bold&font=arial",
+    "title": "Coding Competition Practice Session - Competitive Programming",
+    "description": "Practice session for competitive programming. Improve coding skills and problem-solving speed.",
+    "date": "2024-06-21",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 46,
+    "image": "https://placehold.co/600x400/00FA9A/000000?text=Inter-House+Athletics+Meet&bold&font=arial",
+    "title": "Annual Inter-House Athletics Meet - Track Events",
+    "description": "Annual inter-house athletics meet. Track events and field events. Sports day for the school.",
+    "date": "2024-06-24",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 47,
+    "image": "https://placehold.co/600x400/D2691E/000000?text=Student+Council+Meeting&bold&font=arial",
+    "title": "Student Council Meeting - Event Planning",
+    "description": "Student council meeting to plan upcoming school events and activities for the term.",
+    "date": "2024-06-26",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 48,
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Quiz+Club+Meet&bold&font=arial",
+    "title": "Quiz Club Weekly Meet - General Quiz Session",
+    "description": "Weekly meeting of the Quiz Club. General knowledge quiz session and trivia challenges.",
+    "date": "2024-06-28",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 49,
+    "image": "https://placehold.co/600x400/A0522D/000000?text=Chemistry+Lab+Experiment&bold&font=arial",
+    "title": "Chemistry Lab Experiment - Titration",
+    "description": "Chemistry lab experiment session on titration. Learn titration techniques and conduct experiments.",
+    "date": "2024-07-01",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 50,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Sitar+Instrument+Class&bold&font=arial",
+    "title": "Sitar Instrument Class - Beginner Level",
+    "description": "Beginner class for learning Sitar, a popular Indian stringed instrument.",
+    "date": "2024-07-03",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 51,
+    "image": "https://placehold.co/600x400/87CEFA/000000?text=Clay+Modelling+Workshop&bold&font=arial",
+    "title": "Clay Modelling Workshop - Basic Shapes",
+    "description": "Workshop on clay modelling. Learn to create basic shapes and figures with clay.",
+    "date": "2024-07-05",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 52,
+    "image": "https://placehold.co/600x400/9ACD32/000000?text=Hindi+Creative+Writing&bold&font=arial",
+    "title": "Hindi Creative Writing Workshop - Poetry",
+    "description": "Creative writing workshop focusing on Hindi poetry. Learn poetic forms and writing techniques.",
+    "date": "2024-07-08",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 53,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Electronics+Club+Project&bold&font=arial",
+    "title": "Electronics Club Project Session - Circuit Building",
+    "description": "Electronics club session working on circuit building projects. Hands-on electronics learning.",
+    "date": "2024-07-10",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 54,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Inter-House+Table+Tennis&bold&font=arial",
+    "title": "Inter-House Table Tennis Tournament - Doubles",
+    "description": "Inter-house table tennis tournament doubles matches. Team-based table tennis competition.",
+    "date": "2024-07-12",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 55,
+    "image": "https://placehold.co/600x400/DDA0DD/000000?text=Environment+Club+Drive&bold&font=arial",
+    "title": "Environment Club - Tree Plantation Drive",
+    "description": "Environment club organized tree plantation drive. Contribute to a greener environment.",
+    "date": "2024-07-15",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 56,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Drama+Club+Rehearsal&bold&font=arial",
+    "title": "Drama Club - Play Rehearsal (Shakespeare)",
+    "description": "Drama club rehearsal for a Shakespearean play. Acting practice and stage direction.",
+    "date": "2024-07-17",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 57,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Poster+Making+Workshop&bold&font=arial",
+    "title": "Poster Making Workshop - Digital and Hand-drawn",
+    "description": "Workshop on poster making techniques. Digital designing and hand-drawn poster creation.",
+    "date": "2024-07-19",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 58,
+    "image": "https://placehold.co/600x400/FFB6C1/000000?text=Social+Studies+Project+Help&bold&font=arial",
+    "title": "Social Studies Project Guidance Session",
+    "description": "Guidance and support session for students working on Social Studies projects and assignments.",
+    "date": "2024-07-22",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 59,
+    "image": "https://placehold.co/600x400/EEE8AA/000000?text=Violin+Instrument+Class&bold&font=arial",
+    "title": "Violin Instrument Class - Western Classical",
+    "description": "Class for learning Violin in the Western Classical music tradition. Beginner to intermediate levels.",
+    "date": "2024-07-24",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 60,
+    "image": "https://placehold.co/600x400/AFEEEE/000000?text=Tie-Dye+Workshop&bold&font=arial",
+    "title": "Tie-Dye Workshop - Fun with Colors",
+    "description": "Fun and creative tie-dye workshop. Learn tie-dye techniques and create your own tie-dye designs.",
+    "date": "2024-07-26",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 61,
+    "image": "https://placehold.co/600x400/F08080/000000?text=Debate+Club+Practice&bold&font=arial",
+    "title": "Debate Club Practice Session - Mock Debates",
+    "description": "Debate club practice session with mock debates. Improve debating skills and build confidence.",
+    "date": "2024-07-29",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 62,
+    "image": "https://placehold.co/600x400/3CB371/000000?text=Robotics+Competition+Prep&bold&font=arial",
+    "title": "Robotics Competition Team - Preparation Meeting",
+    "description": "Meeting for the robotics competition team to discuss strategy and prepare for upcoming events.",
+    "date": "2024-07-31",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 63,
+    "image": "https://placehold.co/600x400/DAA520/000000?text=Inter-House+Chess+Tournament&bold&font=arial",
+    "title": "Inter-House Chess Tournament - Finals",
+    "description": "Final rounds of the inter-house chess tournament. Top chess players competing for house points.",
+    "date": "2024-08-02",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 64,
+    "image": "https://placehold.co/600x400/FF69B4/000000?text=Community+Service+Visit&bold&font=arial",
+    "title": "Community Service - Visit to Old Age Home",
+    "description": "Community service activity - students visiting a local old age home. Interaction and volunteering.",
+    "date": "2024-08-05",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 65,
+    "image": "https://placehold.co/600x400/40E0D0/000000?text=Astronomy+Club+Night&bold&font=arial",
+    "title": "Astronomy Club - Night Sky Observation Session",
+    "description": "Astronomy club night sky observation session. Stargazing and learning about constellations.",
+    "date": "2024-08-07",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 66,
+    "image": "https://placehold.co/600x400/F4A460/000000?text=Sanskrit+Storytelling+Comp&bold&font=arial",
+    "title": "Sanskrit Storytelling Competition",
+    "description": "Sanskrit storytelling competition. Students narrating stories in Sanskrit. Promoting language skills.",
+    "date": "2024-08-09",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 67,
+    "image": "https://placehold.co/600x400/7CFC00/000000?text=Physics+Lab+Experiment&bold&font=arial",
+    "title": "Physics Lab Experiment - Optics",
+    "description": "Physics lab session conducting experiments related to optics and light phenomena.",
+    "date": "2024-08-12",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 68,
+    "image": "https://placehold.co/600x400/6495ED/000000?text=Guitar+Instrument+Class&bold&font=arial",
+    "title": "Guitar Instrument Class - Basic Chords",
+    "description": "Beginner guitar instrument class. Learn basic chords and strumming patterns on the guitar.",
+    "date": "2024-08-14",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 69,
+    "image": "https://placehold.co/600x400/FF4500/000000?text=Paper+Quilling+Workshop&bold&font=arial",
+    "title": "Paper Quilling Workshop - Beginner Designs",
+    "description": "Beginner workshop on paper quilling. Learn to create decorative designs using paper quilling techniques.",
+    "date": "2024-08-16",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 70,
+    "image": "https://placehold.co/600x400/800080/000000?text=Creative+Writing+Hindi&bold&font=arial",
+    "title": "Hindi Creative Writing Competition - Short Story",
+    "description": "Hindi creative writing competition focused on short story writing. Showcase your Hindi writing skills.",
+    "date": "2024-08-19",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 71,
+    "image": "https://placehold.co/600x400/2F4F4F/000000?text=Coding+Workshop+Advanced&bold&font=arial",
+    "title": "Advanced Coding Workshop - Data Structures",
+    "description": "Advanced coding workshop on data structures and algorithms. For experienced coding students.",
+    "date": "2024-08-21",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 72,
+    "image": "https://placehold.co/600x400/CD5C5C/000000?text=Inter-House+Volleyball&bold&font=arial",
+    "title": "Inter-House Volleyball Tournament - Girls Teams",
+    "description": "Inter-house volleyball tournament for girls teams. Competitive volleyball matches.",
+    "date": "2024-08-23",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 73,
+    "image": "https://placehold.co/600x400/008000/000000?text=Traffic+Awareness+Campaign&bold&font=arial",
+    "title": "Traffic Safety and Awareness Campaign",
+    "description": "Student-led traffic safety and awareness campaign near the school. Community outreach activity.",
+    "date": "2024-08-26",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 74,
+    "image": "https://placehold.co/600x400/BDBDBD/000000?text=Debate+Club+Meeting&bold&font=arial",
+    "title": "Debate Club General Meeting - Topic Selection",
+    "description": "General meeting of the debate club to select topics for upcoming debates and competitions.",
+    "date": "2024-08-28",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 75,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Biology+Seminar+Series&bold&font=arial",
+    "title": "Biology Seminar Series - Guest Lecture on Ecology",
+    "description": "Seminar series on biology. Guest lecture by an expert on ecology and environmental science.",
+    "date": "2024-08-30",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 76,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Western+Vocal+Class&bold&font=arial",
+    "title": "Western Classical Vocal Music Class",
+    "description": "Class for Western Classical Vocal Music. Learn vocal techniques and repertoire from Western traditions.",
+    "date": "2024-09-02",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 77,
+    "image": "https://placehold.co/600x400/9AC0CD/000000?text=Origami+Workshop&bold&font=arial",
+    "title": "Origami Workshop - Paper Folding Art",
+    "description": "Origami workshop. Learn the art of paper folding and create various origami models.",
+    "date": "2024-09-04",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 78,
+    "image": "https://placehold.co/600x400/B22222/000000?text=Sanskrit+Drama+Club&bold&font=arial",
+    "title": "Sanskrit Drama Club - Play Rehearsal",
+    "description": "Sanskrit drama club rehearsal for a play in Sanskrit language. Promoting Sanskrit theatre.",
+    "date": "2024-09-06",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 79,
+    "image": "https://placehold.co/600x400/E9967A/000000?text=Innovation+Challenge&bold&font=arial",
+    "title": "School Innovation Challenge - Idea Submission Deadline",
+    "description": "Deadline for idea submissions for the school innovation challenge. STEM and creative ideas welcome.",
+    "date": "2024-09-09",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 80,
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Inter-House+Athletics+Finals&bold&font=arial",
+    "title": "Inter-House Athletics Meet - Finals Day",
+    "description": "Final day of the annual inter-house athletics meet. Finals of track and field events.",
+    "date": "2024-09-11",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 81,
+    "image": "https://placehold.co/600x400/008080/000000?text=Blood+Donation+Camp&bold&font=arial",
+    "title": "Blood Donation Camp - Organized by School",
+    "description": "School-organized blood donation camp. Voluntary blood donation drive for a noble cause.",
+    "date": "2024-09-13",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 82,
+    "image": "https://placehold.co/600x400/708090/000000?text=Literary+Club+Meeting&bold&font=arial",
+    "title": "Literary Club Monthly Meeting - Author Discussion",
+    "description": "Monthly meeting of the Literary Club. Discussion on a famous author and their works.",
+    "date": "2024-09-16",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 83,
+    "image": "https://placehold.co/600x400/00BFFF/000000?text=Math+Workshop+Trigonometry&bold&font=arial",
+    "title": "Math Workshop - Trigonometry for Class 11",
+    "description": "Workshop on trigonometry for Class 11 students. Concepts, problem-solving, and applications.",
+    "date": "2024-09-18",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 84,
+    "image": "https://placehold.co/600x400/FF6347/000000?text=Tabla+Advanced+Class&bold&font=arial",
+    "title": "Tabla Instrument Class - Advanced Rhythms",
+    "description": "Advanced Tabla class focusing on complex rhythms and improvisational techniques.",
+    "date": "2024-09-20",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 85,
+    "image": "https://placehold.co/600x400/2E8B57/000000?text=Calligraphy+Workshop&bold&font=arial",
+    "title": "Calligraphy Workshop - Basic Strokes and Styles",
+    "description": "Calligraphy workshop. Learn basic strokes and different calligraphy styles. Art and handwriting.",
+    "date": "2024-09-23",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 86,
+    "image": "https://placehold.co/600x400/4682B4/000000?text=Hindi+Debate+Practice&bold&font=arial",
+    "title": "Hindi Debate Practice Session - Current Affairs",
+    "description": "Hindi debate practice session on current affairs and social issues. Improve Hindi speaking skills.",
+    "date": "2024-09-25",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 87,
+    "image": "https://placehold.co/600x400/F5F5DC/000000?text=Tech+Quiz+Competition&bold&font=arial",
+    "title": "Inter-House Technology Quiz Competition",
+    "description": "Inter-house technology quiz competition. Test knowledge on computers, internet, and technology trends.",
+    "date": "2024-09-27",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 88,
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=Inter-House+Cricket+Finals&bold&font=arial",
+    "title": "Inter-House Cricket Tournament - Final Match",
+    "description": "Final match of the inter-house cricket tournament. Witness the battle for the cricket championship!",
+    "date": "2024-09-30",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 89,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Eco-Club+Meeting&bold&font=arial",
+    "title": "Eco-Club Meeting - Environmental Projects Discussion",
+    "description": "Eco-club meeting to discuss ongoing and upcoming environmental projects and initiatives.",
+    "date": "2024-10-02",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 90,
+    "image": "https://placehold.co/600x400/00FA9A/000000?text=Creative+Writing+Club&bold&font=arial",
+    "title": "Creative Writing Club - Poetry Slam Session",
+    "description": "Creative writing club poetry slam session. Students sharing and performing their original poems.",
+    "date": "2024-10-04",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 91,
+    "image": "https://placehold.co/600x400/FFDAB9/000000?text=Science+Workshop+Physics&bold&font=arial",
+    "title": "Science Workshop - Fun Physics Experiments",
+    "description": "Science workshop with fun and engaging physics experiments. Learn physics concepts practically.",
+    "date": "2024-10-07",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 92,
+    "image": "https://placehold.co/600x400/CD853F/000000?text=Harmonium+Instrument+Class&bold&font=arial",
+    "title": "Harmonium Instrument Class - Basic Ragas",
+    "description": "Harmonium instrument class. Learn to play basic ragas on the harmonium. Indian classical music.",
+    "date": "2024-10-09",
+    "category": "Performing Arts (Indian & Western)"
+  },
+  {
+    "id": 93,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Block+Printing+Workshop&bold&font=arial",
+    "title": "Block Printing Workshop - Textile Design",
+    "description": "Block printing workshop. Learn block printing techniques and create textile designs.",
+    "date": "2024-10-11",
+    "category": "Visual Arts & Crafts (Indian & Contemporary)"
+  },
+  {
+    "id": 94,
+    "image": "https://placehold.co/600x400/6495ED/000000?text=English+Quiz+Competition&bold&font=arial",
+    "title": "Inter-Class English Quiz Competition",
+    "description": "Inter-class English quiz competition. Test your knowledge of English literature and language.",
+    "date": "2024-10-14",
+    "category": "Literary & Debating Skills"
+  },
+  {
+    "id": 95,
+    "image": "https://placehold.co/600x400/FF7F50/000000?text=Coding+Hackathon+School+Level&bold&font=arial",
+    "title": "School Level Coding Hackathon",
+    "description": "School-level coding hackathon. Students coding and building projects in a time-bound event.",
+    "date": "2024-10-16",
+    "category": "STEM & Innovation"
+  },
+  {
+    "id": 96,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Inter-House+Athletics+Relays&bold&font=arial",
+    "title": "Inter-House Athletics Meet - Relay Races",
+    "description": "Relay race events at the inter-house athletics meet. Teamwork and speed in relay competitions.",
+    "date": "2024-10-18",
+    "category": "Sports & Physical Fitness"
+  },
+  {
+    "id": 97,
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=Road+Safety+Workshop&bold&font=arial",
+    "title": "Road Safety Awareness Workshop",
+    "description": "Road safety awareness workshop for students. Learn traffic rules and safety practices.",
+    "date": "2024-10-21",
+    "category": "Community Service & Leadership"
+  },
+  {
+    "id": 98,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Art+and+Craft+Club+Meet&bold&font=arial",
+    "title": "Art and Craft Club Weekly Meeting",
+    "description": "Weekly meeting of the Art and Craft Club. Work on ongoing art projects and creative activities.",
+    "date": "2024-10-23",
+    "category": "Clubs & Hobbies (General)"
+  },
+  {
+    "id": 99,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Chemistry+Workshop+Practical&bold&font=arial",
+    "title": "Chemistry Workshop - Practical Chemistry Skills",
+    "description": "Workshop focused on practical chemistry skills and lab techniques. Hands-on learning.",
+    "date": "2024-10-25",
+    "category": "Academics & Subject Enrichment"
+  },
+  {
+    "id": 100,
+    "image": "https://placehold.co/600x400/A0522D/000000?text=Bharatnatyam+Dance+Class&bold&font=arial",
+    "title": "Bharatnatyam Classical Dance Class",
+    "description": "Bharatnatyam classical dance class. Learn steps and postures of this South Indian dance form.",
+    "date": "2024-10-28",
+    "category": "Performing Arts (Indian & Western)"
   }
 ]
