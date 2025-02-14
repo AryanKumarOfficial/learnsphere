@@ -53,26 +53,15 @@ const SportsGridMain = () => {
                     </div>
                     <div className="col-md-10 text-right">
                         <select className="from-control category" onChange={handleChangeCategory}>
-                            <option value="Football">Football</option>
-                            <option value="Basketball">Basketball</option>
-                            <option value="Athletics">Athletics</option>
-                            <option value="Cricket">Cricket</option>
-                            <option value="Table Tennis">Table Tennis</option>
-                            <option value="Swimming">Swimming</option>
-                            <option value="Badminton">Badminton</option>
-                            <option value="Martial Arts">Martial Arts</option>
-                            <option value="Volleyball">Volleyball</option>
-                            <option value="Chess">Chess</option>
-                            <option value="Hockey">Hockey</option>
-                            <option value="Yoga">Yoga</option>
-                            <option value="Marathon">Marathon</option>
-                            <option value="Fencing">Fencing</option>
-                            <option value="Cycling">Cycling</option>
-                            <option value="Archery">Archery</option>
-                            <option value="Adventure Sports">Adventure Sports</option>
-                            <option value="Tennis">Tennis</option>
-                            <option value="Kabaddi">Kabaddi</option>
-                            <option value="Skating">Skating</option>
+                            <option value="All">All</option>
+                            <option value="Team Field Sports">Team Field Sports</option>
+                            <option value="Team Court Sports">Team Court Sports</option>
+                            <option value="Individual Track &amp; Field">Individual Track &amp; Field</option>
+                            <option value="Individual Water Sports">Individual Water Sports</option>
+                            <option value="Individual Racquet Sports">Individual Racquet Sports</option>
+                            <option value="Gymnastics &amp; Cheer">Gymnastics &amp; Cheer</option>
+                            <option value="Combat Sports &amp; Martial Arts">Combat Sports &amp; Martial Arts</option>
+                            <option value="Adaptive Sports">Adaptive Sports</option>
 
 
                         </select>

@@ -1,162 +1,802 @@
 [
   {
     "id": 1,
-    "title": "Annual Football Championship",
-    "description": "The annual inter-school football tournament fostering teamwork and sportsmanship.",
-    "date": "2025-03-10",
-    "category": "Football",
-    "image": "https://picsum.photos/300/200?random=1"
+    "image": "https://placehold.co/600x400/87CEFA/000000?text=Soccer+Game&bold&font=arial",
+    "title": "Varsity Soccer Team Game Day",
+    "description": "Varsity soccer team game - come support our team on the field!",
+    "date": "2024-03-10",
+    "category": "Team Field Sports"
   },
   {
     "id": 2,
-    "title": "National Basketball League",
-    "description": "A thrilling basketball league for talented young athletes to showcase their skills.",
-    "date": "2025-04-15",
-    "category": "Basketball",
-    "image": "https://picsum.photos/300/200?random=2"
+    "image": "https://placehold.co/600x400/9ACD32/000000?text=Basketball+Practice&bold&font=arial",
+    "title": "JV Basketball Team Practice",
+    "description": "JV basketball team practice focusing on offensive strategies and teamwork.",
+    "date": "2024-03-12",
+    "category": "Team Court Sports"
   },
   {
     "id": 3,
-    "title": "Track & Field Day",
-    "description": "A day full of athletic events including sprints, hurdles, and relay races.",
-    "date": "2025-02-28",
-    "category": "Athletics",
-    "image": "https://picsum.photos/300/200?random=3"
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Track+Meet+Sprints&bold&font=arial",
+    "title": "Track and Field Meet - Sprint Events",
+    "description": "Track and Field meet featuring sprint events. Cheer on our sprinters!",
+    "date": "2024-03-15",
+    "category": "Individual Track & Field"
   },
   {
     "id": 4,
-    "title": "Inter-School Cricket Tournament",
-    "description": "Compete with the best cricket teams across the region in this exciting tournament.",
-    "date": "2025-05-20",
-    "category": "Cricket",
-    "image": "https://picsum.photos/300/200?random=4"
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Swim+Team+Practice&bold&font=arial",
+    "title": "Swim Team Morning Practice Session",
+    "description": "Swim team morning practice - focusing on stroke technique and endurance training.",
+    "date": "2024-03-18",
+    "category": "Individual Water Sports"
   },
   {
     "id": 5,
-    "title": "Table Tennis Championship",
-    "description": "A competitive table tennis event for students to demonstrate precision and speed.",
-    "date": "2025-03-18",
-    "category": "Table Tennis",
-    "image": "https://picsum.photos/300/200?random=5"
+    "image": "https://placehold.co/600x400/DDA0DD/000000?text=Tennis+Singles+Match&bold&font=arial",
+    "title": "Tennis Singles Tournament Matches",
+    "description": "School tennis singles tournament matches. Watch competitive individual tennis.",
+    "date": "2024-03-20",
+    "category": "Individual Racquet Sports"
   },
   {
     "id": 6,
-    "title": "National Swimming Gala",
-    "description": "Swimmers from various schools compete in freestyle, backstroke, and relay events.",
-    "date": "2025-06-05",
-    "category": "Swimming",
-    "image": "https://picsum.photos/300/200?random=6"
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Gymnastics+Training&bold&font=arial",
+    "title": "Varsity Gymnastics Team Training",
+    "description": "Varsity gymnastics team training session. Floor routines, beam work, and vault practice.",
+    "date": "2024-03-22",
+    "category": "Gymnastics & Cheer"
   },
   {
     "id": 7,
-    "title": "Badminton Open",
-    "description": "A platform for students to showcase their badminton skills at the district level.",
-    "date": "2025-04-12",
-    "category": "Badminton",
-    "image": "https://picsum.photos/300/200?random=7"
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Wrestling+Match&bold&font=arial",
+    "title": "School Wrestling Team Match",
+    "description": "School wrestling team competing in a home match. Support our wrestlers!",
+    "date": "2024-03-25",
+    "category": "Combat Sports & Martial Arts"
   },
   {
     "id": 8,
-    "title": "Karate Championship",
-    "description": "Compete in the ultimate martial arts event and demonstrate your combat techniques.",
-    "date": "2025-03-29",
-    "category": "Martial Arts",
-    "image": "https://picsum.photos/300/200?random=8"
+    "image": "https://placehold.co/600x400/FFB6C1/000000?text=Adaptive+Basketball&bold&font=arial",
+    "title": "Adaptive Basketball Game - Exhibition",
+    "description": "Exhibition game of adaptive basketball. Showcasing inclusive sports and athleticism.",
+    "date": "2024-03-27",
+    "category": "Adaptive Sports"
   },
   {
     "id": 9,
-    "title": "Volleyball Extravaganza",
-    "description": "An exhilarating volleyball tournament featuring top-performing school teams.",
-    "date": "2025-02-14",
-    "category": "Volleyball",
-    "image": "https://picsum.photos/300/200?random=9"
+    "image": "https://placehold.co/600x400/EEE8AA/000000?text=Football+Practice&bold&font=arial",
+    "title": "Varsity Football Spring Practice",
+    "description": "Varsity football team spring practice. Off-season training and skill development.",
+    "date": "2024-03-29",
+    "category": "Team Field Sports"
   },
   {
     "id": 10,
-    "title": "Chess Masters League",
-    "description": "Test your strategic skills in the inter-school chess competition.",
-    "date": "2025-03-05",
-    "category": "Chess",
-    "image": "https://picsum.photos/300/200?random=10"
+    "image": "https://placehold.co/600x400/AFEEEE/000000?text=Volleyball+Game&bold&font=arial",
+    "title": "Girls Volleyball Team Home Game",
+    "description": "Girls volleyball team home game. Cheer on the team in this exciting match!",
+    "date": "2024-04-01",
+    "category": "Team Court Sports"
   },
   {
     "id": 11,
-    "title": "Inter-School Hockey Challenge",
-    "description": "Participate in a challenging hockey match against top school teams.",
-    "date": "2025-05-10",
-    "category": "Hockey",
-    "image": "https://picsum.photos/300/200?random=11"
+    "image": "https://placehold.co/600x400/F08080/000000?text=Track+Distance+Race&bold&font=arial",
+    "title": "Track and Field Meet - Distance Races",
+    "description": "Track and Field meet featuring distance races. Watch our endurance runners compete.",
+    "date": "2024-04-03",
+    "category": "Individual Track & Field"
   },
   {
     "id": 12,
-    "title": "Yoga for Youth Program",
-    "description": "A day dedicated to mindfulness and flexibility through yoga.",
-    "date": "2025-03-21",
-    "category": "Yoga",
-    "image": "https://picsum.photos/300/200?random=12"
+    "image": "https://placehold.co/600x400/3CB371/000000?text=Diving+Competition&bold&font=arial",
+    "title": "Swim and Dive Meet - Diving Competition",
+    "description": "Swim and Dive meet focusing on the diving competition. Artistic and technical diving performances.",
+    "date": "2024-04-05",
+    "category": "Individual Water Sports"
   },
   {
     "id": 13,
-    "title": "School Marathon Day",
-    "description": "A marathon event to promote endurance and physical fitness.",
-    "date": "2025-04-09",
-    "category": "Marathon",
-    "image": "https://picsum.photos/300/200?random=13"
+    "image": "https://placehold.co/600x400/DAA520/000000?text=Badminton+Tournament&bold&font=arial",
+    "title": "School Badminton Tournament - Singles and Doubles",
+    "description": "School badminton tournament for both singles and doubles categories. Sign up to compete!",
+    "date": "2024-04-08",
+    "category": "Individual Racquet Sports"
   },
   {
     "id": 14,
-    "title": "Fencing Championship",
-    "description": "An inter-school fencing event testing agility and skill.",
-    "date": "2025-03-25",
-    "category": "Fencing",
-    "image": "https://picsum.photos/300/200?random=14"
+    "image": "https://placehold.co/600x400/FF69B4/000000?text=Cheerleading+Practice&bold&font=arial",
+    "title": "Cheerleading Squad Practice Session",
+    "description": "Cheerleading squad practice. Working on routines, stunts, and cheers for upcoming games.",
+    "date": "2024-04-10",
+    "category": "Gymnastics & Cheer"
   },
   {
     "id": 15,
-    "title": "National Cycling Rally",
-    "description": "Cycle through scenic routes in this endurance-based competition.",
-    "date": "2025-05-03",
-    "category": "Cycling",
-    "image": "https://picsum.photos/300/200?random=15"
+    "image": "https://placehold.co/600x400/40E0D0/000000?text=Boxing+Club+Sparring&bold&font=arial",
+    "title": "Boxing Club Sparring Session",
+    "description": "Boxing club sparring session. Supervised and safe sparring for experienced members.",
+    "date": "2024-04-12",
+    "category": "Combat Sports & Martial Arts"
   },
   {
     "id": 16,
-    "title": "Archery Tournament",
-    "description": "Showcase your focus and accuracy in the school archery championship.",
-    "date": "2025-04-22",
-    "category": "Archery",
-    "image": "https://picsum.photos/300/200?random=16"
+    "image": "https://placehold.co/600x400/F4A460/000000?text=Wheelchair+Basketball+Game&bold&font=arial",
+    "title": "Community Wheelchair Basketball Game",
+    "description": "Community wheelchair basketball game. Open to players of all abilities and experience levels.",
+    "date": "2024-04-15",
+    "category": "Adaptive Sports"
   },
   {
     "id": 17,
-    "title": "Rock Climbing Challenge",
-    "description": "Test your physical and mental endurance in this climbing event.",
-    "date": "2025-06-15",
-    "category": "Adventure Sports",
-    "image": "https://picsum.photos/300/200?random=17"
+    "image": "https://placehold.co/600x400/7CFC00/000000?text=Lacrosse+Practice&bold&font=arial",
+    "title": "Boys Lacrosse Team Practice",
+    "description": "Boys lacrosse team practice. Skill drills, game strategies, and team building activities.",
+    "date": "2024-04-17",
+    "category": "Team Field Sports"
   },
   {
     "id": 18,
-    "title": "National Tennis Cup",
-    "description": "Compete with the best tennis players in this exciting event.",
-    "date": "2025-03-19",
-    "category": "Tennis",
-    "image": "https://picsum.photos/300/200?random=18"
+    "image": "https://placehold.co/600x400/6495ED/000000?text=Basketball+Tournament&bold&font=arial",
+    "title": "School Basketball Tournament - 3on3",
+    "description": "School basketball 3-on-3 tournament. Sign up your team for a fun and competitive event.",
+    "date": "2024-04-19",
+    "category": "Team Court Sports"
   },
   {
     "id": 19,
-    "title": "Kabaddi Championship",
-    "description": "A traditional Kabaddi match for students to showcase teamwork and strategy.",
-    "date": "2025-04-30",
-    "category": "Kabaddi",
-    "image": "https://picsum.photos/300/200?random=19"
+    "image": "https://placehold.co/600x400/FF4500/000000?text=Track+Jumping+Events&bold&font=arial",
+    "title": "Track and Field Meet - Jumping Events",
+    "description": "Track and field meet featuring jumping events - high jump, long jump, triple jump.",
+    "date": "2024-04-22",
+    "category": "Individual Track & Field"
   },
   {
     "id": 20,
-    "title": "Skating Championship",
-    "description": "A competitive skating event for students to showcase their speed and skill.",
-    "date": "2025-03-28",
-    "category": "Skating",
-    "image": "https://picsum.photos/300/200?random=20"
+    "image": "https://placehold.co/600x400/800080/000000?text=Synchronized+Swimming&bold&font=arial",
+    "title": "Synchronized Swimming Club Practice",
+    "description": "Synchronized swimming club practice. Working on routines and synchronized movements in the water.",
+    "date": "2024-04-24",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 21,
+    "image": "https://placehold.co/600x400/2F4F4F/000000?text=Squash+Ladder+Match&bold&font=arial",
+    "title": "Squash Club Ladder Tournament Match",
+    "description": "Squash club ladder tournament match. Players competing to climb up the squash ladder.",
+    "date": "2024-04-26",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 22,
+    "image": "https://placehold.co/600x400/CD5C5C/000000?text=Rhythmic+Gymnastics&bold&font=arial",
+    "title": "Rhythmic Gymnastics Club Practice",
+    "description": "Rhythmic gymnastics club practice. Working with ribbons, hoops, and balls.",
+    "date": "2024-04-29",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 23,
+    "image": "https://placehold.co/600x400/008000/000000?text=Karate+Club+Class&bold&font=arial",
+    "title": "Karate Club Beginner Class",
+    "description": "Karate club beginner class. Learn basic karate techniques and self-defense moves.",
+    "date": "2024-05-01",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 24,
+    "image": "https://placehold.co/600x400/BDBDBD/000000?text=Special+Olympics+Practice&bold&font=arial",
+    "title": "Special Olympics Sports Practice",
+    "description": "Special Olympics sports practice for students with intellectual disabilities. Various sports offered.",
+    "date": "2024-05-03",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 25,
+    "image": "https://placehold.co/600x400/D2691E/000000?text=Field+Hockey+Practice&bold&font=arial",
+    "title": "Girls Field Hockey Team Practice",
+    "description": "Girls field hockey team practice. Stick skills, passing drills, and game simulations.",
+    "date": "2024-05-06",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 26,
+    "image": "https://placehold.co/600x400/4B0082/000000?text=Volleyball+Practice+JV&bold&font=arial",
+    "title": "JV Boys Volleyball Team Practice",
+    "description": "JV boys volleyball team practice. Setting, spiking, and serving techniques.",
+    "date": "2024-05-08",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 27,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Track+Throwing+Events&bold&font=arial",
+    "title": "Track and Field Meet - Throwing Events",
+    "description": "Track and field meet featuring throwing events - shot put, discus, javelin, hammer throw.",
+    "date": "2024-05-10",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 28,
+    "image": "https://placehold.co/600x400/20B2AA/000000?text=Water+Polo+Scrimmage&bold&font=arial",
+    "title": "Water Polo Team Scrimmage Game",
+    "description": "Water polo team scrimmage game. Practice match to improve team coordination and strategy.",
+    "date": "2024-05-13",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 29,
+    "image": "https://placehold.co/600x400/CD853F/000000?text=Table+Tennis+Club+Meet&bold&font=arial",
+    "title": "Table Tennis Club Open Play Session",
+    "description": "Table tennis club open play session. All skill levels welcome to play and enjoy.",
+    "date": "2024-05-15",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 30,
+    "image": "https://placehold.co/600x400/DA70D6/000000?text=Dance+Team+Rehearsal&bold&font=arial",
+    "title": "Dance Team Rehearsal for Spring Show",
+    "description": "Dance team rehearsal for the upcoming spring dance performance. Choreography practice.",
+    "date": "2024-05-17",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 31,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Taekwondo+Class&bold&font=arial",
+    "title": "Taekwondo After-School Class",
+    "description": "After-school Taekwondo class. Learn martial arts skills, discipline, and fitness.",
+    "date": "2024-05-20",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 32,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Goalball+Practice&bold&font=arial",
+    "title": "Goalball Team Practice Session",
+    "description": "Goalball team practice for visually impaired students. Teamwork and sensory skills.",
+    "date": "2024-05-22",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 33,
+    "image": "https://placehold.co/600x400/9AC0CD/000000?text=Rugby+Practice&bold&font=arial",
+    "title": "Rugby Club Practice Session",
+    "description": "Rugby club practice. Learn the basics of rugby and play non-contact drills.",
+    "date": "2024-05-24",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 34,
+    "image": "https://placehold.co/600x400/B22222/000000?text=Basketball+Skills+Clinic&bold&font=arial",
+    "title": "Basketball Skills Development Clinic",
+    "description": "Basketball skills development clinic. Focus on shooting, dribbling, and passing techniques.",
+    "date": "2024-05-27",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 35,
+    "image": "https://placehold.co/600x400/E9967A/000000?text=Track+Hurdles+Practice&bold&font=arial",
+    "title": "Track and Field Hurdles Practice",
+    "description": "Track and field practice focusing on hurdles technique and drills.",
+    "date": "2024-05-29",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 36,
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Open+Swim+Session&bold&font=arial",
+    "title": "Open Swim and Recreational Swim Time",
+    "description": "Open swim session for all students and faculty. Relax and enjoy swimming in the pool.",
+    "date": "2024-06-01",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 37,
+    "image": "https://placehold.co/600x400/008080/000000?text=Tennis+Doubles+Game&bold&font=arial",
+    "title": "Tennis Doubles League Matches",
+    "description": "Tennis doubles league matches. Teams competing in the school doubles league.",
+    "date": "2024-06-03",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 38,
+    "image": "https://placehold.co/600x400/708090/000000?text=Pom+Squad+Practice&bold&font=arial",
+    "title": "Pom Squad Dance Practice",
+    "description": "Pom squad dance practice for game performances and competitions. Routine choreography.",
+    "date": "2024-06-05",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 39,
+    "image": "https://placehold.co/600x400/00BFFF/000000?text=Judo+Club+Training&bold&font=arial",
+    "title": "Judo Club Training and Techniques Session",
+    "description": "Judo club training session. Learn Judo throws, grappling, and self-discipline.",
+    "date": "2024-06-07",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 40,
+    "image": "https://placehold.co/600x400/FF6347/000000?text=Sled+Hockey+Exhibition&bold&font=arial",
+    "title": "Sled Hockey Exhibition Game",
+    "description": "Sled hockey exhibition game. Demonstrating adaptive sports and teamwork on ice.",
+    "date": "2024-06-10",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 41,
+    "image": "https://placehold.co/600x400/2E8B57/000000?text=Ultimate+Frisbee+Game&bold&font=arial",
+    "title": "Ultimate Frisbee Intramural Game",
+    "description": "Intramural Ultimate Frisbee game. Fun and fast-paced team sport on the field.",
+    "date": "2024-06-12",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 42,
+    "image": "https://placehold.co/600x400/4682B4/000000?text=3x3+Basketball+League&bold&font=arial",
+    "title": "3x3 Basketball League Games",
+    "description": "3x3 basketball league games. Fast-paced and high-energy basketball competition.",
+    "date": "2024-06-14",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 43,
+    "image": "https://placehold.co/600x400/F5F5DC/000000?text=Track+Relay+Practice&bold&font=arial",
+    "title": "Track and Field Relay Team Practice",
+    "description": "Track and field practice for relay teams. Baton passing and team coordination drills.",
+    "date": "2024-06-17",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 44,
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=Lifeguard+Training&bold&font=arial",
+    "title": "Lifeguard Certification Training Course",
+    "description": "Lifeguard certification training course. Learn water safety and rescue skills.",
+    "date": "2024-06-19",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 45,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Pickleball+Tournament&bold&font=arial",
+    "title": "School Pickleball Tournament",
+    "description": "School pickleball tournament. Singles and doubles matches for all skill levels.",
+    "date": "2024-06-21",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 46,
+    "image": "https://placehold.co/600x400/00FA9A/000000?text=Color+Guard+Practice&bold&font=arial",
+    "title": "Color Guard Team Practice",
+    "description": "Color guard team practice. Flag work, dance routines, and performance synchronization.",
+    "date": "2024-06-24",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 47,
+    "image": "https://placehold.co/600x400/D2691E/000000?text=Self-Defense+Class&bold&font=arial",
+    "title": "Self-Defense Martial Arts Class",
+    "description": "Self-defense martial arts class. Learn practical self-defense techniques and awareness.",
+    "date": "2024-06-26",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 48,
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Powerlifting+Meet+Adaptive&bold&font=arial",
+    "title": "Adaptive Powerlifting Competition Meet",
+    "description": "Adaptive powerlifting competition meet. Showcasing strength and resilience in adaptive sports.",
+    "date": "2024-06-28",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 49,
+    "image": "https://placehold.co/600x400/A0522D/000000?text=Soccer+Scrimmage+Intramural&bold&font=arial",
+    "title": "Intramural Soccer Scrimmage Games",
+    "description": "Intramural soccer scrimmage games. Fun, casual soccer for all students.",
+    "date": "2024-07-01",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 50,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Volleyball+Summer+League&bold&font=arial",
+    "title": "Summer Volleyball League Games",
+    "description": "Summer volleyball league games. Competitive volleyball matches during the summer season.",
+    "date": "2024-07-03",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 51,
+    "image": "https://placehold.co/600x400/87CEFA/000000?text=Track+High+Jump+Clinic&bold&font=arial",
+    "title": "Track and Field High Jump Clinic",
+    "description": "Track and field clinic focusing on high jump technique and training.",
+    "date": "2024-07-05",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 52,
+    "image": "https://placehold.co/600x400/9ACD32/000000?text=Water+Aerobics+Class&bold&font=arial",
+    "title": "Water Aerobics Fitness Class",
+    "description": "Water aerobics fitness class. Low-impact, full-body workout in the pool.",
+    "date": "2024-07-08",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 53,
+    "image": "https://placehold.co/600x400/FFD700/000000?text=Tennis+Beginner+Lesson&bold&font=arial",
+    "title": "Beginner Tennis Lessons for Students",
+    "description": "Beginner tennis lessons for students. Learn basic strokes and tennis rules.",
+    "date": "2024-07-10",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 54,
+    "image": "https://placehold.co/600x400/FA8072/000000?text=Gymnastics+Summer+Camp&bold&font=arial",
+    "title": "Gymnastics Summer Camp - All Levels",
+    "description": "Gymnastics summer camp for all skill levels. Intensive training and fun gymnastics activities.",
+    "date": "2024-07-12",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 55,
+    "image": "https://placehold.co/600x400/DDA0DD/000000?text=Aikido+Demonstration&bold&font=arial",
+    "title": "Aikido Martial Arts Demonstration",
+    "description": "Aikido martial arts demonstration. Showcasing Aikido techniques and philosophy.",
+    "date": "2024-07-15",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 56,
+    "image": "https://placehold.co/600x400/90EE90/000000?text=Paralympic+Sport+Demo&bold&font=arial",
+    "title": "Paralympic Sports Awareness Demonstration",
+    "description": "Paralympic sports awareness demonstration. Learn about various adaptive sports and athlete stories.",
+    "date": "2024-07-17",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 57,
+    "image": "https://placehold.co/600x400/ADD8E6/000000?text=Softball+Summer+League&bold&font=arial",
+    "title": "Summer Softball League Games",
+    "description": "Summer softball league games. Competitive softball matches during the summer season.",
+    "date": "2024-07-19",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 58,
+    "image": "https://placehold.co/600x400/FFB6C1/000000?text=Beach+Volleyball+Tournament&bold&font=arial",
+    "title": "Beach Volleyball Summer Tournament",
+    "description": "Beach volleyball summer tournament. Fun in the sun and competitive beach volleyball.",
+    "date": "2024-07-22",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 59,
+    "image": "https://placehold.co/600x400/EEE8AA/000000?text=Track+Pole+Vault+Training&bold&font=arial",
+    "title": "Track and Field Pole Vault Training",
+    "description": "Track and field practice focusing on pole vault technique and safety.",
+    "date": "2024-07-24",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 60,
+    "image": "https://placehold.co/600x400/AFEEEE/000000?text=Lap+Swimming+Session&bold&font=arial",
+    "title": "Lap Swimming and Fitness Session",
+    "description": "Lap swimming session for fitness and endurance. Structured workout for swimmers.",
+    "date": "2024-07-26",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 61,
+    "image": "https://placehold.co/600x400/F08080/000000?text=Racquetball+League+Games&bold&font=arial",
+    "title": "Racquetball League Tournament Games",
+    "description": "Racquetball league tournament games. Competitive matches in the racquetball league.",
+    "date": "2024-07-29",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 62,
+    "image": "https://placehold.co/600x400/3CB371/000000?text=Gymnastics+Open+Gym&bold&font=arial",
+    "title": "Gymnastics Open Gym Practice Time",
+    "description": "Gymnastics open gym practice time. Practice skills and routines independently.",
+    "date": "2024-07-31",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 63,
+    "image": "https://placehold.co/600x400/DAA520/000000?text=Capoeira+Workshop&bold&font=arial",
+    "title": "Capoeira Martial Arts Workshop",
+    "description": "Capoeira martial arts workshop. Learn the basics of this Brazilian martial art form.",
+    "date": "2024-08-02",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 64,
+    "image": "https://placehold.co/600x400/FF69B4/000000?text=Adaptive+Cycling+Event&bold&font=arial",
+    "title": "Adaptive Cycling and Handcycling Event",
+    "description": "Adaptive cycling and handcycling event. Promoting inclusive cycling and outdoor activities.",
+    "date": "2024-08-05",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 65,
+    "image": "https://placehold.co/600x400/40E0D0/000000?text=Flag+Football+Tournament&bold&font=arial",
+    "title": "Flag Football Summer Tournament",
+    "description": "Flag football summer tournament. Non-contact football fun for all participants.",
+    "date": "2024-08-07",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 66,
+    "image": "https://placehold.co/600x400/F4A460/000000?text=Indoor+Volleyball+League&bold&font=arial",
+    "title": "Indoor Volleyball League Sign-ups",
+    "description": "Sign-ups for the indoor volleyball league. Form teams and register for the upcoming season.",
+    "date": "2024-08-09",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 67,
+    "image": "https://placehold.co/600x400/7CFC00/000000?text=Track+Long+Jump+Training&bold&font=arial",
+    "title": "Track and Field Long Jump Training",
+    "description": "Track and field practice focusing on long jump technique and approach.",
+    "date": "2024-08-12",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 68,
+    "image": "https://placehold.co/600x400/6495ED/000000?text=Water+Safety+Course&bold&font=arial",
+    "title": "Water Safety and Basic Rescue Course",
+    "description": "Water safety and basic rescue course. Learn essential skills for water emergencies.",
+    "date": "2024-08-14",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 69,
+    "image": "https://placehold.co/600x400/FF4500/000000?text=Tennis+Drills+Practice&bold&font=arial",
+    "title": "Advanced Tennis Drills and Practice",
+    "description": "Advanced tennis drills and practice session for experienced players. Improve match play.",
+    "date": "2024-08-16",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 70,
+    "image": "https://placehold.co/600x400/800080/000000?text=Gymnastics+Bar+Routine&bold&font=arial",
+    "title": "Gymnastics Uneven Bars Routine Practice",
+    "description": "Gymnastics team practice focusing on uneven bars routines and skill progression.",
+    "date": "2024-08-19",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 71,
+    "image": "https://placehold.co/600x400/2F4F4F/000000?text=Kickboxing+Fitness+Class&bold&font=arial",
+    "title": "Kickboxing Fitness and Conditioning Class",
+    "description": "Kickboxing fitness and conditioning class. High-energy workout and martial arts techniques.",
+    "date": "2024-08-21",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 72,
+    "image": "https://placehold.co/600x400/CD5C5C/000000?text=Adaptive+Sports+Fair&bold&font=arial",
+    "title": "Adaptive Sports and Recreation Fair",
+    "description": "Adaptive sports and recreation fair. Explore various adaptive sports and try different activities.",
+    "date": "2024-08-23",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 73,
+    "image": "https://placehold.co/600x400/008000/000000?text=Soccer+Conditioning+Camp&bold&font=arial",
+    "title": "Pre-Season Soccer Conditioning Camp",
+    "description": "Pre-season soccer conditioning camp. Get in shape and prepare for the upcoming soccer season.",
+    "date": "2024-08-26",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 74,
+    "image": "https://placehold.co/600x400/BDBDBD/000000?text=Volleyball+Serving+Clinic&bold&font=arial",
+    "title": "Volleyball Serving Skills Clinic",
+    "description": "Volleyball serving skills clinic. Improve serving accuracy and power with expert coaching.",
+    "date": "2024-08-28",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 75,
+    "image": "https://placehold.co/600x400/F0E68C/000000?text=Track+Shot+Put+Practice&bold&font=arial",
+    "title": "Track and Field Shot Put Practice",
+    "description": "Track and field practice focusing on shot put technique and strength training.",
+    "date": "2024-08-30",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 76,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Swim+Stroke+Improvement&bold&font=arial",
+    "title": "Swim Stroke Technique Improvement Session",
+    "description": "Swim stroke technique improvement session. Focus on refining swimming strokes for efficiency.",
+    "date": "2024-09-02",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 77,
+    "image": "https://placehold.co/600x400/9AC0CD/000000?text=Badminton+Doubles+Match&bold&font=arial",
+    "title": "Badminton Doubles Match Play Practice",
+    "description": "Badminton doubles match play practice. Improve doubles strategy and court coverage.",
+    "date": "2024-09-04",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 78,
+    "image": "https://placehold.co/600x400/B22222/000000?text=Gymnastics+Floor+Routine&bold&font=arial",
+    "title": "Gymnastics Floor Exercise Routine Practice",
+    "description": "Gymnastics team practice focusing on floor exercise routines and tumbling skills.",
+    "date": "2024-09-06",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 79,
+    "image": "https://placehold.co/600x400/E9967A/000000?text=Jiu-Jitsu+Class+Beginner&bold&font=arial",
+    "title": "Brazilian Jiu-Jitsu Beginner Class",
+    "description": "Brazilian Jiu-Jitsu beginner class. Learn ground fighting techniques and submissions.",
+    "date": "2024-09-09",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 80,
+    "image": "https://placehold.co/600x400/BC8F8F/000000?text=Adaptive+Rowing+Session&bold&font=arial",
+    "title": "Adaptive Rowing Introduction Session",
+    "description": "Introduction session to adaptive rowing. Learn basic rowing techniques and equipment.",
+    "date": "2024-09-11",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 81,
+    "image": "https://placehold.co/600x400/008080/000000?text=Lacrosse+Game+Home&bold&font=arial",
+    "title": "Boys Lacrosse Team Home Game",
+    "description": "Boys lacrosse team home game. Support the team as they compete on home turf!",
+    "date": "2024-09-13",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 82,
+    "image": "https://placehold.co/600x400/708090/000000?text=Volleyball+Setting+Drills&bold&font=arial",
+    "title": "Volleyball Setting Skills Drills",
+    "description": "Volleyball practice focusing on setting skills and techniques for accurate sets.",
+    "date": "2024-09-16",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 83,
+    "image": "https://placehold.co/600x400/00BFFF/000000?text=Track+400m+Practice&bold&font=arial",
+    "title": "Track and Field 400m Sprint Training",
+    "description": "Track and field practice focusing on 400m sprint training and race strategy.",
+    "date": "2024-09-18",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 84,
+    "image": "https://placehold.co/600x400/FF6347/000000?text=Swim+Team+Relay+Practice&bold&font=arial",
+    "title": "Swim Team Relay Race Practice",
+    "description": "Swim team practice for relay races. Team coordination and baton/swimmer exchange drills.",
+    "date": "2024-09-20",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 85,
+    "image": "https://placehold.co/600x400/2E8B57/000000?text=Squash+Beginner+Lesson&bold&font=arial",
+    "title": "Beginner Squash Lessons for Students",
+    "description": "Beginner squash lessons for students. Learn basic squash techniques and court rules.",
+    "date": "2024-09-23",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 86,
+    "image": "https://placehold.co/600x400/4682B4/000000?text=Cheer+Stunt+Practice&bold&font=arial",
+    "title": "Cheerleading Stunt and Tumbling Practice",
+    "description": "Cheerleading practice focusing on stunts, tumbling, and advanced cheer techniques.",
+    "date": "2024-09-25",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 87,
+    "image": "https://placehold.co/600x400/F5F5DC/000000?text=Kung+Fu+Club+Training&bold&font=arial",
+    "title": "Kung Fu Club Training Session",
+    "description": "Kung Fu club training session. Learn Kung Fu forms, stances, and self-defense applications.",
+    "date": "2024-09-27",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 88,
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=Adaptive+Sports+Tryouts&bold&font=arial",
+    "title": "Adaptive Sports Team Tryouts",
+    "description": "Tryouts for various adaptive sports teams. Open to students with disabilities interested in competitive sports.",
+    "date": "2024-09-30",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 89,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Football+Game+Homecoming&bold&font=arial",
+    "title": "Homecoming Football Game Night",
+    "description": "Homecoming football game night. Big game event with special halftime show and school spirit!",
+    "date": "2024-10-02",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 90,
+    "image": "https://placehold.co/600x400/00FA9A/000000?text=Volleyball+Spiking+Drills&bold&font=arial",
+    "title": "Volleyball Spiking Technique Drills",
+    "description": "Volleyball practice focusing on spiking techniques and offensive plays at the net.",
+    "date": "2024-10-04",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 91,
+    "image": "https://placehold.co/600x400/FFDAB9/000000?text=Track+800m+Training&bold&font=arial",
+    "title": "Track and Field 800m Race Training",
+    "description": "Track and field practice focused on training for the 800m race and middle-distance running.",
+    "date": "2024-10-07",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 92,
+    "image": "https://placehold.co/600x400/CD853F/000000?text=Swim+Butterfly+Technique&bold&font=arial",
+    "title": "Swim Butterfly Stroke Technique Clinic",
+    "description": "Swim clinic focusing on butterfly stroke technique and improving butterfly swimming efficiency.",
+    "date": "2024-10-09",
+    "category": "Individual Water Sports"
+  },
+  {
+    "id": 93,
+    "image": "https://placehold.co/600x400/98FB98/000000?text=Tennis+Match+Strategy&bold&font=arial",
+    "title": "Tennis Match Strategy and Tactics Session",
+    "description": "Tennis session focused on match strategy, tactics, and competitive play scenarios.",
+    "date": "2024-10-11",
+    "category": "Individual Racquet Sports"
+  },
+  {
+    "id": 94,
+    "image": "https://placehold.co/600x400/6495ED/000000?text=Gymnastics+Beam+Practice&bold&font=arial",
+    "title": "Gymnastics Balance Beam Routine Practice",
+    "description": "Gymnastics team practice on the balance beam. Balance, precision, and beam routine development.",
+    "date": "2024-10-14",
+    "category": "Gymnastics & Cheer"
+  },
+  {
+    "id": 95,
+    "image": "https://placehold.co/600x400/FF7F50/000000?text=Muay+Thai+Club+Training&bold&font=arial",
+    "title": "Muay Thai Club Training and Conditioning",
+    "description": "Muay Thai club training session. Learn Muay Thai techniques, strikes, and conditioning drills.",
+    "date": "2024-10-16",
+    "category": "Combat Sports & Martial Arts"
+  },
+  {
+    "id": 96,
+    "image": "https://placehold.co/600x400/B0E0E6/000000?text=Adaptive+Sports+Competition&bold&font=arial",
+    "title": "Adaptive Sports Regional Competition Event",
+    "description": "Adaptive sports regional competition. Athletes competing in various adaptive sports events.",
+    "date": "2024-10-18",
+    "category": "Adaptive Sports"
+  },
+  {
+    "id": 97,
+    "image": "https://placehold.co/600x400/D3D3D3/000000?text=Cross-Country+Practice&bold&font=arial",
+    "title": "Cross Country Team Endurance Practice",
+    "description": "Cross country team practice focusing on endurance training and long-distance running.",
+    "date": "2024-10-21",
+    "category": "Team Field Sports"
+  },
+  {
+    "id": 98,
+    "image": "https://placehold.co/600x400/8FBC8F/000000?text=Volleyball+Blocking+Drills&bold&font=arial",
+    "title": "Volleyball Blocking Technique Drills",
+    "description": "Volleyball practice focusing on blocking techniques and defensive positioning at the net.",
+    "date": "2024-10-23",
+    "category": "Team Court Sports"
+  },
+  {
+    "id": 99,
+    "image": "https://placehold.co/600x400/FAF0E6/000000?text=Track+Distance+Training&bold&font=arial",
+    "title": "Track and Field Distance Running Training",
+    "description": "Track and field practice for distance runners. Interval training and long run workouts.",
+    "date": "2024-10-25",
+    "category": "Individual Track & Field"
+  },
+  {
+    "id": 100,
+    "image": "https://placehold.co/600x400/A0522D/000000?text=Swim+Backstroke+Drills&bold&font=arial",
+    "title": "Swim Backstroke Technique Drills",
+    "description": "Swim practice focusing on backstroke technique drills and improving backstroke form.",
+    "date": "2024-10-28",
+    "category": "Individual Water Sports"
   }
 ]
