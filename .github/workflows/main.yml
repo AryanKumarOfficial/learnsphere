@@ -43,7 +43,6 @@ jobs:
 
       - name: Cache pnpm modules
         uses: actions/cache@v4
-        name: Cache pnpm modules
         with:
           path: ${{ steps.pnpm-cache.outputs.dir }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
