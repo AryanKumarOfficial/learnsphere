@@ -21,6 +21,7 @@ const Course = () => {
                 <div className="react-wrapper-inner">
                     <Breadcrumb
                         pageTitle="Course"
+
                     />
 
                     <CourseGridMain />
