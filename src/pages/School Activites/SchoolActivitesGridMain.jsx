@@ -54,16 +54,14 @@ const SchoolActivitesGridMain = () => {
                     <div className="col-md-10 text-right">
                         <select className="from-control category" onChange={handleChangeCategory}>
                             <option value="All">All Categories</option>
-                            <option value="Art">Art</option>
-                            <option value="Music">Music</option>
-                            <option value="Drama">Drama</option>
-                            <option value="Debate">Debate</option>
+                            <option value="Academics">Academics</option>
                             <option value="Sports">Sports</option>
-                            <option value="Community">Community</option>
-                            <option value="Science">Science</option>
-                            <option value="Dance">Dance</option>
+                            <option value="Arts &amp; Culture">Arts &amp; Culture</option>
                             <option value="Technology">Technology</option>
-                            <option value="Environment">Environment</option>
+                            <option value="Clubs &amp; Societies">Clubs &amp; Societies</option>
+                            <option value="Workshops &amp; Seminars">Workshops &amp; Seminars</option>
+                            <option value="Competitions">Competitions</option>
+                            <option value="Community Service">Community Service</option>
 
                         </select>
                     </div>
