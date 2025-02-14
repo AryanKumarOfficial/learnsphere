@@ -1,4 +1,4 @@
-name: Deploy React 18 app to GitHub Pages
+name: Deploy React 18 app to GitHub Pages (Yarn)
 
 on:
   push:
@@ -28,32 +28,30 @@ jobs:
         with:
           node-version: '20' # or your preferred Node.js version (16, 18, 20 are good for React 18)
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3
+      - name: Setup Yarn
+        uses: actions/setup-node@v4 # Using Node.js setup action to ensure yarn is in PATH
         with:
-          version: '8' # or your preferred pnpm version
-          run_install: false # We will install dependencies explicitly
+          node-version: '20' # Must match the node-version above to avoid inconsistencies
+          registry-url: 'https://registry.yarnpkg.com' # Optional: Use Yarn registry URL
 
-      - name: Get pnpm store directory
-        id: pnpm-cache
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir
         shell: bash
-        run: |
-          STORE_PATH=$(pnpm store path)
-          echo "::set-output name=dir::$STORE_PATH"
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-      - name: Cache pnpm modules
+      - name: Cache Yarn packages
         uses: actions/cache@v4
         with:
-          path: ${{ steps.pnpm-cache.outputs.dir }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          path: ${{ steps.yarn-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+            ${{ runner.os }}-yarn-
 
-      - name: Install dependencies with pnpm
-        run: pnpm install
+      - name: Install dependencies with Yarn
+        run: yarn install
 
       - name: Build React App
-        run: pnpm build # Or your React build command (e.g., npm run build, yarn build)
+        run: yarn build # Or your React build command (e.g., npm run build, yarn build)
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
