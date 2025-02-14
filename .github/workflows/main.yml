@@ -1,0 +1,69 @@
+name: Deploy React 18 app to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # or your main branch name
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "gh-pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # or your preferred Node.js version (16, 18, 20 are good for React 18)
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: '8' # or your preferred pnpm version
+          run_install: false # We will install dependencies explicitly
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          STORE_PATH=$(pnpm store path)
+          echo "::set-output name=dir::$STORE_PATH"
+
+      - name: Cache pnpm modules
+        uses: actions/cache@v4
+        name: Cache pnpm modules
+        with:
+          path: ${{ steps.pnpm-cache.outputs.dir }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies with pnpm
+        run: pnpm install
+
+      - name: Build React App
+        run: pnpm build # Or your React build command (e.g., npm run build, yarn build)
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build # or your React build output directory (common is 'build' or 'dist')
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
