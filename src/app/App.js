@@ -50,8 +50,8 @@ const App = () => {
                 <LoadTop/>
                 <Routes>
                     <Route path="/" exact element={<Home/>}/>
-                    <Route path="/home-2" element={<HomeTwo/>}/>
-                    <Route path="/home-3" element={<HomeThree/>}/>
+                    {/*<Route path="/home-2" element={<HomeTwo/>}/>*/}
+                    {/*<Route path="/home-3" element={<HomeThree/>}/>*/}
                     <Route path="/about" element={<About/>}/>
                     <Route path="/course" exact element={<Course/>}/>
                     <Route path="/course-list" exact element={<CourseList/>}/>

@@ -12,7 +12,7 @@ const About = () => {
     return (
         <>
             <Header
-                parentMenu='page'
+                parentMenu='about'
                 menuCategoryEnable='enable'
                 headerNormalLogo={Logo}
                 headerStickyLogo={Logo}

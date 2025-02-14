@@ -11,7 +11,7 @@ const CBSEActivities = () => {
     return (
         <body className="courses-grid-page">
         <Header
-            parentMenu='CBSE Activities'
+            parentMenu='more'
             menuCategoryEnable='enable'
             headerNormalLogo={Logo}
             headerStickyLogo={Logo}

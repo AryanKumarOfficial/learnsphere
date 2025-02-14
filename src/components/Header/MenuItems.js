@@ -1,210 +1,121 @@
 import React, {useState} from 'react';
 import {Link, useLocation} from 'react-router-dom';
 
-const MenuItems = (props) => {
-
-    const {parentMenu} = props;
-
+const MenuItems = ({parentMenu}) => {
     const location = useLocation();
-    const postURL = location.pathname.split('/');
-    const pathLength = Number(postURL.length)
+    const currentPath = location.pathname;
 
-    const [home, setHome] = useState(false)
-    const [page, setPage] = useState(false)
-    const [event, setEvent] = useState(false)
-    const [course, setCourse] = useState(false)
-    const [blog, setBlog] = useState(false)
+    const [activeMenu, setActiveMenu] = useState('');
 
-    const openMobileMenu = menu => {
-
-        if (menu === 'home') {
-            setHome(!home)
-            setPage(false)
-            setEvent(false)
-            setCourse(false)
-            setBlog(false)
-        } else if (menu === 'page') {
-            setHome(false)
-            setPage(!page)
-            setEvent(false)
-            setCourse(false)
-            setBlog(false)
-        } else if (menu === 'event') {
-            setHome(false)
-            setPage(false)
-            setEvent(!event)
-            setCourse(false)
-            setBlog(false)
-        } else if (menu === 'course') {
-            setHome(false)
-            setPage(false)
-            setEvent(false)
-            setCourse(!course)
-            setBlog(false)
-        } else if (menu === 'blog') {
-            setHome(false)
-            setPage(false)
-            setEvent(false)
-            setCourse(false)
-            setBlog(!blog)
-        }
+    const openMobileMenu = (menu) => {
+        setActiveMenu(activeMenu === menu ? '' : menu);
     };
+
+    const menuConfig = [
+        {
+            id: 'home',
+            label: 'Home',
+            link: '/',
+            subMenu: [],
+        },
+        {
+            id: 'About',
+            label: 'About',
+            link: '/about',
+            subMenu: [
+                {label: 'About Us', link: '/about'},
+                {label: 'Affiliation', link: '/affiliation'},
+                {label: 'Infrastructure', link: '/infrastructure'},
+                {label: 'Admission', link: '/admission'},
+                {label: "Principal's Message", link: '/principal'},
+                {label: 'Mandatory Notice', link: '/disclosure'},
+            ],
+        },
+        {
+            id: 'Administration',
+            label: 'Administration',
+            link: '#',
+            subMenu: [
+                {label: 'Staff Details', link: '/staffs'},
+                {label: 'School Committee', link: '/course-sidebar'},
+                {label: 'Student Enrol', link: '/student-enrol'},
+                {label: 'Fee and Scholarship', link: '/fees'},
+                {label: 'Teachers Training', link: '/teacher-training'},
+                {label: 'TC Sample', link: '/tc'},
+            ],
+        },
+        {
+            id: 'Academics',
+            label: 'Academics',
+            link: '#',
+            subMenu: [
+                {label: 'School Curriculum', link: '/curriculum'},
+                {label: 'List of Books', link: '/books'},
+                {label: 'School at Glance', link: '/glance'},
+                {label: 'Holidays List', link: '/holidays'},
+                {label: 'CBSE Result', link: '/result'},
+            ],
+        },
+        {
+            id: 'more',
+            label: 'More',
+            link: '#',
+            subMenu: [
+                {label: 'Co Curricular Activities', link: '/more/curriculam'},
+                {label: 'School Activities', link: '/more/school-activities'},
+                {label: 'Olympiad', link: '/more/olympiad'},
+                {label: 'Community Services', link: '/more/community'},
+                {label: 'Sports', link: '/more/sports'},
+                {label: 'CBSE Activities', link: '/more/cbse-activities'},
+            ],
+        },
+        {
+            id: 'gallery',
+            label: 'Gallery',
+            link: '/gallery',
+            subMenu: [],
+        },
+        {
+            id: 'contact',
+            label: 'Contact',
+            link: '/contact',
+            subMenu: [],
+        },
+    ];
 
     return (
         <>
-            <li className={"menu-active"}>
-                <Link to="/" className={home ? "hash menu-active" : "hash"} onClick={() => {
-                    openMobileMenu('home');
-                }}>
-                    Home
-                    {/*<span className="arrow "></span>*/}
-                </Link>
-                {/*<ul className={home ? "sub-menu sub-menu-open" : "sub-menu"}>*/}
-                {/*    <li className={location.pathname === "/" ? "menu-active" : ""}>*/}
-                {/*        <Link to="/">Home One</Link>*/}
-                {/*    </li>*/}
-                {/*    <li className={location.pathname === "/home-2" ? "menu-active" : ""}>*/}
-                {/*        <Link to="/home-2">Home Two</Link>*/}
-                {/*    </li>*/}
-                {/*    <li className={location.pathname === "/home-3" ? "menu-active" : ""}>*/}
-                {/*        <Link to="/home-3">Home Three</Link>*/}
-                {/*    </li>*/}
-                {/*</ul>*/}
-            </li>
-            <li className={parentMenu === 'page' || parentMenu === 'event' ? 'has-sub menu-active' : 'has-sub'}>
-                <Link to="#" className={page ? "hash menu-active" : "hash"} onClick={() => {
-                    openMobileMenu('page');
-                }}>
-                    About
-                    <span className="arrow "></span>
-                </Link>
-                <ul className={page ? "sub-menu sub-menu-open" : "sub-menu"}>
-                    <li className={location.pathname === '/about' ? 'menu-active' : ''}>
-                        <Link to="/about">About Us</Link>
-                    </li>
-                    <li className={location.pathname === "/affiliation" ? "menu-active" : ""}>
-                        <Link to="/instructor">Affiliation</Link>
-                    </li>
-                    <li className={postURL[1] === "/infrastructure" && pathLength > 2 ? "menu-active" : ""}>
-                        <Link to="/infrastructure">Infrastructure</Link>
-                    </li>
-                    <li className={location.pathname === "/admission" ? "menu-active" : ""}>
-                        <Link to="/admission">Admission</Link>
-                    </li>
-                    <li className={location.pathname === "/principal" ? "menu-active" : ""}>
-                        <Link to="/principal">Principal's Message</Link>
-                    </li>
-                    <li className={location.pathname === "/disclosure" ? "menu-active" : ""}>
-                        <Link to="/disclosure">Mandatory Notice</Link>
-                    </li>
-                    {/*<li className={parentMenu === 'event' ? 'has-sub menu-active' : 'has-sub'}>*/}
-                    {/*    <Link to="#" className={event ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('event'); }}>Events</Link>*/}
-                    {/*    <ul className={event ? "sub-menu sub-menu-open" : "sub-menu"}>*/}
-                    {/*        <li className={location.pathname === "/event" ? "menu-active" : ""}>*/}
-                    {/*            <Link to="/event">Events</Link>*/}
-                    {/*        </li>*/}
-                    {/*        <li className={location.pathname === "/event-sidebar" ? "menu-active" : ""}>*/}
-                    {/*            <Link to="/event-sidebar">Events Sidebar</Link>*/}
-                    {/*        </li>*/}
-                    {/*        <li className={postURL[1] === "event" && pathLength > 2 ? "menu-active" : ""}>*/}
-                    {/*            <Link to="/event/1">Event Single</Link>*/}
-                    {/*        </li>*/}
-                    {/*    </ul>*/}
-                    {/*</li>*/}
-                </ul>
-            </li>
-
-            <li className={parentMenu === 'administration' ? 'has-sub menu-active' : 'has-sub'}>
-                <span className="arrow "></span>
-                <Link to="#" className={course ? "hash menu-active" : "hash"} onClick={() => {
-                    openMobileMenu('course');
-                }}>
-                    Administration
-                    <span className="arrow "></span>
-                </Link>
-                <ul className={course ? "sub-menu sub-menu-open" : "sub-menu"}>
-                    <li className={location.pathname === "/administration" ? "menu-active" : ""}>
-                        <Link to="/staffs">Staff Details</Link>
-                    </li>
-                    <li className={location.pathname === "/school-committee" ? "menu-active" : ""}>
-                        <Link to="/course-sidebar">School Committee</Link>
-                    </li>
-                    <li className={location.pathname === "/student-enrol" ? "menu-active" : ""}>
-                        <Link to="/student-enrol">Student Enrol</Link>
-                    </li>
-                    <li className={location.pathname === "/fees" ? "menu-active" : ""}>
-                        <Link to="/fees">Fee and Scholarship</Link>
-                    </li>
-                    <li className={location.pathname === "/teacher-training" ? "menu-active" : ""}>
-                        <Link to="/teacher-training">Teachers Training</Link>
-                    </li>
-                    <li className={location.pathname === "/tc" ? "menu-active" : ""}>
-                        <Link to="/tc">TC Sample</Link>
-                    </li>
-                </ul>
-            </li>
-
-            <li className={parentMenu === 'blog' ? 'has-sub menu-active' : 'has-sub'}>
-                <Link to="#" className={blog ? "hash menu-active" : "hash"} onClick={() => {
-                    openMobileMenu('blog');
-                }}>
-                    Academics
-                    <span className="arrow "></span>
-                </Link>
-                <ul className={blog ? "sub-menu sub-menu-open" : "sub-menu"}>
-                    <li className={location.pathname === "/curriculum" ? "menu-active" : ""}>
-                        <Link to="/curriculum">School Curriculum</Link>
-                    </li>
-                    <li className={location.pathname === "/books" ? "menu-active" : ""}>
-                        <Link to="/books">List of Books</Link>
-                    </li>
-                    <li className={location.pathname === "/glance" ? "menu-active" : ""}>
-                        <Link to="/glance">School at Glance</Link>
-                    </li>
-                    <li className={location.pathname === "/holidays" ? "menu-active" : ""}>
-                        <Link to="/holidays">Holidays List</Link>
-                    </li>
-                    <li className={location.pathname === "/result" ? "menu-active" : ""}>
-                        <Link to="/result">CBSE Result</Link>
-                    </li>
-                </ul>
-            </li>
-            <li className={parentMenu === 'more' ? 'has-sub menu-active' : 'has-sub'}>
-                <Link to="#" className={blog ? "hash menu-active" : "hash"} onClick={() => {
-                    openMobileMenu('blog');
-                }}>
-                    More
-                    <span className="arrow "></span>
-                </Link>
-                <ul className={blog ? "sub-menu sub-menu-open" : "sub-menu"}>
-                    <li className={location.pathname === "/more/curriculum" ? "menu-active" : ""}>
-                        <Link to="/more/curriculam">Co Curricular Activities</Link>
-                    </li>
-                    <li className={location.pathname === "/more/school-activities" ? "menu-active" : ""}>
-                        <Link to="/more/school-activities">School Activities</Link>
-                    </li>
-                    <li className={location.pathname === "/more/olympiad" ? "menu-active" : ""}>
-                        <Link to="/more/olympiad">Olympiad</Link>
-                    </li>
-                    <li className={location.pathname === "/more/community" ? "menu-active" : ""}>
-                        <Link to="/more/community">Community Services</Link>
-                    </li>
-                    <li className={location.pathname === "/more/sports" ? "menu-active" : ""}>
-                        <Link to="more//sports">Sports</Link>
-                    </li>
-                    <li className={location.pathname === "/more/cbse-activities" ? "menu-active" : ""}>
-                        <Link to="/more/cbse-activities">CBSE Activities</Link>
-                    </li>
-                </ul>
-            </li>
-            <li className={location.pathname === '/contact' ? 'menu-active' : ''}>
-                <Link to="/galary">Galary</Link>
-            </li>
-            <li className={location.pathname === '/contact' ? 'menu-active' : ''}>
-                <Link to="/contact">Contact</Link>
-            </li>
+            {menuConfig.map((menu) => (
+                <li
+                    key={menu.id}
+                    className={`${menu.subMenu.length > 0 ? 'has-sub' : ''} ${
+                        parentMenu === menu.id || currentPath === menu.link ? 'menu-active' : ''
+                    }`}
+                >
+                    <Link
+                        to={menu.link}
+                        className={`hash ${activeMenu === menu.id ? 'menu-active' : ''}`}
+                        onClick={() => menu.subMenu.length > 0 && openMobileMenu(menu.id)}
+                    >
+                        {menu.label}
+                        {menu.subMenu.length > 0 && <span className="arrow"></span>}
+                    </Link>
+                    {menu.subMenu.length > 0 && (
+                        <ul className={activeMenu === menu.id ? 'sub-menu sub-menu-open' : 'sub-menu'}>
+                            {menu.subMenu.map((subItem, index) => (
+                                <li
+                                    key={index}
+                                    className={currentPath === subItem.link ? 'menu-active' : ''}
+                                >
+                                    <Link to={subItem.link}>{subItem.label}</Link>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
+                </li>
+            ))}
         </>
     );
-}
+};
 
 export default MenuItems;

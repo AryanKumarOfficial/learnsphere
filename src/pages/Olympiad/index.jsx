@@ -11,7 +11,7 @@ const Olympiad = () => {
     return (
         <body className="courses-grid-page">
         <Header
-            parentMenu='Olympiad'
+            parentMenu='more'
             menuCategoryEnable='enable'
             headerNormalLogo={Logo}
             headerStickyLogo={Logo}

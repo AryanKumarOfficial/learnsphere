@@ -13,7 +13,7 @@ const Curriculum = () => {
     return (
         <body className="courses-grid-page">
         <Header
-            parentMenu='Co Curriculum Activities'
+            parentMenu='more'
             menuCategoryEnable='enable'
             headerNormalLogo={Logo}
             headerStickyLogo={Logo}
