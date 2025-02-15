@@ -21,6 +21,7 @@ const CBSEActivities = () => {
             <div className="react-wrapper-inner">
                 <Breadcrumb
                     pageTitle="CBSE Activities"
+                    // img={require('../../assets/images/breadcrumbs/2.jpg')}
                 />
 
                 <CBSEGridMain/>
