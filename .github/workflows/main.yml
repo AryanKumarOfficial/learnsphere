@@ -1,0 +1,66 @@
+name: Deploy React 18 app to GitHub Pages (Yarn)
+
+on:
+  push:
+    branches:
+      - main # or your main branch name
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "gh-pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # or your preferred Node.js version (16, 18, 20 are good for React 18)
+
+      - name: Setup Yarn
+        uses: actions/setup-node@v4 # Using Node.js setup action to ensure yarn is in PATH
+        with:
+          node-version: '20' # Must match the node-version above to avoid inconsistencies
+          registry-url: 'https://registry.yarnpkg.com' # Optional: Use Yarn registry URL
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir
+        shell: bash
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+
+      - name: Cache Yarn packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.yarn-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies with Yarn
+        run: yarn install
+
+      - name: Build React App
+        run: yarn build # Or your React build command (e.g., npm run build, yarn build)
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build # or your React build output directory (common is 'build' or 'dist')
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
