@@ -1,40 +1,42 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import aboutImg from "../../assets/images/about/ab.png";
 
-import aboutImg from '../../assets/images/about/ab.png'
-import shapeImg from '../../assets/images/about/badge.png'
-
-const AboutPart = () => {
-
+const AboutUs = () => {
     return (
-        <div className="about__area about__area_one p-relative pt---100 pb---120">
-            <div className="container"> 
-                <div className="row">
-                    <div className="col-lg-6">
-                        <div className="about__image wow animate__fadeInUp" data-wow-duration="0.3s">
-                            <img src={aboutImg} alt="About" />
-                            <img className="react__shape__ab" src={shapeImg} alt="Shape Image" />
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="about__content">
-                            <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Welcome to <br/> <em>Echooling LMS Platform</em></h2>
-                            <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Education is both the act of teaching knowledge to others and<br/> the act of receiving knowledge from someone else.</p>
-                            <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s"> Have questions?  <Link to="#"> Get Free Guide </Link></p>
-                            <p className="wow animate__fadeInUp" data-wow-duration="0.9s">Education also refers to the knowledge received through schooling instruction <br/>and to the institution of teaching as a whole. The main purpose of education <br/>is the integral development of a person.</p>
-                            <ul>
-                                <li><Link to="/about" className="more-about wow animate__fadeInUp" data-wow-duration="1.2s"> Read More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link></li>
-                                <li className="last-li wow animate__fadeInUp" data-wow-duration="1.3s">
-                                    <em>Get Support</em>
-                                    <a href="mailto:support@react.com">support@react.com</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+        <section style={{ backgroundColor: "white", padding: "4rem 2rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem", alignItems: "center", maxWidth: "1200px", margin: "0 auto" }}>
+                {/* Text Content */}
+                <div>
+                    <h3 style={{ color: "green", fontWeight: "600", fontSize: "1.25rem" }}>Our History</h3>
+                    <h2 style={{ fontSize: "2rem", fontWeight: "bold", color: "#333", marginTop: "0.5rem" }}>
+                        A Legacy of Excellence in Education
+                    </h2>
+                    <p style={{ color: "#555", marginTop: "1rem" }}>
+                        Established in 1995, Future Bright Academy has been a cornerstone of education,
+                        fostering excellence in academics, co-curricular activities, and character building.
+                        Our journey began with a vision to create a learning environment that nurtures young minds
+                        and prepares them for the challenges of the future.
+                    </p>
+                    <p style={{ color: "#555", marginTop: "1rem" }}>
+                        Today, Future Bright Academy is home to 5,000 students and a dedicated faculty of 250 teachers,
+                        all working together to uphold our legacy of excellence. Our institution continues to be a pioneer
+                        in education, integrating the latest teaching methodologies, technology-driven learning, and a
+                        student-centric approach.
+                    </p>
+                </div>
+                {/* Image */}
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <img
+                        src={aboutImg}
+                        alt="Teacher with students"
+                        width={400}
+                        height={400}
+                        style={{ borderRadius: "8px", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}
+                    />
                 </div>
             </div>
-        </div>
+        </section>
     );
-}
+};
 
-export default AboutPart;
+export default AboutUs;

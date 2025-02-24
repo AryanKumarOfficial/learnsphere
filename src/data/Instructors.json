@@ -1,129 +1,128 @@
-
 [
     {
         "id": 1,
         "image": "1.jpg",
-        "name": "Douglas Lyphe",
-        "designation" : "Principal",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "douglas@echooling.com"
+        "name": "Rohan Sharma",
+        "designation": "Principal",
+        "bio": "Dedicated educator with a passion for student success and innovation.",
+        "phone": "+91 98876 54321",
+        "email": "rohan@echooling.com"
     },
     {
         "id": 2,
         "image": "2.jpg",
-        "name": "Eleanor Fant",
-        "designation" : "Lead Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "eleanor@echooling.com"
+        "name": "Priya Verma",
+        "designation": "Lead Teacher",
+        "bio": "Committed to fostering a love for learning in young minds.",
+        "phone": "+91 98765 43210",
+        "email": "priya@echooling.com"
     },
     {
         "id": 3,
         "image": "3.jpg",
-        "name": "Magnus Lee",
-        "designation" : "Administration",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "magnus@echooling.com"
+        "name": "Arjun Nair",
+        "designation": "Administration",
+        "bio": "Ensuring seamless operations and a positive learning environment.",
+        "phone": "+91 97654 32109",
+        "email": "arjun@echooling.com"
     },
     {
         "id": 4,
         "image": "4.jpg",
-        "name": "Hanson Deck",
-        "designation" : "Professor",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "hanson@echooling.com"
+        "name": "Vikram Iyer",
+        "designation": "Professor",
+        "bio": "Passionate about research and guiding students to excellence.",
+        "phone": "+91 96543 21098",
+        "email": "vikram@echooling.com"
     },
     {
         "id": 5,
         "image": "5.jpg",
-        "name": "Becky Curry",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "becky@echooling.com"
+        "name": "Neha Kapoor",
+        "designation": "Teacher",
+        "bio": "Bringing creativity and enthusiasm into the classroom.",
+        "phone": "+91 95432 10987",
+        "email": "neha@echooling.com"
     },
     {
         "id": 6,
         "image": "6.jpg",
-        "name": "Giles Posture",
-        "designation" : "Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "giles@echooling.com"
+        "name": "Rajesh Patel",
+        "designation": "Assistant",
+        "bio": "Supporting educational initiatives with dedication and care.",
+        "phone": "+91 94321 09876",
+        "email": "rajesh@echooling.com"
     },
     {
         "id": 7,
         "image": "7.jpg",
-        "name": "Jackson Pot",
-        "designation" : "Special Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "jakson@echooling.com"
+        "name": "Sanjay Mehta",
+        "designation": "Special Assistant",
+        "bio": "Committed to providing assistance for academic excellence.",
+        "phone": "+91 93210 98765",
+        "email": "sanjay@echooling.com"
     },
     {
         "id": 8,
         "image": "8.jpg",
-        "name": "Jessica Lyphe",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "jessica@echooling.com"
+        "name": "Ananya Roy",
+        "designation": "Teacher",
+        "bio": "Innovative teaching methods to inspire young learners.",
+        "phone": "+91 92109 87654",
+        "email": "ananya@echooling.com"
     },
     {
         "id": 9,
         "image": "9.jpg",
-        "name": "Jason Response",
-        "designation" : "Education Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "jason@echooling.com"
+        "name": "Manish Gupta",
+        "designation": "Education Assistant",
+        "bio": "Ensuring students receive the best educational support.",
+        "phone": "+91 91098 76543",
+        "email": "manish@echooling.com"
     },
     {
         "id": 10,
         "image": "10.jpg",
-        "name": "Jonquil Von",
-        "designation" : "Teaching Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "janquil@echooling.com"
+        "name": "Kavita Joshi",
+        "designation": "Teaching Assistant",
+        "bio": "Dedicated to helping students achieve their full potential.",
+        "phone": "+91 90987 65432",
+        "email": "kavita@echooling.com"
     },
     {
         "id": 11,
         "image": "11.jpg",
-        "name": "Piff Jenkins",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "piff@echooling.com"
+        "name": "Amit Bansal",
+        "designation": "Teacher",
+        "bio": "Creating an engaging and inclusive learning environment.",
+        "phone": "+91 89876 54321",
+        "email": "amit@echooling.com"
     },
     {
         "id": 12,
         "image": "12.jpg",
-        "name": "Brian Cumin",
-        "designation" : "Lead Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "brian@echooling.com"
+        "name": "Sneha Menon",
+        "designation": "Lead Teacher",
+        "bio": "Leading with experience to shape bright futures.",
+        "phone": "+91 88765 43210",
+        "email": "sneha@echooling.com"
     },
     {
         "id": 13,
         "image": "13.jpg",
-        "name": "Alan Fresco",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "alan@echooling.com"
+        "name": "Ravi Shankar",
+        "designation": "Teacher",
+        "bio": "Bringing knowledge and wisdom into the classroom.",
+        "phone": "+91 87654 32109",
+        "email": "ravi@echooling.com"
     },
     {
         "id": 14,
         "image": "14.jpg",
-        "name": "Steve Bros",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "steve@echooling.com"
+        "name": "Anvi Desai",
+        "designation": "Teacher",
+        "bio": "Inspiring students through creative and interactive learning.",
+        "phone": "+91 86543 21098",
+        "email": "aditya@echooling.com"
     }
 ]

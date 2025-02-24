@@ -3,11 +3,11 @@ import Header from '../../components/Header';
 import FooterTwo from '../../components/Footer/FooterTwo';
 import Breadcrumb from '../../components/Breadcrumb';
 import ScrollToTop from '../../components/ScrollTop';
-import AboutMain from './AboutMain';
 
 import Logo from '../../assets/images/logos/logo2.png';
+import LightRoom from "./LightRoom";
 
-const About = () => {
+const Gallery = () => {
 
     return (
         <>
@@ -18,23 +18,25 @@ const About = () => {
                 headerStickyLogo={Logo}
             />
 
-            <div class="react-wrapper">
-                <div class="react-wrapper-inner">
+            <div className="react-wrapper" style={{
+                minHeight: "100vh",
+            }}>
+                <div className="react-wrapper-inner">
 
-                    <Breadcrumb pageTitle="About Us"/>
+                    <Breadcrumb pageTitle="Gallery"/>
 
-                    <AboutMain/>
 
+                    <LightRoom/>
                     {/* scrolltop-start */}
                     <ScrollToTop/>
                     {/* scrolltop-end */}
                 </div>
             </div>
 
-            <FooterTwo ctaBtn={"Learn More"} ctaTitle={"Explore our Programs"}/>
+            <FooterTwo isCta={false} ctaBtn={"Learn More"} ctaTitle={"Explore our Programs"}/>
 
         </>
     );
 }
 
-export default About;
+export default Gallery;
