@@ -35,6 +35,7 @@ import AffiliationPage from "../pages/affiliation";
 import InfrastructurePage from "../pages/infrastructure";
 import AdmissionPage from "../pages/admission";
 import PrincipalPage from "../pages/principal";
+import MandatoryPage from "../pages/Mandatory";
 
 
 const App = () => {
@@ -84,6 +85,7 @@ const App = () => {
                     <Route path={"/infrastructure"} element={<InfrastructurePage/>}/>
                     <Route path={"/admission"} element={<AdmissionPage/>}/>
                     <Route path={"/principal"} element={<PrincipalPage/>}/>
+                    <Route path={"/disclosure"} element={<MandatoryPage/>}/>
 
                 </Routes>
             </>
