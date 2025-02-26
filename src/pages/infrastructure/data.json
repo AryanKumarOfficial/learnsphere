@@ -1,0 +1,68 @@
+[
+  {
+    "campus": [
+      {
+        "id": 1,
+        "src": "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg",
+        "title": "Campus Life",
+        "subTitle": "Dreamland Elementary"
+      },
+      {
+        "id": 2,
+        "src": "https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg",
+        "title": "Modern Campus",
+        "subTitle": "Dreamland Elementary"
+      },
+      {
+        "id": 3,
+        "src": "https://images.unsplash.com/photo-1680084521631-e4e6d77704d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Safe Environment",
+        "subTitle": "Dreamland Elementary"
+      },
+      {
+        "id": 4,
+        "src": "https://images.pexels.com/photos/207697/pexels-photo-207697.jpeg",
+        "title": "Student Facilities",
+        "subTitle": "Dreamland Elementary"
+      },
+      {
+        "id": 5,
+        "src": "https://plus.unsplash.com/premium_photo-1697729447666-c39f50d595ea?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Green Spaces",
+        "subTitle": "Dreamland Elementary"
+      }
+    ],
+    "library": [
+      {
+        "id": 1,
+        "src": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg",
+        "title": "Knowledge Hub",
+        "subTitle": "Dreamland Library"
+      },
+      {
+        "id": 2,
+        "src": "https://plus.unsplash.com/premium_photo-1682284548106-3e589faff54f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Quiet Study",
+        "subTitle": "Dreamland Library"
+      },
+      {
+        "id": 3,
+        "src": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg",
+        "title": "Research Area",
+        "subTitle": "Dreamland Library"
+      },
+      {
+        "id": 4,
+        "src": "https://images.pexels.com/photos/267783/pexels-photo-267783.jpeg",
+        "title": "Digital Resources",
+        "subTitle": "Dreamland Library"
+      },
+      {
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Vast Collection",
+        "subTitle": "Dreamland Library"
+      }
+    ]
+  }
+]
