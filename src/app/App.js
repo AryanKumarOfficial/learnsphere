@@ -33,6 +33,7 @@ import CBSEActivities from "../pages/CBSE Activities";
 import Gallery from "../pages/gallery";
 import AffiliationPage from "../pages/affiliation";
 import InfrastructurePage from "../pages/infrastructure";
+import AdmissionPage from "../pages/admission";
 
 
 const App = () => {
@@ -80,6 +81,7 @@ const App = () => {
                     <Route path={"/gallery"} element={<Gallery/>}/>
                     <Route path={"/affiliation"} element={<AffiliationPage/>}/>
                     <Route path={"/infrastructure"} element={<InfrastructurePage/>}/>
+                    <Route path={"/admission"} element={<AdmissionPage/>}/>
 
                 </Routes>
             </>
