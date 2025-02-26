@@ -31,6 +31,7 @@ import CommunityServices from "../pages/Community Services";
 import Sports from "../pages/Sports";
 import CBSEActivities from "../pages/CBSE Activities";
 import Gallery from "../pages/gallery";
+import AffiliationPage from "../pages/affiliation";
 
 
 const App = () => {
@@ -76,6 +77,8 @@ const App = () => {
                     <Route path="/more/sports" element={<Sports/>}/>
                     <Route path="/more/cbse-activities" element={<CBSEActivities/>}/>
                     <Route path={"/gallery"} element={<Gallery/>}/>
+                    <Route path={"/affiliation"} element={<AffiliationPage/>}/>
+
                 </Routes>
             </>
         </div>
