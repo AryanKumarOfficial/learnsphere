@@ -10,16 +10,16 @@ const ContactMain = () => {
                 <div className="container">
                     <div className="row pb---96">
                         <div className="col-lg-4 pt---10">
-                            <ContactInfo />
+                            <ContactInfo/>
                         </div>
                         <div className="col-lg-8">
-                            <ContactForm />
+                            <ContactForm/>
                         </div>
                     </div>
 
                     <div className="row pb---110">
                         <div className="col-lg-12">
-                            <Map />
+                            <Map locationName={"Bihar"}/>
                         </div>
                     </div>
                 </div>

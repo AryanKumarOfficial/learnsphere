@@ -8,7 +8,7 @@ const VisionMission = () => {
                 {/* Image */}
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <img
-                        src={aboutImg}
+                        src={"https://next-school-web-app.vercel.app/_next/image?url=%2Fimages%2Fscientist%20boy.jpg&w=1200&q=75"}
                         alt="Vision and Mission"
                         width={400}
                         height={400}
