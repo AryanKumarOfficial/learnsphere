@@ -20,7 +20,7 @@ const Instructor = () => {
             <div class="react-wrapper">
                 <div class="react-wrapper-inner">
                     <Breadcrumb
-                        pageTitle="Instructor"
+                        pageTitle="Staff Details"
                     />
 
                     <InstructorMain />
@@ -31,7 +31,7 @@ const Instructor = () => {
                 </div>
             </div>
 
-            <FooterTwo />
+            <FooterTwo isCta={false} />
 
         </>
     );
