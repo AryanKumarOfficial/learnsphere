@@ -34,6 +34,7 @@ import Gallery from "../pages/gallery";
 import AffiliationPage from "../pages/affiliation";
 import InfrastructurePage from "../pages/infrastructure";
 import AdmissionPage from "../pages/admission";
+import PrincipalPage from "../pages/principal";
 
 
 const App = () => {
@@ -82,6 +83,7 @@ const App = () => {
                     <Route path={"/affiliation"} element={<AffiliationPage/>}/>
                     <Route path={"/infrastructure"} element={<InfrastructurePage/>}/>
                     <Route path={"/admission"} element={<AdmissionPage/>}/>
+                    <Route path={"/principal"} element={<PrincipalPage/>}/>
 
                 </Routes>
             </>
