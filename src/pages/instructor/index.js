@@ -11,7 +11,7 @@ const Instructor = () => {
     return (
         <>
             <Header
-                parentMenu='page'
+                parentMenu='administration'
                 menuCategoryEnable='enable'
                 headerNormalLogo={Logo}
                 headerStickyLogo={Logo}

@@ -19,7 +19,7 @@ const MenuItems = ({parentMenu}) => {
             subMenu: [],
         },
         {
-            id: 'About',
+            id: 'about',
             label: 'About',
             link: '/about',
             subMenu: [
@@ -32,12 +32,12 @@ const MenuItems = ({parentMenu}) => {
             ],
         },
         {
-            id: 'Administration',
+            id: 'administration',
             label: 'Administration',
-            link: '#',
+            link: '/administration',
             subMenu: [
                 {label: 'Staff Details', link: '/staffs'},
-                {label: 'School Committee', link: '/course-sidebar'},
+                {label: 'School Committee', link: '/school-committee'},
                 {label: 'Student Enrol', link: '/student-enrol'},
                 {label: 'Fee and Scholarship', link: '/fees'},
                 {label: 'Teachers Training', link: '/teacher-training'},

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {Route, Routes} from 'react-router-dom';
+import {Navigate, Route, Routes} from 'react-router-dom';
 import Preloader from "../components/Preloader";
 
 //Custom Components
@@ -36,7 +36,8 @@ import InfrastructurePage from "../pages/infrastructure";
 import AdmissionPage from "../pages/admission";
 import PrincipalPage from "../pages/principal";
 import MandatoryPage from "../pages/Mandatory";
-import StaffsPage from "../pages/administration/staffs";
+import SchoolCommitteePage from "../pages/administration/school-committee";
+import MemberDetailsPage from "../pages/administration/school-committee/MemberDetails";
 
 
 const App = () => {
@@ -88,6 +89,8 @@ const App = () => {
                     <Route path={"/principal"} element={<PrincipalPage/>}/>
                     <Route path={"/disclosure"} element={<MandatoryPage/>}/>
                     <Route path={"/staffs"} element={<Instructor/>}/>
+                    <Route path={"/school-committee"} element={<SchoolCommitteePage/>}/>
+                    <Route path={"/school-committee/:id"} element={<MemberDetailsPage/>}/>
 
                 </Routes>
             </>
