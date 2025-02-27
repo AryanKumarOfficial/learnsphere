@@ -4,9 +4,9 @@ import Header from "../../../components/Header";
 import Breadcrumb from "../../../components/Breadcrumb";
 import ScrollTop from "../../../components/ScrollTop";
 import FooterTwo from "../../../components/Footer/FooterTwo";
-import Books from "./Books";
+import HolidayList from "./Holidays";
 
-export default function BooksPage() {
+export default function HolidaysPage() {
     return (
         <>
             <Header
@@ -17,8 +17,8 @@ export default function BooksPage() {
             />
             <section className={"react-wrapper"} style={{minHeight: "100vh"}}>
                 <div className={"react-wrapper-inner"}>
-                    <Breadcrumb pageTitle={"List Of Books"}/>
-                    <Books/>
+                    <Breadcrumb pageTitle={"Holidays List"}/>
+                    <HolidayList/>
                     <ScrollTop/>
                 </div>
             </section>

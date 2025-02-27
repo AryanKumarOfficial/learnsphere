@@ -43,8 +43,9 @@ import FeesAndScholarshipPage from "../pages/administration/fees";
 import TeacherTrainingPage from "../pages/administration/teacher-training";
 import TCSamplePage from "../pages/administration/tc";
 import CurriculumPage from "../pages/academic/curriculum";
-import BooksPage from "../pages/administration/books";
-import GlancePage from "../pages/administration/glance";
+import BooksPage from "../pages/academic/curriculum/books";
+import GlancePage from "../pages/academic/glance";
+import HolidaysPage from "../pages/academic/holidays";
 
 
 const App = () => {
@@ -105,6 +106,7 @@ const App = () => {
                     <Route path={"/curriculum"} element={<CurriculumPage/>}/>
                     <Route path={"/books"} element={<BooksPage/>}/>
                     <Route path={"/glance"} element={<GlancePage/>}/>
+                    <Route path={"/holidays"} element={<HolidaysPage/>}/>
 
                 </Routes>
             </>
