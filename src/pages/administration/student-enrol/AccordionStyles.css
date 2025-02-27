@@ -1,0 +1,11 @@
+.accordion-body-custom {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.accordion-body-custom.show {
+    max-height: 500px; /* Adjust based on content size */
+    opacity: 1;
+}

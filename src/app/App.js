@@ -38,6 +38,7 @@ import PrincipalPage from "../pages/principal";
 import MandatoryPage from "../pages/Mandatory";
 import SchoolCommitteePage from "../pages/administration/school-committee";
 import MemberDetailsPage from "../pages/administration/school-committee/MemberDetails";
+import StudentEnrolPage from "../pages/administration/student-enrol";
 
 
 const App = () => {
@@ -91,6 +92,7 @@ const App = () => {
                     <Route path={"/staffs"} element={<Instructor/>}/>
                     <Route path={"/school-committee"} element={<SchoolCommitteePage/>}/>
                     <Route path={"/school-committee/:id"} element={<MemberDetailsPage/>}/>
+                    <Route path={"/student-enrol"} element={<StudentEnrolPage/>}/>
 
                 </Routes>
             </>
