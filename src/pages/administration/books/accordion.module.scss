@@ -1,0 +1,42 @@
+.container {
+  // Add any container-specific custom styles here
+}
+
+.accordionWrapper {
+  margin-top: 2rem;
+}
+
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.accordionItem {
+  border-bottom: 1px solid #ddd;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.accordionButton {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.cardLink {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+.accordionBody {
+  padding: 1rem;
+  background-color: #fff;
+}

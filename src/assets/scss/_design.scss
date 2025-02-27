@@ -8985,11 +8985,13 @@ ul {
 
       .card-link {
         width: 100%;
+        padding-right: 60px; // Added extra padding for the arrow
         font-size: 18px;
         font-weight: 600;
         color: #020334;
         border-radius: 0;
         box-shadow: none;
+        position: relative;
 
         &:after {
           display: inline-block;
@@ -8997,23 +8999,18 @@ ul {
           font-variant: normal;
           text-rendering: auto;
           position: absolute;
-          right: 28px;
-          top: 16px;
+          right: 20px; // Adjusted position to keep the arrow clear of the border
           font-family: ElegantIcons;
           font-size: 22px;
           color: #091524;
           background-image: none;
           font-weight: 300;
-          content: "\33";
+          content: "\33"; // arrow for collapsed state
+          transition: transform 0.3s ease;
         }
 
-        &[aria-disabled="true"] {
-          color: $primaryColor;
-
-          &:after {
-            content: "\32";
-            color: $primaryColor;
-          }
+        &[aria-expanded="true"]:after {
+          transform: rotate(180deg); // rotates arrow when expanded
         }
 
         &:hover {
