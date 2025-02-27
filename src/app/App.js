@@ -46,6 +46,8 @@ import CurriculumPage from "../pages/academic/curriculum";
 import BooksPage from "../pages/academic/curriculum/books";
 import GlancePage from "../pages/academic/glance";
 import HolidaysPage from "../pages/academic/holidays";
+import CBSEResults from "../pages/academic/result";
+import CBSEResultsPage from "../pages/academic/result";
 
 
 const App = () => {
@@ -107,6 +109,7 @@ const App = () => {
                     <Route path={"/books"} element={<BooksPage/>}/>
                     <Route path={"/glance"} element={<GlancePage/>}/>
                     <Route path={"/holidays"} element={<HolidaysPage/>}/>
+                    <Route path={"/result"} element={<CBSEResultsPage/>}/>
 
                 </Routes>
             </>
