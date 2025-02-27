@@ -44,6 +44,7 @@ import TeacherTrainingPage from "../pages/administration/teacher-training";
 import TCSamplePage from "../pages/administration/tc";
 import CurriculumPage from "../pages/academic/curriculum";
 import BooksPage from "../pages/administration/books";
+import GlancePage from "../pages/administration/glance";
 
 
 const App = () => {
@@ -103,6 +104,7 @@ const App = () => {
                     <Route path={"/tc"} element={<TCSamplePage/>}/>
                     <Route path={"/curriculum"} element={<CurriculumPage/>}/>
                     <Route path={"/books"} element={<BooksPage/>}/>
+                    <Route path={"/glance"} element={<GlancePage/>}/>
 
                 </Routes>
             </>
