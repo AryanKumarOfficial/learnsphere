@@ -35,10 +35,14 @@ const Header = (props) => {
                     {
                         topbarEnable ?
                             <div className="topbar-area style1">
-                                <div className="container">
+                                <div className="" style={{
+                                    minWidth: '100%',
+                                    maxWidth: "1340px",
+                                    padding: '5px 110px',
+                                }}>
                                     <div className="row">
                                         <div className="col-lg-7">
-                                            <div className="topbar-contact">
+                                            <div className="topbar-contact fs-6">
                                                 <ul>
                                                     <li>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -82,7 +86,10 @@ const Header = (props) => {
                             </div> : ''
                     }
                     <div className="menu-part">
-                        <div className="container">
+                        <div className="" style={{
+                            maxWidth: "1340px",
+                            margin: '0 auto',
+                        }}>
                             <div className="react-main-menu">
                                 <nav>
                                     <div className="menu-toggle">
