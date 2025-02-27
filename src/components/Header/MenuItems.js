@@ -45,7 +45,7 @@ const MenuItems = ({parentMenu}) => {
             ],
         },
         {
-            id: 'Academics',
+            id: 'academics',
             label: 'Academics',
             link: '#',
             subMenu: [

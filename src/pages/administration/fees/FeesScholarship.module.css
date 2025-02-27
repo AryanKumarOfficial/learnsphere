@@ -1,0 +1,141 @@
+/* Page-level styles */
+.page {
+    background: #f5f7fa;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #e2e8f0);
+    border-bottom: 1px solid #d1dce5;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: #606f7b;
+}
+
+/* Sections */
+.section {
+    padding: 40px 0;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sectionTitle::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: #007bff;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-radius: 2px;
+}
+
+/* Fee Table Styles */
+.tableContainer {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.feeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feeTable thead {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.feeTable th,
+.feeTable td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.feeTable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tableRow {
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.tableRow:hover {
+    background: #f9f9f9;
+    transform: scale(1.01);
+}
+
+/* Scholarship Card Styles */
+.scholarshipCard {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scholarshipCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cardBody {
+    padding: 20px;
+    background: #fff;
+    transition: background-color 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.cardBody:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header {
+        padding: 30px 15px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .feeTable th, .feeTable td {
+        padding: 12px;
+    }
+}
