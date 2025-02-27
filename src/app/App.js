@@ -41,6 +41,7 @@ import MemberDetailsPage from "../pages/administration/school-committee/MemberDe
 import StudentEnrolPage from "../pages/administration/student-enrol";
 import FeesAndScholarshipPage from "../pages/administration/fees";
 import TeacherTrainingPage from "../pages/administration/teacher-training";
+import TCSamplePage from "../pages/administration/tc";
 
 
 const App = () => {
@@ -97,6 +98,7 @@ const App = () => {
                     <Route path={"/student-enrol"} element={<StudentEnrolPage/>}/>
                     <Route path={"/fees"} element={<FeesAndScholarshipPage/>}/>
                     <Route path={"/teacher-training"} element={<TeacherTrainingPage/>}/>
+                    <Route path={"/tc"} element={<TCSamplePage/>}/>
 
                 </Routes>
             </>
