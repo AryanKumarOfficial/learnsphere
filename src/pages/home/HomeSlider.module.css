@@ -1,0 +1,129 @@
+.reactSliderPart {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.homeSliders {
+    position: relative;
+    overflow: hidden;
+}
+
+.singleSlide {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.sliderImgWrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.desktopImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.sliderContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+}
+
+.sliderContent {
+    color: white;
+    max-width: 900px;
+    /*margin: 0 auto;*/
+    text-align: left; /* Align to left like in the image */
+}
+
+.sliderContent .sliderTitle {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 20px 0;
+    color: white;
+}
+
+.sliderPretitle {
+    background-color: #ba0c0c; /* Red background */
+    color: white;
+    padding: 8px 16px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.sliderTitle span {
+    font-size: 2rem;
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+}
+
+.sliderBtn {
+    margin-top: 6rem;
+}
+
+.sliderBtn .reactBtnBorder {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 18px 26px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.sliderBtn .reactBtnBorder:hover {
+    /*background-color: white;*/
+    background: #ba0c0c;
+    border-color: #ba0c0c;
+}
+
+@media (max-width: 1024px) {
+    .sliderTitle {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sliderTitle {
+        font-size: 1.5rem;
+    }
+
+    .sliderBtn {
+        font-size: 1rem;
+    }
+
+    .sliderBtn .reactBtnBorder {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}

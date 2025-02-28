@@ -1,53 +1,66 @@
-import { Link } from 'react-router-dom';
+import {useState, useEffect} from 'react';
+
+import {Link} from 'react-router-dom';
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import styles from "./HomeSlider.module.css"; // Import CSS module
 
 const HomeSlider = () => {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const sliderSettings = {
-        dots: false,
+        dots: true,
         arrows: true,
         infinite: true,
-        margin: 0,
-        centerMode: false,
+        autoplay: true,
+        autoplaySpeed: 4000,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1024,
                 settings: {
-                    arrows: true,
+                    arrows: false,
+                    dots: true,
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
                 settings: {
                     arrows: false,
+                    dots: true,
                 }
             }
         ]
     };
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
-        <div className="react-slider-part">
-            <div className="home-sliders home2 h-50">
+        <div className={styles.reactSliderPart}>
+            <div className={styles.homeSliders}>
                 <Slider {...sliderSettings}>
                     {["/school-1.png", "/school-2.png"].map((imgSrc, index) => (
-                        <div className="single-slide" key={index}>
-                            <div className="slider-img-wrapper">
-                                <div className="slider-overlay"></div>
-                                <img className="desktop" src={imgSrc} alt={`Slider Image ${index + 1}`} />
-                                <img className="mobile" src={imgSrc} alt={`Slider Image ${index + 1}`} />
+                        <div className={styles.singleSlide} key={index}>
+                            <div className={styles.sliderImgWrapper}>
+                                <div className={styles.sliderOverlay}></div>
+                                <img className={styles.desktopImg} src={imgSrc} alt={`Slider Image ${index + 1}`}/>
                             </div>
-                            <div className="container">
-                                <div className="slider-content">
-                                    <div className="content-part">
-                                        <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="1s">Join </span>
-                                        <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s">
+                            <div className={`container ${styles.sliderContainer}`}>
+                                <div className={styles.sliderContent}>
+                                    <div className={styles.contentPart}>
+                                        <span className={styles.sliderPretitle}>Join </span>
+                                        <h2 className={styles.sliderTitle}>
                                             Future Minds Academy,
                                             <br/>
                                             <span className="fs-3"> where excellence meets opportunity</span>
                                         </h2>
-                                        <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
-                                            <Link to="/about" className="react-btn-border">Admissions</Link>
+                                        <div className={styles.sliderBtn}>
+                                            <Link to="/admission"
+                                                  className={styles.reactBtnBorder}>Admissions</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -56,31 +69,6 @@ const HomeSlider = () => {
                     ))}
                 </Slider>
             </div>
-            <style jsx>{`
-                .slider-img-wrapper {
-                    position: relative;
-                }
-                .slider-overlay {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: rgba(0, 0, 0, 0.5);
-                    z-index: 1;
-                }
-                .slider-img-wrapper img {
-                    width: 100%;
-                    display: block;
-                    position: relative;
-                    z-index: 0;
-                }
-                .slider-content {
-                    position: relative;
-                    z-index: 2;
-                    color: #fff;
-                }
-            `}</style>
         </div>
     );
 }
