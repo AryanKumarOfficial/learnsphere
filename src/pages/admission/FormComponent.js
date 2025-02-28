@@ -17,149 +17,115 @@ export default function AdmissionPage() {
 
     return (
         <div className="container py-5">
-
-            <SectionTitle Title={"🎓 Apply for Admission"}/>
-
+            <SectionTitle Title={"🎓 Create Admission"}/>
             <div className="row justify-content-center align-items-center">
                 {/* Left Side - Image Section */}
-                <div className="col-lg-5" data-aos="fade-right">
+                <div className="col-lg-4" data-aos="fade-right">
                     <img
                         src="https://images.pexels.com/photos/5212331/pexels-photo-5212331.jpeg"
                         className="img-fluid rounded-4 shadow-lg"
                         alt="Admission Image"
                     />
                 </div>
-
                 {/* Right Side - Form Section */}
-                <div className="col-lg-7" data-aos="fade-left">
+                <div className="col-lg-8" data-aos="fade-left">
                     <form onSubmit={handleSubmit} className="admission-form p-5 shadow-lg">
-                        {/* Student Information */}
-                        <h4 className="mb-3">🧑‍🎓 Student Information</h4>
-                        <div className="mb-3">
-                            <label className="form-label">Full Name</label>
-                            <input type="text" className="form-control" required/>
+                        <div className="row">
+                            {/* Left Column */}
+                            <div className="col-md-6">
+                                <div className="mb-3">
+                                    <label className="form-label">Admission No *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Gender *</label>
+                                    <select className="form-control" required>
+                                        <option value="">Select Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Address *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Family Income *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Mother's Mobile *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Father's Occupation *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                            </div>
+                            {/* Right Column */}
+                            <div className="col-md-6">
+                                <div className="mb-3">
+                                    <label className="form-label">Student's Name *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Class *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Date of Birth *</label>
+                                    <input type="date" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Area *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Religion *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Category *</label>
+                                    <input type="text" className="form-control" required/>
+                                </div>
+                            </div>
                         </div>
-                        <div className="mb-3">
-                            <label className="form-label">Date of Birth</label>
-                            <input type="date" className="form-control" required/>
+                        {/* Parent Information */}
+                        <div className="row mt-3">
+                            <div className="col-md-6">
+                                <label className="form-label">Mother's Name *</label>
+                                <input type="text" className="form-control" required/>
+                            </div>
+                            <div className="col-md-6">
+                                <label className="form-label">Father's Name *</label>
+                                <input type="text" className="form-control" required/>
+                            </div>
                         </div>
-                        <div className="mb-3">
-                            <label className="form-label">Gender</label>
-                            <select className="form-control" required>
-                                <option value="">Select Gender</option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                                <option value="Other">Other</option>
-                            </select>
+                        <div className="row mt-3">
+                            <div className="col-md-6">
+                                <label className="form-label">Father's Mobile *</label>
+                                <input type="text" className="form-control" required/>
+                            </div>
+                            <div className="col-md-6">
+                                <label className="form-label">Mother's Occupation *</label>
+                                <input type="text" className="form-control" required/>
+                            </div>
                         </div>
-
-                        {/* Previous Education */}
-                        <h4 className="mt-4 mb-3">📚 Previous Education</h4>
-                        <div className="mb-3">
-                            <label className="form-label">Last School Attended</label>
-                            <input type="text" className="form-control" required/>
+                        <div className="row mt-3">
+                            <div className="col-md-6">
+                                <label className="form-label">Admission Date *</label>
+                                <input type="date" className="form-control" required/>
+                            </div>
                         </div>
-                        <div className="mb-3">
-                            <label className="form-label">Grade/Percentage</label>
-                            <input type="text" className="form-control" required/>
-                        </div>
-                        <div className="mb-3">
-                            <label className="form-label">Year of Passing</label>
-                            <input type="number" className="form-control" required/>
-                        </div>
-
-                        {/* Parent/Guardian Information */}
-                        <h4 className="mt-4 mb-3">👨‍👩‍👦 Parent/Guardian Information</h4>
-                        <div className="mb-3">
-                            <label className="form-label">Parent/Guardian Name</label>
-                            <input type="text" className="form-control" required/>
-                        </div>
-                        <div className="mb-3">
-                            <label className="form-label">Email</label>
-                            <input type="email" className="form-control" required/>
-                        </div>
-
-                        {/* File Upload */}
-                        <h4 className="mt-4 mb-3">📄 Upload Documents</h4>
-                        <div className="mb-3">
-                            <label className="form-label">Upload Birth Certificate / Report Card</label>
-                            <input type="file" className="form-control" required/>
-                        </div>
-
-                        {/* Terms & Conditions */}
-                        <div className="form-check">
-                            <input className="form-check-input" type="checkbox" id={"terms"} required/>
-                            <label className="form-check-label cursor-pointer" htmlFor={"terms"}>
-                                I agree to the terms and conditions.
-                            </label>
-                        </div>
-
-                        {/* Submit Button */}
+                        {/* Buttons */}
                         <div className="text-center mt-4">
-                            <button type="submit" className="btn btn-primary submit-btn">
-                                Submit Application 🎉
-                            </button>
+                            <button type="reset" className="btn btn-danger me-2">Reset</button>
+                            <button type="submit" className="btn btn-primary">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
-
-            {/* Custom Styles */}
-            <style>
-                {`
-          .text-gradient {
-            background: linear-gradient(90deg, #007bff, #6610f2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
-          
-          .cursor-pointer {
-            cursor: pointer;
-          }
-
-          .admission-form {
-            background: #ffffff;
-            border-radius: 15px;
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-            padding: 25px;
-          }
-
-          .admission-form:hover {
-            transform: scale(1.02);
-          }
-
-          .submit-btn {
-            font-size: 18px;
-            font-weight: bold;
-            padding: 12px 18px;
-            border-radius: 30px;
-            transition: all 0.3s ease-in-out;
-            background: linear-gradient(135deg, #007bff, #6610f2);
-            border: none;
-            color: white;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-          }
-
-          .submit-btn:hover {
-            background: linear-gradient(135deg, #6610f2, #007bff);
-            transform: scale(1.05);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-          }
-
-          /* Form Inputs */
-          .form-control {
-            border-radius: 10px;
-            border: 2px solid #ccc;
-            transition: all 0.3s ease;
-          }
-
-          .form-control:focus {
-            border-color: #6610f2;
-            box-shadow: 0 0 10px rgba(102, 16, 242, 0.2);
-          }
-        `}
-            </style>
         </div>
     );
 }
