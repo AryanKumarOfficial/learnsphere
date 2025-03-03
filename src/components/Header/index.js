@@ -5,6 +5,7 @@ import MenuItems from './MenuItems';
 
 import normalLogo from '../../assets/images/logos/logo.png';
 import stickyLogo from '../../assets/images/logos/logo.png';
+import logo from "../../assets/logo.png"
 
 const Header = (props) => {
     const {topbarEnable, menuCategoryEnable, headerClass, parentMenu, headerNormalLogo, headerStickyLogo} = props;
@@ -63,7 +64,7 @@ const Header = (props) => {
                                                                 d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                                                             <polyline points="22,6 12,13 2,6"></polyline>
                                                         </svg>
-                                                        <a href="mailto:info@reactheme.com">info@reactheme.com</a>
+                                                        <a href="mailto:info@iqnaut.com">info@iqnaut.com</a>
                                                     </li>
 
                                                 </ul>
@@ -96,14 +97,23 @@ const Header = (props) => {
                                         <div className="logo">
                                             {
                                                 isVisible ?
-                                                    <Link to="/" className="logo-text">
-                                                        <img src={headerStickyLogo ? headerStickyLogo : stickyLogo}
-                                                             alt=""/>
+                                                    <Link to="/"
+                                                          className="logo-text d-flex align-items-center w-100 h-100 position-relative p-3">
+                                                        <img src={headerNormalLogo ? headerNormalLogo : logo} alt="logo"
+                                                             className="logo-img"/>
+                                                        <h1 className="m-0 d-flex align-items-center justify-content-center flex-grow-1 fw-bolder fs-1">
+                                                            LearnSphere
+                                                        </h1>
                                                     </Link> :
-                                                    <Link to="/" className="logo-text">
-                                                        <img src={headerNormalLogo ? headerNormalLogo : normalLogo}
-                                                             alt=""/>
+                                                    <Link to="/"
+                                                          className="logo-text d-flex align-items-center w-100 h-100 position-relative p-3">
+                                                        <img src={headerNormalLogo ? headerNormalLogo : logo} alt="logo"
+                                                             className="logo-img"/>
+                                                        <h1 className="m-0 d-flex align-items-center justify-content-center flex-grow-1 fw-bolder fs-1">
+                                                            LearnSphere
+                                                        </h1>
                                                     </Link>
+
                                             }
                                         </div>
                                         <button type="button" id="menu-btn"

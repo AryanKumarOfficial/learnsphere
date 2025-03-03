@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import Logo from '../../assets/images/logos/footer-logo.png';
+import Logo from '../../assets/logo.png';
 
 const Footer = (props) => {
     const {footerLogo, footerClass} = props;
@@ -14,8 +14,17 @@ const Footer = (props) => {
                             <div className="col-lg-3 md-mb-30">
                                 <div className="footer-widget footer-widget-1">
                                     <div className="footer-logo white">
-                                        <Link to="/" className="logo-text"><img src={footerLogo ? footerLogo : Logo}
-                                                                                alt="Footer Logo"/></Link>
+                                        <Link to="/" className="logo d-flex align-items-center w-100 h-100">
+                                            <img
+                                                src={footerLogo ? footerLogo : Logo}
+                                                alt="Footer Logo"
+                                                className="logo-img"
+                                            />
+                                            <h2 className="m-0 d-flex align-items-center justify-content-center fw-bolder fs-4 fs-md-3 fs-lg-2 text-white text-wrap">
+                                                LearnSphere
+                                            </h2>
+                                        </Link>
+
                                     </div>
                                     <h5 className="footer-subtitle">Empowering Young Minds,<br/> Building Bright Futures
                                     </h5>
@@ -38,7 +47,7 @@ const Footer = (props) => {
                                                     d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                                                 <polyline points="22,6 12,13 2,6"></polyline>
                                             </svg>
-                                            <a href="mailto:info@brightfututreacademy.comcom"> info@brightfututreacademy.com </a>
+                                            <a href="mailto:info@iqnaut.comcom"> info@iqnaut.com </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -93,7 +102,7 @@ const Footer = (props) => {
 
                 <div className="copyright">
                     <div className="container">
-                        <div className="react-copy-left">© 2022 <Link to="/">Future Bright Academy.</Link> All Rights Reserved</div>
+                        <div className="react-copy-left">© 2025 <Link to="/">Iqnaut.</Link> All Rights Reserved</div>
                         <div className="react-copy-right">
                             <ul className="social-links">
                                 <li className="follow">Follow us</li>
